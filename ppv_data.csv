@@ -1,0 +1,1131 @@
+wrestler 1,wrestler 1 id,wrestler 2,wrestler 2 id,current champion,winner,match ending,card order,title,match type,date,show name,location
+Eddie Guerrero,309,Rob Van Dam,338,Wrestler 1,true,pin,1,WWE Intercontinental Championship,"",2002-05-19,Judgment Day '02,Nashville
+Trish Stratus,313,Stacy Keibler,340,Wrestler 1,true,pin,2,WWE Women's Championship (original),"",2002-05-19,Judgment Day '02,Nashville
+Edge,273,Kurt Angle,299,None,true,pin,5,"",hair vs. hair,2002-05-19,Judgment Day '02,Nashville
+Triple H,193,Chris Jericho,296,None,true,pin,6,"","""Hell In A Cell""",2002-05-19,Judgment Day '02,Nashville
+The Undertaker,124,Hulk Hogan,19,Wrestler 2,true,pin,8,WWE Undisputed Title,"",2002-05-19,Judgment Day '02,Nashville
+Rob Van Dam,338,Chris Jericho,296,None,true,pin,1,"","",2002-06-23,King of the Ring '02,Columbus
+Brock Lesnar,346,Test,281,None,true,pin,2,"","",2002-06-23,King of the Ring '02,Columbus
+Jamie Noble,349,The Hurricane,343,Wrestler 2,true,pin,3,WWF Cruiserweight Title,"",2002-06-23,King of the Ring '02,Columbus
+Ric Flair,138,Eddie Guerrero,309,None,true,pin,4,"","",2002-06-23,King of the Ring '02,Columbus
+Molly Holly,318,Trish Stratus,313,Wrestler 2,true,pin,5,WWE Women's Championship (original),"",2002-06-23,King of the Ring '02,Columbus
+Kurt Angle,299,Hulk Hogan,19,None,true,sub,6,"","",2002-06-23,King of the Ring '02,Columbus
+Brock Lesnar,346,Rob Van Dam,338,None,true,pin,7,WWE King of the Ring,"",2002-06-23,King of the Ring '02,Columbus
+The Undertaker,124,Triple H,193,Wrestler 1,true,pin,8,WWE Undisputed Title,"",2002-06-23,King of the Ring '02,Columbus
+Jamie Noble,349,Billy Kidman,333,Wrestler 1,true,pin,2,WWE Cruiserweight Title,"",2002-07-21,Vengeance '02,Detroit
+Jeff Hardy,289,William Regal,316,Wrestler 1,true,pin,3,WWE European Championship,"",2002-07-21,Vengeance '02,Detroit
+John Cena,350,Chris Jericho,296,None,true,pin,4,"","",2002-07-21,Vengeance '02,Detroit
+Rob Van Dam,338,Brock Lesnar,346,Wrestler 1,true,DQ,5,WWE Intercontinental Championship,"",2002-07-21,Vengeance '02,Detroit
+Booker T.,341,The Big Show,283,None,true,pin,6,"",no disqualification,2002-07-21,Vengeance '02,Detroit
+Kurt Angle,299,Rey Mysterio,351,None,true,sub,1,"","",2002-08-25,SummerSlam '02,Uniondale
+Ric Flair,138,Chris Jericho,296,None,true,sub,2,"","",2002-08-25,SummerSlam '02,Uniondale
+Edge,273,Eddie Guerrero,309,None,true,pin,3,"","",2002-08-25,SummerSlam '02,Uniondale
+Rob Van Dam,338,Chris Benoit,305,Wrestler 2,true,pin,5,WWE Intercontinental Championship,"",2002-08-25,SummerSlam '02,Uniondale
+The Undertaker,124,Test,281,None,true,pin,6,"","",2002-08-25,SummerSlam '02,Uniondale
+Shawn Michaels,96,Triple H,193,None,true,pin,7,"",unsanctioned street fight,2002-08-25,SummerSlam '02,Uniondale
+Brock Lesnar,346,The Rock,229,Wrestler 2,true,pin,8,WWE Undisputed Title,"",2002-08-25,SummerSlam '02,Uniondale
+Chris Jericho,296,Ric Flair,138,Wrestler 1,true,sub,2,WWE Intercontinental Championship,"",2002-09-22,Unforgiven '02,Los Angeles
+Eddie Guerrero,309,Edge,273,None,true,pin,3,"","",2002-09-22,Unforgiven '02,Los Angeles
+Triple H,193,Rob Van Dam,338,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"",2002-09-22,Unforgiven '02,Los Angeles
+Trish Stratus,313,Molly Holly,318,Wrestler 2,true,pin,6,WWE Women's Championship (original),"",2002-09-22,Unforgiven '02,Los Angeles
+Chris Benoit,305,Kurt Angle,299,None,true,pin,7,"","",2002-09-22,Unforgiven '02,Los Angeles
+Brock Lesnar,346,The Undertaker,124,Wrestler 1,false,DDQ,8,WWE Championship,"",2002-09-22,Unforgiven '02,Los Angeles
+Torrie Wilson,339,Dawn Marie,354,None,true,pin,2,"","",2002-10-20,No Mercy '02,Little Rock
+Rob Van Dam,338,Ric Flair,138,None,true,pin,3,"","",2002-10-20,No Mercy '02,Little Rock
+Jamie Noble,349,Tajiri,337,Wrestler 1,true,pin,4,WWE Cruiserweight Title,"",2002-10-20,No Mercy '02,Little Rock
+Triple H,193,Kane,197,Wrestler 2,true,pin,5,World Heavyweight Championship (WWE)WWE Intercontinental Championship,"",2002-10-20,No Mercy '02,Little Rock
+Trish Stratus,313,Victoria,355,Wrestler 1,true,pin,7,WWE Women's Championship (original),"",2002-10-20,No Mercy '02,Little Rock
+Brock Lesnar,346,The Undertaker,124,Wrestler 1,true,pin,8,WWE Championship,"""Hell In A Cell""",2002-10-20,No Mercy '02,Little Rock
+Bill DeMott,336,Shannon Moore,372,None,true,pin,1,"",dark  ,2002-10-26,Rebellion '02,Manchester
+Booker T.,341,Matt Hardy,288,None,true,pin,2,"","",2002-10-26,Rebellion '02,Manchester
+Funaki,267,Crash Holly,291,None,true,pin,4,"","",2002-10-26,Rebellion '02,Manchester
+Rikishi,154,Albert,292,None,true,pin,7,"","",2002-10-26,Rebellion '02,Manchester
+Billy Kidman,333,Jamie Noble,349,Wrestler 2,true,pin,2,WWE Cruiserweight Title,"",2002-11-17,Survivor Series '02,New York
+Victoria,355,Trish Stratus,313,Wrestler 2,true,pin,3,WWE Women's Championship (original),"""hardcore""",2002-11-17,Survivor Series '02,New York
+The Big Show,283,Brock Lesnar,346,Wrestler 2,true,pin,4,WWE Championship,"",2002-11-17,Survivor Series '02,New York
+Edge,273,A-Train,292,None,true,DQ,2,"","",2002-12-15,Armageddon '02,Sunrise
+Chris Benoit,305,Eddie Guerrero,309,None,true,sub,3,"","",2002-12-15,Armageddon '02,Sunrise
+Batista,357,Kane,197,None,true,pin,4,"","",2002-12-15,Armageddon '02,Sunrise
+Kurt Angle,299,The Big Show,283,Wrestler 2,true,pin,6,WWE Championship,"",2002-12-15,Armageddon '02,Sunrise
+Triple H,193,Shawn Michaels,96,Wrestler 2,true,,7,World Heavyweight Championship (WWE),"""3 stages of hell""",2002-12-15,Armageddon '02,Sunrise
+Brock Lesnar,346,The Big Show,283,None,true,pin,1,"","",2003-01-19,Royal Rumble '03,Boston
+Torrie Wilson,339,Dawn Marie,354,None,true,pin,3,"","",2003-01-19,Royal Rumble '03,Boston
+Scott Steiner,146,Triple H,193,Wrestler 2,true,DQ,4,World Heavyweight Championship (WWE),"",2003-01-19,Royal Rumble '03,Boston
+Kurt Angle,299,Chris Benoit,305,Wrestler 1,true,pin,5,WWE Championship,"",2003-01-19,Royal Rumble '03,Boston
+Chris Jericho,296,Jeff Hardy,289,None,true,sub,1,"","",2003-02-23,No Way Out '03,Montreal
+Matt Hardy,288,Billy Kidman,333,Wrestler 2,true,pin,3,WWE Cruiserweight Title,"",2003-02-23,No Way Out '03,Montreal
+The Undertaker,124,The Big Show,283,None,true,sub,4,"","",2003-02-23,No Way Out '03,Montreal
+Triple H,193,Scott Steiner,146,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2003-02-23,No Way Out '03,Montreal
+Steve Austin,205,Eric Bischoff,362,None,true,pin,7,"","",2003-02-23,No Way Out '03,Montreal
+The Rock,229,Hulk Hogan,19,None,true,pin,8,"",referee: Sylvain Grenier ,2003-02-23,No Way Out '03,Montreal
+Matt Hardy,288,Rey Mysterio,351,Wrestler 1,true,pin,1,WWE Cruiserweight Title,"",2003-03-30,WrestleMania XIX,Seattle
+Shawn Michaels,96,Chris Jericho,296,None,true,pin,5,"","",2003-03-30,WrestleMania XIX,Seattle
+Triple H,193,Booker T.,341,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2003-03-30,WrestleMania XIX,Seattle
+Hulk Hogan,19,Mr. McMahon,278,None,true,pin,8,"",street fight,2003-03-30,WrestleMania XIX,Seattle
+The Rock,229,Steve Austin,205,None,true,pin,9,"","",2003-03-30,WrestleMania XIX,Seattle
+Brock Lesnar,346,Kurt Angle,299,Wrestler 2,true,pin,10,WWE Championship,"",2003-03-30,WrestleMania XIX,Seattle
+Scott Steiner,146,Rico,348,None,true,pin,1,"","",2003-04-27,Backlash '03,Worcester
+Sean O'Haire,331,Rikishi,154,None,true,pin,2,"","",2003-04-27,Backlash '03,Worcester
+Jazz,344,Trish Stratus,313,Wrestler 2,true,pin,4,WWE Women's Championship (original),"",2003-04-27,Backlash '03,Worcester
+The Big Show,283,Rey Mysterio,351,None,true,pin,5,"","",2003-04-27,Backlash '03,Worcester
+Brock Lesnar,346,John Cena,350,Wrestler 1,true,pin,6,WWE Championship,"",2003-04-27,Backlash '03,Worcester
+Goldberg,365,The Rock,229,None,true,pin,8,"","",2003-04-27,Backlash '03,Worcester
+Torrie Wilson,339,Sable,263,None,true,,5,"",bikini contest,2003-05-18,Judgment Day '03,Charlotte
+Mr. America,19,Roddy Piper,21,None,true,pin,6,"","",2003-05-18,Judgment Day '03,Charlotte
+Kevin Nash,167,Triple H,193,Wrestler 2,true,DQ,7,World Heavyweight Championship (WWE),"",2003-05-18,Judgment Day '03,Charlotte
+Brock Lesnar,346,The Big Show,283,Wrestler 1,true,,9,WWE Championship,stretcher,2003-05-18,Judgment Day '03,Charlotte
+Jazz,344,Trish Stratus,313,Wrestler 1,true,pin,1,WWE Women's Championship (original),"",2003-06-07,Insurrextion '03,Newcastle-upon-Tyne
+Christian,277,Booker T.,341,Wrestler 1,true,pin,2,WWE Intercontinental Championship,"",2003-06-07,Insurrextion '03,Newcastle-upon-Tyne
+Goldust,123,Rico,348,None,true,pin,4,"","",2003-06-07,Insurrextion '03,Newcastle-upon-Tyne
+Scott Steiner,146,Test,281,None,true,pin,6,"",referee: Val Venis ,2003-06-07,Insurrextion '03,Newcastle-upon-Tyne
+Triple H,193,Kevin Nash,167,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),street fight,2003-06-07,Insurrextion '03,Newcastle-upon-Tyne
+Scott Steiner,146,Test,281,None,true,pin,2,"","",2003-06-15,Bad Blood '03,Houston
+Booker T.,341,Christian,277,Wrestler 2,true,DQ,3,WWE Intercontinental Championship,"",2003-06-15,Bad Blood '03,Houston
+Goldberg,365,Chris Jericho,296,None,true,pin,5,"","",2003-06-15,Bad Blood '03,Houston
+Ric Flair,138,Shawn Michaels,96,None,true,pin,6,"","",2003-06-15,Bad Blood '03,Houston
+Steve Austin,205,Eric Bischoff,362,None,true,,7,"","""Redneck Triathlon""",2003-06-15,Bad Blood '03,Houston
+Triple H,193,Kevin Nash,167,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),"referee: Mick Foley""Hell In A Cell""",2003-06-15,Bad Blood '03,Houston
+Eddie Guerrero,309,Chris Benoit,305,None,true,pin,1,WWE United States Championship,"",2003-07-27,Vengeance '03,Denver
+Jamie Noble,349,Billy Gunn,158,None,true,pin,2,"","",2003-07-27,Vengeance '03,Denver
+Sable,263,Stephanie McMahon,320,None,true,pin,5,"","",2003-07-27,Vengeance '03,Denver
+The Undertaker,124,John Cena,350,None,true,pin,6,"","",2003-07-27,Vengeance '03,Denver
+Mr. McMahon,278,Zach Gowen,383,None,true,pin,7,"","",2003-07-27,Vengeance '03,Denver
+The Undertaker,124,A-Train,292,None,true,pin,2,"","",2003-08-24,SummerSlam '03,Phoenix
+Shane McMahon,285,Eric Bischoff,362,None,true,pin,3,"",no disqualification falls count anywhere,2003-08-24,SummerSlam '03,Phoenix
+Kurt Angle,299,Brock Lesnar,346,Wrestler 1,true,sub,5,WWE Championship,"",2003-08-24,SummerSlam '03,Phoenix
+Kane,197,Rob Van Dam,338,None,true,pin,6,"",no holds barred,2003-08-24,SummerSlam '03,Phoenix
+Test,281,Scott Steiner,146,None,true,pin,2,"","",2003-09-21,Unforgiven '03,Hershey
+Randy Orton,384,Shawn Michaels,96,None,true,pin,3,"","",2003-09-21,Unforgiven '03,Hershey
+Kane,197,Shane McMahon,285,None,true,TKO,5,"","""Last Man Standing""",2003-09-21,Unforgiven '03,Hershey
+Goldberg,365,Triple H,193,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),"",2003-09-21,Unforgiven '03,Hershey
+Tajiri,337,Rey Mysterio,351,Wrestler 1,true,pin,1,WWE Cruiserweight Title,"",2003-10-19,No Mercy '03,Baltimore
+Chris Benoit,305,A-Train,292,None,true,sub,2,"","",2003-10-19,No Mercy '03,Baltimore
+Zach Gowen,383,Matt Hardy,288,None,true,pin,3,"","",2003-10-19,No Mercy '03,Baltimore
+Mr. McMahon,278,Stephanie McMahon,320,None,true,,5,"","""I Quit""",2003-10-19,No Mercy '03,Baltimore
+Kurt Angle,299,John Cena,350,None,true,sub,6,"","",2003-10-19,No Mercy '03,Baltimore
+The Big Show,283,Eddie Guerrero,309,Wrestler 2,true,pin,7,WWE United States Championship,"",2003-10-19,No Mercy '03,Baltimore
+Brock Lesnar,346,The Undertaker,124,Wrestler 1,true,pin,8,WWE Championship,"""Biker Chain""",2003-10-19,No Mercy '03,Baltimore
+Molly Holly,318,Lita,312,Wrestler 1,true,pin,2,WWE Women's Championship (original),"",2003-11-16,Survivor Series '03,Dallas
+Kane,197,Shane McMahon,285,None,true,,3,"",ambulance,2003-11-16,Survivor Series '03,Dallas
+Mr. McMahon,278,The Undertaker,124,None,true,,6,"","""Buried Alive""",2003-11-16,Survivor Series '03,Dallas
+Goldberg,365,Triple H,193,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2003-11-16,Survivor Series '03,Dallas
+Booker T.,341,Mark Henry,213,None,true,pin,1,"","",2003-12-14,Armageddon '03,Orlando
+Randy Orton,384,Rob Van Dam,338,Wrestler 2,true,pin,2,WWE Intercontinental Championship,referee: Mick Foley ,2003-12-14,Armageddon '03,Orlando
+Shawn Michaels,96,Batista,357,None,true,pin,4,"","",2003-12-14,Armageddon '03,Orlando
+Molly Holly,318,Ivory,293,Wrestler 1,true,pin,11,WWE Women's Championship (original),"",2003-12-14,Armageddon '03,Orlando
+Rey Mysterio,351,Jamie Noble,349,Wrestler 1,true,pin,2,WWE Cruiserweight Title,"",2004-01-25,Royal Rumble '04,Philadelphia
+Eddie Guerrero,309,Chavo Guerrero,356,None,true,pin,3,"","",2004-01-25,Royal Rumble '04,Philadelphia
+Brock Lesnar,346,Hardcore Holly,171,Wrestler 1,true,pin,4,WWE Championship,"",2004-01-25,Royal Rumble '04,Philadelphia
+Triple H,193,Shawn Michaels,96,Wrestler 1,false,DTKO,5,World Heavyweight Championship (WWE),"""Last Man Standing""",2004-01-25,Royal Rumble '04,Philadelphia
+Jamie Noble,349,Nidia,393,None,true,pin,2,"",blindfold,2004-02-15,No Way Out '04,San Francisco
+Hardcore Holly,171,Rhyno,326,None,true,pin,4,"","",2004-02-15,No Way Out '04,San Francisco
+Chavo Guerrero,356,Rey Mysterio,351,Wrestler 2,true,pin,5,WWE Cruiserweight Title,"",2004-02-15,No Way Out '04,San Francisco
+Eddie Guerrero,309,Brock Lesnar,346,Wrestler 2,true,pin,7,WWE Championship,"",2004-02-15,No Way Out '04,San Francisco
+John Cena,350,The Big Show,283,Wrestler 2,true,pin,1,WWE United States Championship,"",2004-03-14,WrestleMania XX,New York
+Christian,277,Chris Jericho,296,None,true,pin,3,"","",2004-03-14,WrestleMania XX,New York
+Ultimo Dragon,395,Shannon Moore,372,None,true,pin,6,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Jamie Noble,349,Ultimo Dragon,395,None,true,sub,7,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Jamie Noble,349,Funaki,267,None,true,pin,8,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Jamie Noble,349,Nunzio,373,None,true,CO,9,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Billy Kidman,333,Jamie Noble,349,None,true,pin,10,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Rey Mysterio,351,Billy Kidman,333,None,true,pin,11,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Rey Mysterio,351,Tajiri,337,None,true,pin,12,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Rey Mysterio,351,Akio,396,None,true,forfeit,13,"","""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Chavo Guerrero,356,Rey Mysterio,351,Wrestler 1,true,pin,14,WWE Cruiserweight Title,"""Cruiserweight Open""",2004-03-14,WrestleMania XX,New York
+Goldberg,365,Brock Lesnar,346,None,true,pin,15,"",referee: Steve Austin ,2004-03-14,WrestleMania XX,New York
+Victoria,355,Molly Holly,318,Wrestler 1,true,pin,17,WWE Women's Championship (original),hair vs. title,2004-03-14,WrestleMania XX,New York
+Eddie Guerrero,309,Kurt Angle,299,Wrestler 1,true,pin,18,WWE Championship,"",2004-03-14,WrestleMania XX,New York
+The Undertaker,124,Kane,197,None,true,pin,19,"","",2004-03-14,WrestleMania XX,New York
+Shelton Benjamin,361,Ric Flair,138,None,true,pin,1,"","",2004-04-18,Backlash '04,Edmonton
+Jonathan Coachman,386,Tajiri,337,None,true,pin,2,"","",2004-04-18,Backlash '04,Edmonton
+Victoria,355,Lita,312,Wrestler 1,true,pin,4,WWE Women's Championship (original),"",2004-04-18,Backlash '04,Edmonton
+Randy Orton,384,Cactus Jack,209,Wrestler 1,true,pin,5,WWE Intercontinental Championship,no holds barred falls count anywhere,2004-04-18,Backlash '04,Edmonton
+Edge,273,Kane,197,None,true,pin,7,"","",2004-04-18,Backlash '04,Edmonton
+Torrie Wilson,339,Dawn Marie,354,None,true,pin,2,"","",2004-05-16,Judgment Day '04,Los Angeles
+Mordecai,397,Scotty 2 Hotty,261,None,true,pin,3,"","",2004-05-16,Judgment Day '04,Los Angeles
+Chavo Guerrero,356,Jacqueline,271,Wrestler 2,true,pin,5,WWE Cruiserweight Title,"",2004-05-16,Judgment Day '04,Los Angeles
+John Cena,350,Rene Dupree,369,Wrestler 1,true,pin,6,WWE United States Championship,"",2004-05-16,Judgment Day '04,Los Angeles
+The Undertaker,124,Booker T.,341,None,true,pin,7,"","",2004-05-16,Judgment Day '04,Los Angeles
+John Bradshaw Layfield,207,Eddie Guerrero,309,Wrestler 2,true,DQ,8,WWE Championship,"",2004-05-16,Judgment Day '04,Los Angeles
+Chris Jericho,296,Tyson Tomko,398,None,true,pin,2,"","",2004-06-13,Bad Blood '04,Columbus
+Randy Orton,384,Shelton Benjamin,361,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2004-06-13,Bad Blood '04,Columbus
+Eugene,321,Jonathan Coachman,386,None,true,pin,5,"","",2004-06-13,Bad Blood '04,Columbus
+Chris Benoit,305,Kane,197,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2004-06-13,Bad Blood '04,Columbus
+Triple H,193,Shawn Michaels,96,None,true,pin,7,"","""Hell In A Cell""",2004-06-13,Bad Blood '04,Columbus
+Luther Reigns,399,Charlie Haas,360,None,true,pin,2,"","",2004-06-27,The Great American Bash '04,Norfolk
+Rey Mysterio,351,Chavo Guerrero,356,Wrestler 1,true,pin,3,WWE Cruiserweight Title,"",2004-06-27,The Great American Bash '04,Norfolk
+Kenzo Suzuki,400,Billy Gunn,158,None,true,pin,4,"","",2004-06-27,The Great American Bash '04,Norfolk
+Sable,263,Torrie Wilson,339,None,true,pin,5,"","",2004-06-27,The Great American Bash '04,Norfolk
+Mordecai,397,Hardcore Holly,171,None,true,pin,6,"","",2004-06-27,The Great American Bash '04,Norfolk
+John Bradshaw Layfield,207,Eddie Guerrero,309,Wrestler 2,true,,7,WWE Championship,"""Texas Bullrope""",2004-06-27,The Great American Bash '04,Norfolk
+Batista,357,Chris Jericho,296,None,true,pin,2,"","",2004-07-11,Vengeance '04,Hartford
+Matt Hardy,288,Kane,197,None,true,pin,4,"",no disqualification,2004-07-11,Vengeance '04,Hartford
+Edge,273,Randy Orton,384,Wrestler 2,true,pin,5,WWE Intercontinental Championship,"",2004-07-11,Vengeance '04,Hartford
+Victoria,355,Molly Holly,318,None,true,pin,6,"","",2004-07-11,Vengeance '04,Hartford
+Chris Benoit,305,Triple H,193,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2004-07-11,Vengeance '04,Hartford
+Kane,197,Matt Hardy,288,None,true,pin,2,"","""Till Death Do Us Part""",2004-08-15,SummerSlam '04,Toronto
+John Cena,350,Booker T.,341,None,true,pin,3,WWE United States Championship,"""Best of 5"" series",2004-08-15,SummerSlam '04,Toronto
+Kurt Angle,299,Eddie Guerrero,309,None,true,sub,5,"","",2004-08-15,SummerSlam '04,Toronto
+Triple H,193,Eugene,321,None,true,pin,6,"","",2004-08-15,SummerSlam '04,Toronto
+John Bradshaw Layfield,207,The Undertaker,124,Wrestler 1,true,DQ,8,WWE Championship,"",2004-08-15,SummerSlam '04,Toronto
+Randy Orton,384,Chris Benoit,305,Wrestler 2,true,pin,9,World Heavyweight Championship (WWE),"",2004-08-15,SummerSlam '04,Toronto
+Trish Stratus,313,Victoria,355,Wrestler 1,true,pin,2,WWE Women's Championship (original),"",2004-09-12,Unforgiven '04,Portland
+Tyson Tomko,398,Steven Richards,314,None,true,pin,3,"","",2004-09-12,Unforgiven '04,Portland
+Chris Jericho,296,Christian,277,None,true,,4,WWE Intercontinental Championship,ladder,2004-09-12,Unforgiven '04,Portland
+Shawn Michaels,96,Kane,197,None,true,pin,5,"",no disqualification,2004-09-12,Unforgiven '04,Portland
+Triple H,193,Randy Orton,384,Wrestler 2,true,pin,7,World Heavyweight Championship (WWE),"",2004-09-12,Unforgiven '04,Portland
+Eddie Guerrero,309,Luther Reigns,399,None,true,pin,1,"","",2004-10-03,No Mercy '04,East Rutherford
+Spike Dudley,325,Nunzio,373,Wrestler 1,true,pin,2,WWE Cruiserweight Title,"",2004-10-03,No Mercy '04,East Rutherford
+Billy Kidman,333,Paul London,401,None,true,pin,3,"","",2004-10-03,No Mercy '04,East Rutherford
+The Big Show,283,Kurt Angle,299,None,true,pin,5,"","",2004-10-03,No Mercy '04,East Rutherford
+John Cena,350,Booker T.,341,Wrestler 2,true,pin,6,WWE United States Championship,"",2004-10-03,No Mercy '04,East Rutherford
+John Bradshaw Layfield,207,The Undertaker,124,Wrestler 1,true,,8,WWE Championship,"""Last Ride""",2004-10-03,No Mercy '04,East Rutherford
+Shelton Benjamin,361,Chris Jericho,296,Wrestler 2,true,pin,1,WWE Intercontinental Championship,"",2004-10-19,Taboo Tuesday '04,Milwaukee
+Gene Snitsky,408,Kane,197,None,true,pin,3,"","""Weapon of Choice""",2004-10-19,Taboo Tuesday '04,Milwaukee
+Eugene,321,Eric Bischoff,362,None,true,pin,4,"","""Choose The Loser's Fate""",2004-10-19,Taboo Tuesday '04,Milwaukee
+Christy Hemme,406,Carmella DeCesare,409,None,true,pin,6,"",lingerie pillow fight,2004-10-19,Taboo Tuesday '04,Milwaukee
+Triple H,193,Shawn Michaels,96,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2004-10-19,Taboo Tuesday '04,Milwaukee
+Randy Orton,384,Ric Flair,138,None,true,pin,8,"",steel cage,2004-10-19,Taboo Tuesday '04,Milwaukee
+Shelton Benjamin,361,Christian,277,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2004-11-14,Survivor Series '04,Cleveland
+The Undertaker,124,Heidenreich,415,None,true,pin,5,"","",2004-11-14,Survivor Series '04,Cleveland
+Trish Stratus,313,Lita,312,Wrestler 1,true,DQ,6,WWE Women's Championship (original),"",2004-11-14,Survivor Series '04,Cleveland
+John Bradshaw Layfield,207,Booker T.,341,Wrestler 1,true,pin,7,WWE Championship,"",2004-11-14,Survivor Series '04,Cleveland
+Kurt Angle,299,Santa Claus,410,None,true,sub,2,"","",2004-12-12,Armageddon '04,Atlanta
+Daniel Puder,411,Mike Mizanin,412,None,true,,3,"","""Dixie Dog Fight""",2004-12-12,Armageddon '04,Atlanta
+John Cena,350,Jesus,413,Wrestler 1,true,pin,5,WWE United States Championship,street fight,2004-12-12,Armageddon '04,Atlanta
+Dawn Marie,354,Miss Jackie,394,None,true,pin,6,"",referee: Charlie Haas ,2004-12-12,Armageddon '04,Atlanta
+Funaki,267,Spike Dudley,325,Wrestler 2,true,pin,8,WWE Cruiserweight Title,"",2004-12-12,Armageddon '04,Atlanta
+Trish Stratus,313,Lita,312,None,true,pin,2,WWE Women's Championship (original),"",2005-01-09,New Year's Revolution '05,San Jose
+Shelton Benjamin,361,Maven,345,None,true,pin,3,WWE Intercontinental Championship,"",2005-01-09,New Year's Revolution '05,San Jose
+Shelton Benjamin,361,Maven,345,None,true,pin,4,WWE Intercontinental Championship,"",2005-01-09,New Year's Revolution '05,San Jose
+Muhammad Hassan,414,Jerry Lawler,150,None,true,pin,5,"","",2005-01-09,New Year's Revolution '05,San Jose
+Kane,197,Snitsky,408,None,true,pin,6,"","",2005-01-09,New Year's Revolution '05,San Jose
+Edge,273,Shawn Michaels,96,None,true,pin,1,"","",2005-01-30,Royal Rumble '05,Fresno
+The Undertaker,124,Heidenreich,415,None,true,,2,"",casket,2005-01-30,Royal Rumble '05,Fresno
+Triple H,193,Randy Orton,384,Wrestler 1,true,pin,4,World Heavyweight Championship (WWE),"",2005-01-30,Royal Rumble '05,Fresno
+Booker T.,341,Heidenreich,415,None,true,DQ,2,"","",2005-02-20,No Way Out '05,Pittsburgh
+Paul London,401,Funaki,267,Wrestler 2,true,pin,3,WWE Cruiserweight Title,"""Cruiserweight Open""",2005-02-20,No Way Out '05,Pittsburgh
+Paul London,401,Spike Dudley,325,None,true,pin,4,"","""Cruiserweight Open""",2005-02-20,No Way Out '05,Pittsburgh
+Paul London,401,Shannon Moore,372,None,true,pin,5,"","""Cruiserweight Open""",2005-02-20,No Way Out '05,Pittsburgh
+Paul London,401,Akio,396,None,true,pin,6,"","""Cruiserweight Open""",2005-02-20,No Way Out '05,Pittsburgh
+Chavo Guerrero,356,Paul London,401,None,true,pin,7,WWE Cruiserweight Title,"""Cruiserweight Open""",2005-02-20,No Way Out '05,Pittsburgh
+The Undertaker,124,Luther Reigns,399,None,true,pin,8,"","",2005-02-20,No Way Out '05,Pittsburgh
+John Cena,350,Kurt Angle,299,None,true,pin,9,"","",2005-02-20,No Way Out '05,Pittsburgh
+John Bradshaw Layfield,207,The Big Show,283,Wrestler 1,true,,10,WWE Championship,"""Barbed Wire Cage""",2005-02-20,No Way Out '05,Pittsburgh
+Rey Mysterio,351,Eddie Guerrero,309,None,true,pin,1,"","",2005-04-03,WrestleMania 21,Los Angeles
+The Undertaker,124,Randy Orton,384,None,true,pin,3,"","",2005-04-03,WrestleMania 21,Los Angeles
+Trish Stratus,313,Christy Hemme,406,Wrestler 1,true,pin,4,WWE Women's Championship (original),"",2005-04-03,WrestleMania 21,Los Angeles
+Kurt Angle,299,Shawn Michaels,96,None,true,sub,5,"","",2005-04-03,WrestleMania 21,Los Angeles
+Akebono,417,The Big Show,283,None,true,,6,"",sumo,2005-04-03,WrestleMania 21,Los Angeles
+John Cena,350,John Bradshaw Layfield,207,Wrestler 2,true,pin,7,WWE Championship,"",2005-04-03,WrestleMania 21,Los Angeles
+Batista,357,Triple H,193,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),"",2005-04-03,WrestleMania 21,Los Angeles
+Shelton Benjamin,361,Chris Jericho,296,Wrestler 1,true,pin,1,WWE Intercontinental Championship,"",2005-05-01,Backlash '05,Manchester
+Edge,273,Chris Benoit,305,None,true,TKO,6,"","""Last Man Standing""",2005-05-01,Backlash '05,Manchester
+Chris Masters,420,Melissa Coates,421,None,true,,7,"","""Masterlock Challenge""",2005-05-01,Backlash '05,Manchester
+Kane,197,Viscera,170,None,true,pin,8,"","",2005-05-01,Backlash '05,Manchester
+Batista,357,Triple H,193,Wrestler 1,true,pin,10,World Heavyweight Championship (WWE),"",2005-05-01,Backlash '05,Manchester
+Carlito,424,The Big Show,283,None,true,pin,2,"","",2005-05-22,Judgment Day '05,Minneapolis
+Paul London,401,Chavo Guerrero,356,Wrestler 1,true,pin,3,WWE Cruiserweight Title,"",2005-05-22,Judgment Day '05,Minneapolis
+Booker T.,341,Kurt Angle,299,None,true,pin,4,"","",2005-05-22,Judgment Day '05,Minneapolis
+Orlando Jordan,378,Heidenreich,415,Wrestler 1,true,pin,5,WWE United States Championship,"",2005-05-22,Judgment Day '05,Minneapolis
+Rey Mysterio,351,Eddie Guerrero,309,None,true,DQ,6,"","",2005-05-22,Judgment Day '05,Minneapolis
+John Cena,350,John Bradshaw Layfield,207,Wrestler 1,true,sub,7,WWE Championship,"""I Quit""",2005-05-22,Judgment Day '05,Minneapolis
+Lance Storm,327,Chris Jericho,296,None,true,pin,1,"","",2005-06-12,One Night Stand '05,New York
+"Rey Misterio, Jr.",351,Psicosis,426,None,true,pin,3,"","",2005-06-12,One Night Stand '05,New York
+Sabu,427,Rhyno,326,None,true,pin,4,"","",2005-06-12,One Night Stand '05,New York
+Chris Benoit,305,Eddie Guerrero,309,None,true,sub,5,"","",2005-06-12,One Night Stand '05,New York
+Mike Awesome,328,Masato Tanaka,428,None,true,pin,6,"","",2005-06-12,One Night Stand '05,New York
+Carlito,424,Shelton Benjamin,361,Wrestler 1,true,pin,1,WWE Intercontinental Championship,"",2005-06-26,Vengeance '05,Las Vegas
+Victoria,355,Christy Hemme,406,None,true,pin,2,"","",2005-06-26,Vengeance '05,Las Vegas
+Kane,197,Edge,273,None,true,pin,3,"","",2005-06-26,Vengeance '05,Las Vegas
+Shawn Michaels,96,Kurt Angle,299,None,true,pin,4,"","",2005-06-26,Vengeance '05,Las Vegas
+Batista,357,Triple H,193,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"""Hell In A Cell""",2005-06-26,Vengeance '05,Las Vegas
+Booker T.,341,Christian,277,None,true,pin,2,"","",2005-07-24,The Great American Bash '05,Buffalo
+Orlando Jordan,378,Chris Benoit,305,Wrestler 1,true,pin,3,WWE United States Championship,"",2005-07-24,The Great American Bash '05,Buffalo
+The Undertaker,124,Muhammad Hassan,414,None,true,pin,4,"","",2005-07-24,The Great American Bash '05,Buffalo
+Rey Mysterio,351,Eddie Guerrero,309,None,true,pin,6,"","",2005-07-24,The Great American Bash '05,Buffalo
+Melina,431,Torrie Wilson,339,None,true,pin,7,WWE Women's Championship (original),bra and panties,2005-07-24,The Great American Bash '05,Buffalo
+John Bradshaw Layfield,207,Batista,357,Wrestler 2,true,DQ,8,World Heavyweight Championship (WWE),"",2005-07-24,The Great American Bash '05,Buffalo
+Chris Benoit,305,Orlando Jordan,378,Wrestler 2,true,sub,1,WWE United States Championship,"",2005-08-21,SummerSlam '05,Washington
+Edge,273,Matt Hardy,288,None,true,,2,"","",2005-08-21,SummerSlam '05,Washington
+Rey Mysterio,351,Eddie Guerrero,309,None,true,,3,"",ladder,2005-08-21,SummerSlam '05,Washington
+Kurt Angle,299,Eugene,321,None,true,sub,4,"",no time limit,2005-08-21,SummerSlam '05,Washington
+Randy Orton,384,The Undertaker,124,None,true,pin,5,"","",2005-08-21,SummerSlam '05,Washington
+John Cena,350,Chris Jericho,296,Wrestler 1,true,pin,6,WWE Championship,"",2005-08-21,SummerSlam '05,Washington
+Batista,357,John Bradshaw Layfield,207,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),no holds barred,2005-08-21,SummerSlam '05,Washington
+Hulk Hogan,19,Shawn Michaels,96,None,true,pin,8,"","",2005-08-21,SummerSlam '05,Washington
+Ric Flair,138,Carlito,424,Wrestler 2,true,sub,1,WWE Intercontinental Championship,"",2005-09-18,Unforgiven '05,Oklahoma City
+The Big Show,283,Snitsky,408,None,true,pin,3,"","",2005-09-18,Unforgiven '05,Oklahoma City
+Shelton Benjamin,361,Kerwin White,356,None,true,pin,4,"","",2005-09-18,Unforgiven '05,Oklahoma City
+Matt Hardy,288,Edge,273,None,true,pin,5,"",steel cage,2005-09-18,Unforgiven '05,Oklahoma City
+Shawn Michaels,96,Chris Masters,420,None,true,pin,7,"","",2005-09-18,Unforgiven '05,Oklahoma City
+Kurt Angle,299,John Cena,350,Wrestler 2,true,DQ,8,WWE Championship,"",2005-09-18,Unforgiven '05,Oklahoma City
+Bobby Lashley,434,Simon Dean,416,None,true,pin,2,"","",2005-10-09,No Mercy '05,Houston
+Mr. Kennedy,435,Hardcore Holly,171,None,true,pin,4,"","",2005-10-09,No Mercy '05,Houston
+John Bradshaw Layfield,207,Rey Mysterio,351,None,true,pin,5,"","",2005-10-09,No Mercy '05,Houston
+Juventud,430,Nunzio,373,Wrestler 2,true,pin,7,WWE Cruiserweight Title,"",2005-10-09,No Mercy '05,Houston
+Batista,357,Eddie Guerrero,309,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),"",2005-10-09,No Mercy '05,Houston
+Mankind,209,Carlito,424,None,true,sub,3,"","",2005-11-01,Taboo Tuesday '05,San Diego
+Batista,357,Jonathan Coachman,386,None,true,pin,5,"",street fight,2005-11-01,Taboo Tuesday '05,San Diego
+Ric Flair,138,Triple H,193,Wrestler 1,true,,7,WWE Intercontinental Championship,steel cage,2005-11-01,Taboo Tuesday '05,San Diego
+Booker T.,341,Chris Benoit,305,None,true,pin,1,"","""Best of 7"" series",2005-11-27,Survivor Series '05,Detroit
+Trish Stratus,313,Melina,431,Wrestler 1,true,pin,2,WWE Women's Championship (original),"",2005-11-27,Survivor Series '05,Detroit
+Triple H,193,Ric Flair,138,None,true,TKO,3,"","""Last Man Standing""",2005-11-27,Survivor Series '05,Detroit
+John Cena,350,Kurt Angle,299,Wrestler 1,true,pin,4,WWE Championship,referee: Daivari ,2005-11-27,Survivor Series '05,Detroit
+Theodore Long,371,Eric Bischoff,362,None,true,pin,5,"","",2005-11-27,Survivor Series '05,Detroit
+John Bradshaw Layfield,207,Matt Hardy,288,None,true,pin,1,"","",2005-12-18,Armageddon '05,Providence
+Chris Benoit,305,Booker T.,341,None,true,sub,3,"","""Best of 7"" series",2005-12-18,Armageddon '05,Providence
+Kid Kash,439,Juventud,430,Wrestler 2,true,pin,5,WWE Cruiserweight Title,"",2005-12-18,Armageddon '05,Providence
+The Undertaker,124,Randy Orton,384,None,true,pin,7,"","""Hell In A Cell""",2005-12-18,Armageddon '05,Providence
+Ric Flair,138,Edge,273,Wrestler 1,true,DQ,1,WWE Intercontinental Championship,"",2006-01-08,New Year's Revolution '06,Albany
+Trish Stratus,313,Mickie James,436,Wrestler 1,true,pin,2,WWE Women's Championship (original),"",2006-01-08,New Year's Revolution '06,Albany
+Jerry Lawler,150,Gregory Helms,343,None,true,pin,3,"","",2006-01-08,New Year's Revolution '06,Albany
+Triple H,193,The Big Show,283,None,true,pin,4,"","",2006-01-08,New Year's Revolution '06,Albany
+Shelton Benjamin,361,Viscera,170,None,true,pin,5,"","",2006-01-08,New Year's Revolution '06,Albany
+Edge,273,John Cena,350,Wrestler 2,true,pin,8,WWE Championship,"",2006-01-08,New Year's Revolution '06,Albany
+Mickie James,436,Ashley Massaro,432,None,true,pin,2,"",referee: Trish Stratus ,2006-01-29,Royal Rumble '06,Miami
+The Boogeyman,440,John Bradshaw Layfield,207,None,true,pin,3,"","",2006-01-29,Royal Rumble '06,Miami
+John Cena,350,Edge,273,Wrestler 2,true,sub,5,WWE Championship,"",2006-01-29,Royal Rumble '06,Miami
+Kurt Angle,299,Mark Henry,213,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2006-01-29,Royal Rumble '06,Miami
+John Bradshaw Layfield,207,Bobby Lashley,434,None,true,pin,2,"","",2006-02-19,No Way Out '06,Baltimore
+Chris Benoit,305,Booker T.,341,Wrestler 2,true,sub,4,WWE United States Championship,"",2006-02-19,No Way Out '06,Baltimore
+Randy Orton,384,Rey Mysterio,351,None,true,pin,5,"","",2006-02-19,No Way Out '06,Baltimore
+Kurt Angle,299,The Undertaker,124,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2006-02-19,No Way Out '06,Baltimore
+John Bradshaw Layfield,207,Chris Benoit,305,Wrestler 2,true,pin,4,WWE United States Championship,"",2006-04-02,WrestleMania 22,Chicago
+Edge,273,Mick Foley,209,None,true,pin,5,"","""hardcore""",2006-04-02,WrestleMania 22,Chicago
+Mickie James,436,Trish Stratus,313,Wrestler 2,true,pin,7,WWE Women's Championship (original),"",2006-04-02,WrestleMania 22,Chicago
+The Undertaker,124,Mark Henry,213,None,true,,8,"",casket,2006-04-02,WrestleMania 22,Chicago
+Shawn Michaels,96,Mr. McMahon,278,None,true,pin,9,"",no holds barred,2006-04-02,WrestleMania 22,Chicago
+Torrie Wilson,339,Candice Michelle,437,None,true,pin,11,"","""Playboy Pillow Fight""",2006-04-02,WrestleMania 22,Chicago
+John Cena,350,Triple H,193,Wrestler 1,true,sub,12,WWE Championship,"",2006-04-02,WrestleMania 22,Chicago
+Carlito,424,Chris Masters,420,None,true,pin,1,"","",2006-04-30,Backlash '06,Lexington
+Umaga,353,Ric Flair,138,None,true,pin,2,"","",2006-04-30,Backlash '06,Lexington
+Trish Stratus,313,Mickie James,436,Wrestler 2,true,DQ,3,WWE Women's Championship (original),"",2006-04-30,Backlash '06,Lexington
+Rob Van Dam,338,Shelton Benjamin,361,Wrestler 2,true,pin,4,Money In the Bank BriefcaseWWE Intercontinental Championship,"",2006-04-30,Backlash '06,Lexington
+The Big Show,283,Kane,197,None,false,NC,5,"","",2006-04-30,Backlash '06,Lexington
+Matt Hardy,288,Simon Dean,416,None,true,pin,1,"",dark  ,2006-05-21,Judgment Day '06,Phoenix
+Chris Benoit,305,Finlay,441,None,true,sub,3,"","",2006-05-21,Judgment Day '06,Phoenix
+Jillian Hall,443,Melina,431,None,true,pin,4,"","",2006-05-21,Judgment Day '06,Phoenix
+Gregory Helms,343,Super Crazy,425,Wrestler 1,true,pin,5,WWE Cruiserweight Title,"",2006-05-21,Judgment Day '06,Phoenix
+Booker T.,341,Bobby Lashley,434,None,true,pin,6,WWE King of the Ring,"",2006-05-21,Judgment Day '06,Phoenix
+Mark Henry,213,Kurt Angle,299,None,true,CO,7,"","",2006-05-21,Judgment Day '06,Phoenix
+The Great Khali,444,The Undertaker,124,None,true,pin,8,"","",2006-05-21,Judgment Day '06,Phoenix
+Rey Mysterio,351,John Bradshaw Layfield,207,Wrestler 1,true,pin,9,World Heavyweight Championship (WWE),"",2006-05-21,Judgment Day '06,Phoenix
+Tazz,302,Jerry Lawler,150,None,true,KO,1,"","",2006-06-11,One Night Stand '06,New York
+Kurt Angle,299,Randy Orton,384,None,true,sub,2,"","",2006-06-11,One Night Stand '06,New York
+Rey Mysterio,351,Sabu,427,Wrestler 1,false,NC,4,World Heavyweight Championship (WWE),"",2006-06-11,One Night Stand '06,New York
+Balls Mahoney,447,Masato Tanaka,428,None,true,pin,6,"","",2006-06-11,One Night Stand '06,New York
+Rob Van Dam,338,John Cena,350,Wrestler 2,true,pin,7,WWE Championship,"",2006-06-11,One Night Stand '06,New York
+Val Venis,270,Rob Conway,379,None,true,pin,1,"",dark  ,2006-06-25,Vengeance '06,Charlotte
+Randy Orton,384,Kurt Angle,299,None,true,pin,2,"","",2006-06-25,Vengeance '06,Charlotte
+Umaga,353,Eugene,321,None,true,pin,3,"","",2006-06-25,Vengeance '06,Charlotte
+Ric Flair,138,Mick Foley,209,None,true,DQ,4,"",2 out of 3 falls,2006-06-25,Vengeance '06,Charlotte
+Rob Van Dam,338,Edge,273,Wrestler 1,true,pin,6,WWE Championship,"",2006-06-25,Vengeance '06,Charlotte
+The Fake Kane,448,Kane,197,None,true,pin,7,"","",2006-06-25,Vengeance '06,Charlotte
+John Cena,350,Sabu,427,None,true,sub,8,"","""Extreme Lumberjack""",2006-06-25,Vengeance '06,Charlotte
+Sho Funaki,267,Simon Dean,416,None,true,pin,1,"",dark  ,2006-07-23,The Great American Bash '06,Indianapolis
+Finlay,441,William Regal,316,Wrestler 1,true,pin,3,WWE United States Championship,"",2006-07-23,The Great American Bash '06,Indianapolis
+Gregory Helms,343,Matt Hardy,288,None,true,pin,4,"","",2006-07-23,The Great American Bash '06,Indianapolis
+The Undertaker,124,The Big Show,283,None,true,,5,"","""Punjabi Prison""",2006-07-23,The Great American Bash '06,Indianapolis
+Mr. Kennedy,435,Batista,357,None,true,DQ,7,"","",2006-07-23,The Great American Bash '06,Indianapolis
+King Booker,341,Rey Mysterio,351,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),"",2006-07-23,The Great American Bash '06,Indianapolis
+Carlito,424,Rob Conway,379,None,true,pin,1,"",dark  ,2006-08-20,SummerSlam '06,Boston
+Chavo Guerrero,356,Rey Mysterio,351,None,true,pin,2,"","",2006-08-20,SummerSlam '06,Boston
+The Big Show,283,Sabu,427,Wrestler 1,true,pin,3,ECW World Heavyweight Title,"""Extreme Rules""",2006-08-20,SummerSlam '06,Boston
+Hulk Hogan,19,Randy Orton,384,None,true,pin,4,"","",2006-08-20,SummerSlam '06,Boston
+Ric Flair,138,Mick Foley,209,None,true,sub,5,"","""I Quit""",2006-08-20,SummerSlam '06,Boston
+Batista,357,King Booker,341,Wrestler 2,true,DQ,6,World Heavyweight Championship (WWE),"",2006-08-20,SummerSlam '06,Boston
+Edge,273,John Cena,350,Wrestler 1,true,pin,8,WWE Championship,"",2006-08-20,SummerSlam '06,Boston
+Super Crazy,425,Shelton Benjamin,361,None,true,pin,1,"",dark  ,2006-09-17,Unforgiven '06,Toronto
+Johnny Nitro,377,Jeff Hardy,289,Wrestler 1,true,pin,2,WWE Intercontinental Championship,"",2006-09-17,Unforgiven '06,Toronto
+Kane,197,Umaga,353,None,false,DCO,3,"","",2006-09-17,Unforgiven '06,Toronto
+Trish Stratus,313,Lita,312,Wrestler 2,true,sub,6,WWE Women's Championship (original),"",2006-09-17,Unforgiven '06,Toronto
+Randy Orton,384,Carlito,424,None,true,pin,7,"","",2006-09-17,Unforgiven '06,Toronto
+John Cena,350,Edge,273,Wrestler 2,true,pin,8,WWE Championship,TLC (singles),2006-09-17,Unforgiven '06,Toronto
+Jimmy Wang Yang,396,Sylvan,368,None,true,,1,"",dark  ,2006-10-08,No Mercy '06,Raleigh
+Matt Hardy,288,Gregory Helms,343,None,true,pin,2,"","",2006-10-08,No Mercy '06,Raleigh
+Montel Vontavious Porter,457,Marty Garner,458,None,true,pin,4,"","",2006-10-08,No Mercy '06,Raleigh
+Mr. Kennedy,435,The Undertaker,124,None,true,DQ,5,"","",2006-10-08,No Mercy '06,Raleigh
+Rey Mysterio,351,Chavo Guerrero,356,None,true,pin,6,"",falls count anywhere,2006-10-08,No Mercy '06,Raleigh
+Chris Benoit,305,Sir William Regal,316,None,true,sub,7,"","",2006-10-08,No Mercy '06,Raleigh
+Super Crazy,425,Rob Conway,379,None,true,pin,1,"",dark  ,2006-11-05,Cyber Sunday '06,Cincinnati
+Umaga,353,Kane,197,None,true,pin,2,"","",2006-11-05,Cyber Sunday '06,Cincinnati
+Jeff Hardy,289,Carlito,424,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2006-11-05,Cyber Sunday '06,Cincinnati
+Lita,312,Mickie James,436,None,true,pin,6,WWE Women's Championship (original),"""Diva Lumberjack""",2006-11-05,Cyber Sunday '06,Cincinnati
+Carlito,424,Charlie Haas,360,None,true,pin,1,"",dark  ,2006-11-26,Survivor Series '06,Philadelphia
+Chris Benoit,305,Chavo Guerrero,356,Wrestler 1,true,sub,3,WWE United States Championship,"",2006-11-26,Survivor Series '06,Philadelphia
+Mickie James,436,Lita,312,Wrestler 2,true,pin,4,WWE Women's Championship (original),"",2006-11-26,Survivor Series '06,Philadelphia
+Mr. Kennedy,435,The Undertaker,124,None,true,,6,"","""First Blood""",2006-11-26,Survivor Series '06,Philadelphia
+Batista,357,King Booker,341,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),"",2006-11-26,Survivor Series '06,Philadelphia
+Stevie Richards,314,Rene Dupree,369,None,true,pin,1,"",dark  ,2006-12-03,December to Dismember '06,Augusta
+Balls Mahoney,447,Matt Striker,461,None,true,pin,3,"","""Striker's Rules""",2006-12-03,December to Dismember '06,Augusta
+Daivari,422,Tommy Dreamer,359,None,true,pin,5,"","",2006-12-03,December to Dismember '06,Augusta
+Oleg Prudius,3255,Scotty 2 Hotty,261,None,true,,1,"",dark  ,2006-12-17,Armageddon '06,Richmond
+Kane,197,Montel Vontavious Porter,457,None,true,,2,"","""Inferno""",2006-12-17,Armageddon '06,Richmond
+The Boogeyman,440,The Miz,412,None,true,pin,4,"","",2006-12-17,Armageddon '06,Richmond
+Chris Benoit,305,Chavo Guerrero,356,Wrestler 1,true,sub,5,WWE United States Championship,"",2006-12-17,Armageddon '06,Richmond
+Gregory Helms,343,Jimmy Wang Yang,396,Wrestler 1,true,pin,6,WWE Cruiserweight Title,"",2006-12-17,Armageddon '06,Richmond
+The Undertaker,124,Mr. Kennedy,435,None,true,,7,"","""Last Ride""",2006-12-17,Armageddon '06,Richmond
+Vladimir Kozlov,3255,Eugene,321,None,true,pin,1,"",dark  ,2007-01-07,New Year's Revolution '07,Kansas City
+Jeff Hardy,289,Johnny Nitro,377,Wrestler 1,true,,2,WWE Intercontinental Championship,steel cage,2007-01-07,New Year's Revolution '07,Kansas City
+Kenny Dykstra,449,Ric Flair,138,None,true,pin,7,"","",2007-01-07,New Year's Revolution '07,Kansas City
+Mickie James,436,Victoria,355,Wrestler 1,true,pin,8,WWE Women's Championship (original),"",2007-01-07,New Year's Revolution '07,Kansas City
+Chris Masters,420,Carlito,424,None,true,pin,10,"","",2007-01-07,New Year's Revolution '07,Kansas City
+John Cena,350,Umaga,353,Wrestler 1,true,pin,11,WWE Championship,"",2007-01-07,New Year's Revolution '07,Kansas City
+JTG,459,Lance Cade,389,None,true,pin,1,"",dark  ,2007-01-28,Royal Rumble '07,San Antonio
+Bobby Lashley,434,Test,281,Wrestler 1,true,CO,3,ECW World Heavyweight Title,"",2007-01-28,Royal Rumble '07,San Antonio
+Batista,357,Mr. Kennedy,435,Wrestler 1,true,pin,4,World Heavyweight Championship (WWE),"",2007-01-28,Royal Rumble '07,San Antonio
+John Cena,350,Umaga,353,Wrestler 1,true,TKO,5,WWE Championship,"""Last Man Standing""",2007-01-28,Royal Rumble '07,San Antonio
+Rob Van Dam,338,Shelton Benjamin,361,None,true,pin,1,"",dark  ,2007-02-18,No Way Out '07,Los Angeles
+Scotty 2 Hotty,261,Daivari,422,None,true,pin,3,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Gregory Helms,343,Scotty 2 Hotty,261,None,true,pin,4,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Gregory Helms,343,Funaki,267,None,true,pin,5,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Gregory Helms,343,Shannon Moore,372,None,true,pin,6,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Jimmy Wang Yang,396,Gregory Helms,343,None,true,pin,7,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Jimmy Wang Yang,396,Jamie Noble,349,None,true,pin,8,"","""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Chavo Guerrero,356,Jimmy Wang Yang,396,None,true,pin,9,WWE Cruiserweight Title,"""Cruiserweight Open""",2007-02-18,No Way Out '07,Los Angeles
+Kane,197,King Booker,341,None,true,pin,11,"","",2007-02-18,No Way Out '07,Los Angeles
+Mr. Kennedy,435,Bobby Lashley,434,None,true,DQ,13,ECW World Heavyweight Title,"",2007-02-18,No Way Out '07,Los Angeles
+The Great Khali,444,Kane,197,None,true,pin,3,"","",2007-04-01,WrestleMania 23,Detroit
+Chris Benoit,305,Montel Vontavious Porter,457,None,true,pin,4,WWE United States Championship,"",2007-04-01,WrestleMania 23,Detroit
+The Undertaker,124,Batista,357,Wrestler 2,true,pin,5,World Heavyweight Championship (WWE),"",2007-04-01,WrestleMania 23,Detroit
+Bobby Lashley,434,Umaga,353,None,true,pin,7,"",referee: Steve Austinhair vs. hair,2007-04-01,WrestleMania 23,Detroit
+Melina,431,Ashley Massaro,432,None,true,pin,8,WWE Women's Championship (original),lumberjill,2007-04-01,WrestleMania 23,Detroit
+John Cena,350,Shawn Michaels,96,None,true,sub,9,WWE Championship,"",2007-04-01,WrestleMania 23,Detroit
+Carlito,424,Johnny Nitro,377,None,true,pin,1,"",dark  ,2007-04-29,Backlash '07,Atlanta
+Melina,431,Mickie James,436,Wrestler 1,true,pin,3,WWE Women's Championship (original),"",2007-04-29,Backlash '07,Atlanta
+Chris Benoit,305,Montel Vontavious Porter,457,Wrestler 1,true,pin,4,WWE United States Championship,"",2007-04-29,Backlash '07,Atlanta
+The Undertaker,124,Batista,357,Wrestler 1,false,DTKO,6,World Heavyweight Championship (WWE),"""Last Man Standing""",2007-04-29,Backlash '07,Atlanta
+Kane,197,William Regal,316,None,true,pin,1,"",dark  ,2007-05-20,Judgment Day '07,St. Louis
+Ric Flair,138,Carlito,424,None,true,pin,2,"","",2007-05-20,Judgment Day '07,St. Louis
+C. M. Punk,467,Elijah Burke,462,None,true,pin,4,"","",2007-05-20,Judgment Day '07,St. Louis
+Randy Orton,384,Shawn Michaels,96,None,true,,5,"","",2007-05-20,Judgment Day '07,St. Louis
+Edge,273,Batista,357,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2007-05-20,Judgment Day '07,St. Louis
+Montel Vontavious Porter,457,Chris Benoit,305,Wrestler 2,true,pin,8,WWE United States Championship,2 out of 3 falls,2007-05-20,Judgment Day '07,St. Louis
+John Cena,350,The Great Khali,444,Wrestler 1,true,sub,9,WWE Championship,"",2007-05-20,Judgment Day '07,St. Louis
+Santino Marella,3089,Chris Masters,420,None,true,pin,1,"",dark  ,2007-06-03,One Night Stand '07,Jacksonville
+Rob Van Dam,338,Randy Orton,384,None,true,,2,"",stretcher,2007-06-03,One Night Stand '07,Jacksonville
+Mark Henry,213,Kane,197,None,true,,5,"",lumberjack match,2007-06-03,One Night Stand '07,Jacksonville
+Bobby Lashley,434,Mr. McMahon,278,Wrestler 2,true,pin,6,ECW World Heavyweight Title,street fight,2007-06-03,One Night Stand '07,Jacksonville
+Candice Michelle,437,Melina,431,None,true,sub,7,"","""Pudding""",2007-06-03,One Night Stand '07,Jacksonville
+Edge,273,Batista,357,Wrestler 1,true,,8,World Heavyweight Championship (WWE),steel cage,2007-06-03,One Night Stand '07,Jacksonville
+John Cena,350,The Great Khali,444,Wrestler 1,true,pin,9,WWE Championship,falls count anywhere,2007-06-03,One Night Stand '07,Jacksonville
+Super Crazy,425,Carlito,424,None,true,pin,1,"",dark  ,2007-06-24,Vengeance: Night of Champions,Houston
+Chavo Guerrero,356,Jimmy Wang Yang,396,Wrestler 1,true,pin,3,WWE Cruiserweight Title,"",2007-06-24,Vengeance: Night of Champions,Houston
+Johnny Nitro,377,C. M. Punk,467,None,true,pin,4,ECW World Heavyweight Title,"",2007-06-24,Vengeance: Night of Champions,Houston
+Santino Marella,3089,Umaga,353,Wrestler 1,true,DQ,5,WWE Intercontinental Championship,"",2007-06-24,Vengeance: Night of Champions,Houston
+Montel Vontavious Porter,457,Ric Flair,138,Wrestler 1,true,pin,6,WWE United States Championship,"",2007-06-24,Vengeance: Night of Champions,Houston
+Edge,273,Batista,357,Wrestler 1,true,CO,8,World Heavyweight Championship (WWE),"",2007-06-24,Vengeance: Night of Champions,Houston
+Candice Michelle,437,Melina,431,Wrestler 2,true,pin,9,WWE Women's Championship (original),"",2007-06-24,Vengeance: Night of Champions,Houston
+Chuck Palumbo,332,Chris Masters,420,None,true,,1,"",dark  ,2007-07-22,The Great American Bash '07,San Jose
+Montel Vontavious Porter,457,Matt Hardy,288,Wrestler 1,true,pin,2,WWE United States Championship,"",2007-07-22,The Great American Bash '07,San Jose
+Carlito,424,The Sandman,429,None,true,pin,4,"","""Singapore Cane on a Pole""",2007-07-22,The Great American Bash '07,San Jose
+Candice Michelle,437,Melina,431,Wrestler 1,true,pin,5,WWE Women's Championship (original),"",2007-07-22,The Great American Bash '07,San Jose
+Umaga,353,Jeff Hardy,289,Wrestler 1,true,pin,6,WWE Intercontinental Championship,"",2007-07-22,The Great American Bash '07,San Jose
+John Morrison,377,C. M. Punk,467,Wrestler 1,true,pin,7,ECW World Heavyweight Title,"",2007-07-22,The Great American Bash '07,San Jose
+Randy Orton,384,Dusty Rhodes,109,None,true,pin,8,"","""Texas Bullrope""",2007-07-22,The Great American Bash '07,San Jose
+John Cena,350,Bobby Lashley,434,Wrestler 1,true,pin,10,WWE Championship,"",2007-07-22,The Great American Bash '07,San Jose
+Kane,197,Finlay,441,None,true,pin,2,"","",2007-08-26,SummerSlam '07,East Rutherford
+Rey Mysterio,351,Chavo Guerrero,356,None,true,pin,4,"","",2007-08-26,SummerSlam '07,East Rutherford
+John Morrison,377,C. M. Punk,467,Wrestler 1,true,pin,6,ECW World Heavyweight Title,"",2007-08-26,SummerSlam '07,East Rutherford
+Triple H,193,King Booker,341,None,true,pin,7,"","",2007-08-26,SummerSlam '07,East Rutherford
+Batista,357,The Great Khali,444,Wrestler 2,true,DQ,8,World Heavyweight Championship (WWE),"",2007-08-26,SummerSlam '07,East Rutherford
+John Cena,350,Randy Orton,384,Wrestler 1,true,pin,9,WWE Championship,"",2007-08-26,SummerSlam '07,East Rutherford
+Kane,197,Kenny Dykstra,449,None,true,pin,1,"",dark  ,2007-09-16,Unforgiven '07,Memphis
+C. M. Punk,467,Elijah Burke,462,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2007-09-16,Unforgiven '07,Memphis
+Triple H,193,Carlito,424,None,true,pin,4,"","",2007-09-16,Unforgiven '07,Memphis
+Candice Michelle,437,Beth Phoenix,3244,Wrestler 1,true,pin,5,WWE Women's Championship (original),"",2007-09-16,Unforgiven '07,Memphis
+Randy Orton,384,John Cena,350,Wrestler 2,true,DQ,8,WWE Championship,"",2007-09-16,Unforgiven '07,Memphis
+The Undertaker,124,Mark Henry,213,None,true,pin,9,"","",2007-09-16,Unforgiven '07,Memphis
+Hardcore Holly,171,Cody Rhodes,2805,None,true,pin,1,"",dark  ,2007-10-07,No Mercy '07,Chicago
+Triple H,193,Randy Orton,384,None,true,pin,2,WWE Championship,"",2007-10-07,No Mercy '07,Chicago
+C. M. Punk,467,Big Daddy V,170,Wrestler 1,true,DQ,4,ECW World Heavyweight Title,"",2007-10-07,No Mercy '07,Chicago
+Triple H,193,Umaga,353,Wrestler 1,true,pin,5,WWE Championship,"",2007-10-07,No Mercy '07,Chicago
+Rey Mysterio,351,Finlay,441,None,false,NC,6,"","",2007-10-07,No Mercy '07,Chicago
+Beth Phoenix,3244,Candice Michelle,437,Wrestler 2,true,pin,7,WWE Women's Championship (original),"",2007-10-07,No Mercy '07,Chicago
+Batista,357,The Great Khali,444,Wrestler 1,true,,8,World Heavyweight Championship (WWE),"""Punjabi Prison""",2007-10-07,No Mercy '07,Chicago
+Randy Orton,384,Triple H,193,Wrestler 2,true,KO,9,WWE Championship,"""Last Man Standing""",2007-10-07,No Mercy '07,Chicago
+Rey Mysterio,351,Finlay,441,None,true,,2,"",stretcher,2007-10-28,Cyber Sunday '07,Washington
+C. M. Punk,467,The Miz,412,Wrestler 1,true,pin,3,ECW World Heavyweight Title,"",2007-10-28,Cyber Sunday '07,Washington
+Mr. Kennedy,435,Jeff Hardy,289,None,true,pin,4,"","",2007-10-28,Cyber Sunday '07,Washington
+Kane,197,Montel Vontavious Porter,457,None,true,CO,5,WWE United States Championship,"",2007-10-28,Cyber Sunday '07,Washington
+Shawn Michaels,96,Randy Orton,384,None,true,DQ,6,WWE Championship,"",2007-10-28,Cyber Sunday '07,Washington
+Triple H,193,Umaga,353,None,true,pin,7,"",street fight,2007-10-28,Cyber Sunday '07,Washington
+Batista,357,The Undertaker,124,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),referee: Steve Austin ,2007-10-28,Cyber Sunday '07,Washington
+The Great Khali,444,Hornswoggle,715,None,true,pin,5,"","",2007-11-18,Survivor Series '07,Miami
+Randy Orton,384,Shawn Michaels,96,Wrestler 2,true,pin,6,WWE Championship,"",2007-11-18,Survivor Series '07,Miami
+Batista,357,The Undertaker,124,Wrestler 2,true,pin,7,World Heavyweight Championship (WWE),"""Hell In A Cell""",2007-11-18,Survivor Series '07,Miami
+Rey Mysterio,351,Montel Vontavious Porter,457,Wrestler 2,true,CO,2,WWE United States Championship,"",2007-12-16,Armageddon '07,Pittsburgh
+Shawn Michaels,96,Mr. Kennedy,435,None,true,pin,4,"","",2007-12-16,Armageddon '07,Pittsburgh
+Jeff Hardy,289,Triple H,193,None,true,pin,5,"","",2007-12-16,Armageddon '07,Pittsburgh
+Finlay,441,The Great Khali,444,None,true,pin,6,"","",2007-12-16,Armageddon '07,Pittsburgh
+Chris Jericho,296,Randy Orton,384,Wrestler 2,true,DQ,7,WWE Championship,"",2007-12-16,Armageddon '07,Pittsburgh
+Beth Phoenix,3244,Mickie James,436,Wrestler 1,true,pin,8,WWE Women's Championship (original),"",2007-12-16,Armageddon '07,Pittsburgh
+Ric Flair,138,Montel Vontavious Porter,457,None,true,pin,2,"",career-threatening match,2008-01-27,Royal Rumble '08,New York
+John Bradshaw Layfield,207,Chris Jericho,296,None,true,DQ,3,"","",2008-01-27,Royal Rumble '08,New York
+Edge,273,Rey Mysterio,351,Wrestler 1,true,pin,4,World Heavyweight Championship (WWE),"",2008-01-27,Royal Rumble '08,New York
+Randy Orton,384,Jeff Hardy,289,Wrestler 1,true,pin,5,WWE Championship,"",2008-01-27,Royal Rumble '08,New York
+Kane,197,Shelton Benjamin,361,None,true,pin,1,"",dark  ,2008-02-17,No Way Out '08,Las Vegas
+Chavo Guerrero,356,C. M. Punk,467,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2008-02-17,No Way Out '08,Las Vegas
+Ric Flair,138,Mr. Kennedy,435,None,true,pin,4,"",career-threatening match,2008-02-17,No Way Out '08,Las Vegas
+Edge,273,Rey Mysterio,351,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"",2008-02-17,No Way Out '08,Las Vegas
+John Cena,350,Randy Orton,384,None,true,DQ,6,WWE Championship,"",2008-02-17,No Way Out '08,Las Vegas
+John Bradshaw Layfield,207,Finlay,441,None,true,pin,2,"","""Belfast Brawl""",2008-03-30,WrestleMania XXIV,Orlando
+Batista,357,Umaga,353,None,true,pin,4,"","",2008-03-30,WrestleMania XXIV,Orlando
+Kane,197,Chavo Guerrero,356,Wrestler 2,true,pin,5,ECW World Heavyweight Title,"",2008-03-30,WrestleMania XXIV,Orlando
+Shawn Michaels,96,Ric Flair,138,None,true,pin,6,"",career-threatening match,2008-03-30,WrestleMania XXIV,Orlando
+"Floyd Mayweather, Jr.",3327,The Big Show,283,None,true,KO,9,"",no disqualification,2008-03-30,WrestleMania XXIV,Orlando
+The Undertaker,124,Edge,273,Wrestler 2,true,sub,10,World Heavyweight Championship (WWE),"",2008-03-30,WrestleMania XXIV,Orlando
+Matt Hardy,288,Montel Vontavious Porter,457,Wrestler 2,true,pin,2,WWE United States Championship,"",2008-04-27,Backlash '08,Baltimore
+Kane,197,Chavo Guerrero,356,Wrestler 1,true,pin,3,ECW World Heavyweight Title,"",2008-04-27,Backlash '08,Baltimore
+The Big Show,283,The Great Khali,444,None,true,pin,4,"","",2008-04-27,Backlash '08,Baltimore
+Shawn Michaels,96,Batista,357,None,true,pin,5,"",referee: Chris Jericho ,2008-04-27,Backlash '08,Baltimore
+The Undertaker,124,Edge,273,Wrestler 1,true,sub,7,World Heavyweight Championship (WWE),"",2008-04-27,Backlash '08,Baltimore
+John Cena,350,John Bradshaw Layfield,207,None,true,pin,2,"","",2008-05-18,Judgment Day '08,Omaha
+Shawn Michaels,96,Chris Jericho,296,None,true,pin,4,"","",2008-05-18,Judgment Day '08,Omaha
+The Undertaker,124,Edge,273,None,true,CO,6,World Heavyweight Championship (WWE),"",2008-05-18,Judgment Day '08,Omaha
+Jeff Hardy,289,Montel Vontavious Porter,457,None,true,pin,7,"","",2008-05-18,Judgment Day '08,Omaha
+Triple H,193,Randy Orton,384,Wrestler 1,true,pin,8,WWE Championship,steel cage,2008-05-18,Judgment Day '08,Omaha
+Matt Hardy,288,Shelton Benjamin,361,None,true,,1,"",dark  ,2008-06-01,One Night Stand '08,San Diego
+Jeff Hardy,289,Umaga,353,None,true,pin,2,"",falls count anywhere,2008-06-01,One Night Stand '08,San Diego
+John Cena,350,John Bradshaw Layfield,207,None,true,,4,"","""First Blood""",2008-06-01,One Night Stand '08,San Diego
+Beth Phoenix,3244,Melina,431,None,true,sub,5,"","""I Quit""",2008-06-01,One Night Stand '08,San Diego
+Batista,357,Shawn Michaels,96,None,true,,6,"",stretcher,2008-06-01,One Night Stand '08,San Diego
+Triple H,193,Randy Orton,384,Wrestler 2,true,KO,7,WWE Championship,"""Last Man Standing""",2008-06-01,One Night Stand '08,San Diego
+Edge,273,The Undertaker,124,None,true,pin,8,World Heavyweight Championship (WWE),TLC (singles),2008-06-01,One Night Stand '08,San Diego
+Jeff Hardy,289,Montel Vontavious Porter,457,None,true,,1,"",dark  ,2008-06-29,Night of Champions '08,Dallas
+Matt Hardy,288,Chavo Guerrero,356,Wrestler 1,true,pin,3,WWE United States Championship,"",2008-06-29,Night of Champions '08,Dallas
+Kofi Kingston,3295,Chris Jericho,296,Wrestler 2,true,pin,6,WWE Intercontinental Championship,"",2008-06-29,Night of Champions '08,Dallas
+Mickie James,436,Katie Lea Burchill,1791,Wrestler 1,true,pin,7,WWE Women's Championship (original),"",2008-06-29,Night of Champions '08,Dallas
+Edge,273,Batista,357,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),"",2008-06-29,Night of Champions '08,Dallas
+Triple H,193,John Cena,350,Wrestler 1,true,pin,9,WWE Championship,"",2008-06-29,Night of Champions '08,Dallas
+Umaga,353,Mr. Kennedy,435,None,true,,1,"",dark  ,2008-07-20,The Great American Bash '08,Uniondale
+Shelton Benjamin,361,Matt Hardy,288,Wrestler 2,true,pin,3,WWE United States Championship,"",2008-07-20,The Great American Bash '08,Uniondale
+Mark Henry,213,Tommy Dreamer,359,Wrestler 1,true,pin,4,ECW World Heavyweight Title,"",2008-07-20,The Great American Bash '08,Uniondale
+Shawn Michaels,96,Chris Jericho,296,None,true,,5,"","",2008-07-20,The Great American Bash '08,Uniondale
+Michelle McCool,407,Natalya,3322,None,true,pin,6,WWE Divas Championship,"",2008-07-20,The Great American Bash '08,Uniondale
+C. M. Punk,467,Batista,357,Wrestler 1,false,DDQ,7,World Heavyweight Championship (WWE),"",2008-07-20,The Great American Bash '08,Uniondale
+John Bradshaw Layfield,207,John Cena,350,None,true,pin,8,"","""New York City Parking Lot Brawl""",2008-07-20,The Great American Bash '08,Uniondale
+Triple H,193,Edge,273,Wrestler 1,true,pin,9,WWE Championship,"",2008-07-20,The Great American Bash '08,Uniondale
+The Big Show,283,Bam Neely,3254,None,true,,1,"",dark  ,2008-08-17,SummerSlam '08,Indianapolis
+Montel Vontavious Porter,457,Jeff Hardy,289,None,true,pin,2,"","",2008-08-17,SummerSlam '08,Indianapolis
+Matt Hardy,288,Mark Henry,213,Wrestler 2,true,DQ,4,ECW World Heavyweight Title,"",2008-08-17,SummerSlam '08,Indianapolis
+C. M. Punk,467,John Bradshaw Layfield,207,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"",2008-08-17,SummerSlam '08,Indianapolis
+Triple H,193,The Great Khali,444,Wrestler 1,true,pin,6,WWE Championship,"",2008-08-17,SummerSlam '08,Indianapolis
+Batista,357,John Cena,350,None,true,pin,7,"","",2008-08-17,SummerSlam '08,Indianapolis
+The Undertaker,124,Edge,273,None,true,pin,8,"","""Hell In A Cell""",2008-08-17,SummerSlam '08,Indianapolis
+Evan Bourne,861,John Morrison,377,None,true,,1,"",dark  ,2008-09-07,Unforgiven '08,Cleveland
+Shawn Michaels,96,Chris Jericho,296,None,true,,4,"",unsanctioned,2008-09-07,Unforgiven '08,Cleveland
+Michelle McCool,407,Maryse,3276,Wrestler 1,true,pin,6,WWE Divas Championship,"",2008-09-07,Unforgiven '08,Cleveland
+Matt Hardy,288,Mark Henry,213,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2008-10-05,No Mercy '08,Portland
+Beth Phoenix,3244,Candice Michelle,437,Wrestler 1,true,pin,3,WWE Women's Championship (original),"",2008-10-05,No Mercy '08,Portland
+Rey Mysterio,351,Kane,197,None,true,DQ,4,"","",2008-10-05,No Mercy '08,Portland
+Batista,357,John Bradshaw Layfield,207,None,true,pin,5,"","",2008-10-05,No Mercy '08,Portland
+The Big Show,283,The Undertaker,124,None,true,KO,6,"","",2008-10-05,No Mercy '08,Portland
+Triple H,193,Jeff Hardy,289,Wrestler 1,true,pin,7,WWE Championship,"",2008-10-05,No Mercy '08,Portland
+Chris Jericho,296,Shawn Michaels,96,Wrestler 1,true,,8,World Heavyweight Championship (WWE),ladder,2008-10-05,No Mercy '08,Portland
+Rey Mysterio,351,Kane,197,None,true,pin,1,"",no holds barred,2008-10-26,Cyber Sunday '08,Phoenix
+Matt Hardy,288,Evan Bourne,861,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2008-10-26,Cyber Sunday '08,Phoenix
+Honky Tonk Man,73,Santino Marella,3089,Wrestler 2,true,DQ,4,WWE Intercontinental Championship,"",2008-10-26,Cyber Sunday '08,Phoenix
+The Undertaker,124,The Big Show,283,None,true,TKO,5,"","""Last Man Standing""",2008-10-26,Cyber Sunday '08,Phoenix
+Triple H,193,Jeff Hardy,289,Wrestler 1,true,pin,7,WWE Championship,"",2008-10-26,Cyber Sunday '08,Phoenix
+Batista,357,Chris Jericho,296,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),referee: Steve Austin ,2008-10-26,Cyber Sunday '08,Phoenix
+The Brian Kendrick,367,Kung Fu Naki,267,None,true,pin,1,"",dark  ,2008-11-23,Survivor Series '08,Boston
+The Undertaker,124,The Big Show,283,None,true,,4,"",casket,2008-11-23,Survivor Series '08,Boston
+John Cena,350,Chris Jericho,296,Wrestler 2,true,pin,7,World Heavyweight Championship (WWE),"",2008-11-23,Survivor Series '08,Boston
+Vladimir Kozlov,3255,Matt Hardy,288,None,true,pin,2,"","",2008-12-14,Armageddon '08,Buffalo
+C. M. Punk,467,Rey Mysterio,351,None,true,pin,3,"","",2008-12-14,Armageddon '08,Buffalo
+Finlay,441,Mark Henry,213,None,true,pin,4,"","""Belfast Brawl""",2008-12-14,Armageddon '08,Buffalo
+Batista,357,Randy Orton,384,None,true,pin,5,"","",2008-12-14,Armageddon '08,Buffalo
+John Cena,350,Chris Jericho,296,Wrestler 1,true,sub,7,World Heavyweight Championship (WWE),"",2008-12-14,Armageddon '08,Buffalo
+Jimmy Wang Yang,396,Paul Burchill,438,None,true,,1,"",dark  ,2009-01-25,Royal Rumble '09,Detroit
+Jack Swagger,3410,Matt Hardy,288,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2009-01-25,Royal Rumble '09,Detroit
+Melina,431,Beth Phoenix,3244,Wrestler 2,true,pin,3,WWE Women's Championship (original),"",2009-01-25,Royal Rumble '09,Detroit
+John Cena,350,John Bradshaw Layfield,207,Wrestler 1,true,pin,4,World Heavyweight Championship (WWE),"",2009-01-25,Royal Rumble '09,Detroit
+Edge,273,Jeff Hardy,289,Wrestler 2,true,pin,5,WWE Championship,no disqualification,2009-01-25,Royal Rumble '09,Detroit
+Melina,431,Beth Phoenix,3244,Wrestler 1,true,,1,WWE Women's Championship (original),dark  ,2009-02-15,No Way Out '09,Seattle
+Randy Orton,384,Shane McMahon,285,None,true,pin,3,"",no holds barred,2009-02-15,No Way Out '09,Seattle
+Jack Swagger,3410,Finlay,441,Wrestler 1,true,pin,4,ECW World Heavyweight Title,"",2009-02-15,No Way Out '09,Seattle
+Shawn Michaels,96,John Bradshaw Layfield,207,None,true,pin,5,"","",2009-02-15,No Way Out '09,Seattle
+Matt Hardy,288,Jeff Hardy,289,None,true,pin,4,"","""Extreme Rules""",2009-04-05,WrestleMania XXV,Houston
+Rey Mysterio,351,John Bradshaw Layfield,207,Wrestler 2,true,pin,5,WWE Intercontinental Championship,"",2009-04-05,WrestleMania XXV,Houston
+The Undertaker,124,Shawn Michaels,96,None,true,pin,6,"","",2009-04-05,WrestleMania XXV,Houston
+Triple H,193,Randy Orton,384,Wrestler 1,true,pin,8,WWE Championship,"",2009-04-05,WrestleMania XXV,Houston
+Kofi Kingston,3295,Dolph Ziggler,450,None,true,,1,"",dark  ,2009-04-26,Backlash '09,Providence
+Christian,277,Jack Swagger,3410,Wrestler 2,true,pin,2,ECW World Heavyweight Title,"",2009-04-26,Backlash '09,Providence
+Chris Jericho,296,Ricky Steamboat,5,None,true,sub,3,"","",2009-04-26,Backlash '09,Providence
+Kane,197,C. M. Punk,467,None,true,pin,4,"","",2009-04-26,Backlash '09,Providence
+Jeff Hardy,289,Matt Hardy,288,None,true,sub,5,"","""I Quit""",2009-04-26,Backlash '09,Providence
+Santina,3089,Beth Phoenix,3244,None,true,pin,6,"","",2009-04-26,Backlash '09,Providence
+Edge,273,John Cena,350,Wrestler 2,true,TKO,8,World Heavyweight Championship (WWE),"""Last Man Standing""",2009-04-26,Backlash '09,Providence
+Mickie James,436,Beth Phoenix,3244,None,true,,1,"",dark  ,2009-05-17,Judgment Day '09,Chicago
+Umaga,353,C. M. Punk,467,None,true,pin,2,"","",2009-05-17,Judgment Day '09,Chicago
+Christian,277,Jack Swagger,3410,Wrestler 1,true,pin,3,ECW World Heavyweight Title,"",2009-05-17,Judgment Day '09,Chicago
+John Morrison,377,Shelton Benjamin,361,None,true,pin,4,"","",2009-05-17,Judgment Day '09,Chicago
+Rey Mysterio,351,Chris Jericho,296,Wrestler 1,true,pin,5,WWE Intercontinental Championship,"",2009-05-17,Judgment Day '09,Chicago
+Batista,357,Randy Orton,384,Wrestler 2,true,DQ,6,WWE Championship,"",2009-05-17,Judgment Day '09,Chicago
+John Cena,350,The Big Show,283,None,true,pin,7,"","",2009-05-17,Judgment Day '09,Chicago
+Edge,273,Jeff Hardy,289,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),"",2009-05-17,Judgment Day '09,Chicago
+Chris Jericho,296,Rey Mysterio,351,Wrestler 2,true,pin,3,WWE Intercontinental Championship,no holds barred,2009-06-07,Extreme Rules '09,New Orleans
+C. M. Punk,467,Umaga,353,None,true,,4,"",Samoan strap,2009-06-07,Extreme Rules '09,New Orleans
+Batista,357,Randy Orton,384,Wrestler 2,true,pin,7,WWE Championship,steel cage,2009-06-07,Extreme Rules '09,New Orleans
+John Cena,350,The Big Show,283,None,true,sub,8,"",submission,2009-06-07,Extreme Rules '09,New Orleans
+Jeff Hardy,289,Edge,273,Wrestler 2,true,,9,World Heavyweight Championship (WWE),ladder,2009-06-07,Extreme Rules '09,New Orleans
+C. M. Punk,467,Jeff Hardy,289,Wrestler 2,true,pin,10,World Heavyweight Championship (WWE),"",2009-06-07,Extreme Rules '09,New Orleans
+R-Truth,317,Shelton Benjamin,361,None,true,pin,1,"",dark  ,2009-06-28,The Bash '09,Sacramento
+Rey Mysterio,351,Chris Jericho,296,Wrestler 2,true,pin,3,WWE Intercontinental Championship,mask vs. title,2009-06-28,The Bash '09,Sacramento
+Dolph Ziggler,450,The Great Khali,444,None,true,pin,4,"",no countout no disqualification,2009-06-28,The Bash '09,Sacramento
+Jeff Hardy,289,C. M. Punk,467,Wrestler 2,true,DQ,5,World Heavyweight Championship (WWE),"",2009-06-28,The Bash '09,Sacramento
+Michelle McCool,407,Melina,431,Wrestler 2,true,pin,6,WWE Women's Championship (original),"",2009-06-28,The Bash '09,Sacramento
+John Cena,350,The Miz,412,None,true,sub,8,"","",2009-06-28,The Bash '09,Sacramento
+Randy Orton,384,Triple H,193,Wrestler 1,true,,9,WWE Championship,"""3 stages of hell""",2009-06-28,The Bash '09,Sacramento
+Christian,277,Tommy Dreamer,359,Wrestler 2,true,pin,3,ECW World Heavyweight Title,"",2009-07-26,Night of Champions '09,Philadelphia
+Michelle McCool,407,Melina,431,Wrestler 1,true,pin,5,WWE Women's Championship (original),"",2009-07-26,Night of Champions '09,Philadelphia
+Mickie James,436,Maryse,3276,Wrestler 2,true,pin,7,WWE Divas Championship,"",2009-07-26,Night of Champions '09,Philadelphia
+Rey Mysterio,351,Dolph Ziggler,450,Wrestler 1,true,pin,8,WWE Intercontinental Championship,"",2009-07-26,Night of Champions '09,Philadelphia
+Jeff Hardy,289,C. M. Punk,467,Wrestler 2,true,pin,9,World Heavyweight Championship (WWE),"",2009-07-26,Night of Champions '09,Philadelphia
+Rey Mysterio,351,Dolph Ziggler,450,Wrestler 1,true,pin,2,WWE Intercontinental Championship,"",2009-08-24,SummerSlam '09,Los Angeles
+Montel Vontavious Porter,457,Jack Swagger,3410,None,true,pin,3,"","",2009-08-24,SummerSlam '09,Los Angeles
+Kane,197,The Great Khali,444,None,true,pin,5,"","",2009-08-24,SummerSlam '09,Los Angeles
+Christian,277,William Regal,316,Wrestler 1,true,pin,7,ECW World Heavyweight Title,"",2009-08-24,SummerSlam '09,Los Angeles
+Randy Orton,384,John Cena,350,Wrestler 1,true,pin,8,WWE Championship,"",2009-08-24,SummerSlam '09,Los Angeles
+C. M. Punk,467,Jeff Hardy,289,Wrestler 2,true,,9,World Heavyweight Championship (WWE),TLC (singles),2009-08-24,SummerSlam '09,Los Angeles
+Evan Bourne,861,Chavo Guerrero,356,None,true,pin,1,"",dark  ,2009-09-13,Breaking Point '09,Montreal
+Kofi Kingston,3295,The Miz,412,Wrestler 1,true,pin,3,WWE United States Championship,"",2009-09-13,Breaking Point '09,Montreal
+Kane,197,The Great Khali,444,None,true,pin,5,"","""Singapore Cane""",2009-09-13,Breaking Point '09,Montreal
+Christian,277,William Regal,316,Wrestler 1,true,pin,6,ECW World Heavyweight Title,"",2009-09-13,Breaking Point '09,Montreal
+John Cena,350,Randy Orton,384,Wrestler 2,true,sub,7,WWE Championship,"""I Quit""",2009-09-13,Breaking Point '09,Montreal
+C. M. Punk,467,The Undertaker,124,Wrestler 1,true,sub,8,World Heavyweight Championship (WWE),submission,2009-09-13,Breaking Point '09,Montreal
+Matt Hardy,288,Mike Knox,465,None,true,,1,"",dark  ,2009-10-04,Hell in a Cell,Newark
+The Undertaker,124,C. M. Punk,467,Wrestler 2,true,pin,2,World Heavyweight Championship (WWE),"""Hell In A Cell""",2009-10-04,Hell in a Cell,Newark
+John Morrison,377,Dolph Ziggler,450,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2009-10-04,Hell in a Cell,Newark
+Mickie James,436,Alicia Fox,3889,Wrestler 1,true,pin,4,WWE Divas Championship,"",2009-10-04,Hell in a Cell,Newark
+Randy Orton,384,John Cena,350,Wrestler 2,true,pin,6,WWE Championship,"""Hell In A Cell""",2009-10-04,Hell in a Cell,Newark
+Drew McIntyre,3409,R-Truth,317,None,true,pin,7,"","",2009-10-04,Hell in a Cell,Newark
+Christian,277,Paul Burchill,438,Wrestler 1,true,,1,ECW World Heavyweight Title,dark  ,2009-10-25,Bragging Rights '09,Pittsburgh
+The Miz,412,John Morrison,377,None,true,pin,2,"","",2009-10-25,Bragging Rights '09,Pittsburgh
+John Cena,350,Randy Orton,384,Wrestler 2,true,sub,6,WWE Championship,"60-minute ""Ironman"" (Anything Goes, falls count anywhere, no DQ)",2009-10-25,Bragging Rights '09,Pittsburgh
+Santino Marella,3089,Chavo Guerrero,356,None,true,pin,1,"",dark  ,2009-11-22,Survivor Series '09,Washington
+Batista,357,Rey Mysterio,351,None,true,,3,"","",2009-11-22,Survivor Series '09,Washington
+R-Truth,317,C. M. Punk,467,None,true,,1,"",dark  ,2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Christian,277,Shelton Benjamin,361,Wrestler 1,true,,2,ECW World Heavyweight Title,ladder,2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Drew McIntyre,3409,John Morrison,377,Wrestler 2,true,pin,3,WWE Intercontinental Championship,"",2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Michelle McCool,407,Mickie James,436,Wrestler 1,true,pin,4,WWE Women's Championship (original),"",2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Sheamus,5000,John Cena,350,Wrestler 2,true,,5,WWE Championship,tables,2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+The Undertaker,124,Batista,357,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),chair,2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Randy Orton,384,Kofi Kingston,3295,None,true,pin,7,"","",2009-12-13,"TLC: Tables, Ladders and Chairs '09",San Antonio
+Christian,277,Ezekiel Jackson,3443,Wrestler 1,true,pin,2,ECW World Heavyweight Title,"",2010-01-31,Royal Rumble '10,Atlanta
+The Miz,412,Montel Vontavious Porter,457,Wrestler 1,true,pin,3,WWE United States Championship,"",2010-01-31,Royal Rumble '10,Atlanta
+Sheamus,5000,Randy Orton,384,Wrestler 1,true,DQ,4,WWE Championship,"",2010-01-31,Royal Rumble '10,Atlanta
+Mickie James,436,Michelle McCool,407,Wrestler 2,true,pin,5,WWE Women's Championship (original),"",2010-01-31,Royal Rumble '10,Atlanta
+The Undertaker,124,Rey Mysterio,351,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2010-01-31,Royal Rumble '10,Atlanta
+Christian,277,Ezekiel Jackson,3443,None,true,,1,"",dark  ,2010-02-21,Elimination Chamber '10,St. Louis
+Batista,357,John Cena,350,Wrestler 2,true,pin,3,WWE Championship,"",2010-02-21,Elimination Chamber '10,St. Louis
+Drew McIntyre,3409,Kane,197,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2010-02-21,Elimination Chamber '10,St. Louis
+The Miz,412,Montel Vontavious Porter,457,Wrestler 1,true,pin,6,WWE United States Championship,"",2010-02-21,Elimination Chamber '10,St. Louis
+Triple H,193,Sheamus,5000,None,true,pin,5,"","",2010-03-28,WrestleMania XXVI,Glendale
+Rey Mysterio,351,C. M. Punk,467,None,true,pin,6,"","",2010-03-28,WrestleMania XXVI,Glendale
+Bret Hart,52,Mr. McMahon,278,None,true,sub,7,"",referee: Bruce Hartno holds barred lumberjack,2010-03-28,WrestleMania XXVI,Glendale
+Chris Jericho,296,Edge,273,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),"",2010-03-28,WrestleMania XXVI,Glendale
+John Cena,350,Batista,357,Wrestler 1,true,sub,10,WWE Championship,"",2010-03-28,WrestleMania XXVI,Glendale
+The Undertaker,124,Shawn Michaels,96,None,true,pin,11,"","no countout no disqualification ""streak vs. career""",2010-03-28,WrestleMania XXVI,Glendale
+Kofi Kingston,3295,Dolph Ziggler,450,None,true,,1,"",dark  ,2010-04-25,Extreme Rules '10,Baltimore
+C. M. Punk,467,Rey Mysterio,351,None,true,pin,5,"",C. M. Punk's hair on the line,2010-04-25,Extreme Rules '10,Baltimore
+JTG,459,Shad Gaspard,460,None,true,,6,"",four corners strap,2010-04-25,Extreme Rules '10,Baltimore
+Jack Swagger,3410,Randy Orton,384,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"""Extreme Rules""",2010-04-25,Extreme Rules '10,Baltimore
+Sheamus,5000,Triple H,193,None,true,pin,8,"",street fight,2010-04-25,Extreme Rules '10,Baltimore
+Beth Phoenix,3244,Michelle McCool,407,Wrestler 2,true,pin,9,WWE Women's Championship (original),"""Extreme Makeover""",2010-04-25,Extreme Rules '10,Baltimore
+Edge,273,Chris Jericho,296,None,true,pin,10,"",steel cage,2010-04-25,Extreme Rules '10,Baltimore
+John Cena,350,Batista,357,Wrestler 1,true,,11,WWE Championship,"""Last Man Standing""",2010-04-25,Extreme Rules '10,Baltimore
+Montel Vontavious Porter,457,Chavo Guerrero,356,None,true,pin,1,"",dark  ,2010-05-23,Over the Limit '10,Detroit
+Kofi Kingston,3295,Drew McIntyre,3409,Wrestler 2,true,pin,2,WWE Intercontinental Championship,"",2010-05-23,Over the Limit '10,Detroit
+R-Truth,317,Ted DiBiase Jr.,3275,None,true,pin,3,"","",2010-05-23,Over the Limit '10,Detroit
+Rey Mysterio,351,C. M. Punk,467,None,true,pin,4,"",Mysterio joins SES vs. Punk's hair,2010-05-23,Over the Limit '10,Detroit
+Edge,273,Randy Orton,384,None,false,DCO,6,"","",2010-05-23,Over the Limit '10,Detroit
+The Big Show,283,Jack Swagger,3410,Wrestler 2,true,DQ,7,World Heavyweight Championship (WWE),"",2010-05-23,Over the Limit '10,Detroit
+Eve Torres,3342,Maryse,3276,Wrestler 1,true,pin,8,WWE Divas Championship,"",2010-05-23,Over the Limit '10,Detroit
+John Cena,350,Batista,357,Wrestler 1,true,sub,9,WWE Championship,"""I Quit""",2010-05-23,Over the Limit '10,Detroit
+Zack Ryder,3248,Montel Vontavious Porter,457,None,true,,1,"",dark  ,2010-06-20,Fatal 4-Way,Uniondale
+Kofi Kingston,3295,Drew McIntyre,3409,Wrestler 1,true,pin,2,"","",2010-06-20,Fatal 4-Way,Uniondale
+Evan Bourne,861,Chris Jericho,296,None,true,pin,4,"","",2010-06-20,Fatal 4-Way,Uniondale
+The Miz,412,R-Truth,317,Wrestler 1,true,pin,6,WWE United States Championship,"",2010-06-20,Fatal 4-Way,Uniondale
+Santino Marella,3089,William Regal,316,None,true,,1,"",dark  ,2010-07-18,Money in the Bank '10,Kansas City
+Alicia Fox,3889,Eve Torres,3342,Wrestler 1,true,pin,3,WWE Divas Championship,"",2010-07-18,Money in the Bank '10,Kansas City
+Rey Mysterio,351,Jack Swagger,3410,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"",2010-07-18,Money in the Bank '10,Kansas City
+Kane,197,Rey Mysterio,351,Wrestler 2,true,pin,6,World Heavyweight Championship (WWE),"",2010-07-18,Money in the Bank '10,Kansas City
+Layla,469,Kelly Kelly,466,Wrestler 1,true,pin,7,WWE Women's Championship (original),"",2010-07-18,Money in the Bank '10,Kansas City
+Sheamus,5000,John Cena,350,Wrestler 1,true,,9,WWE Championship,steel cage,2010-07-18,Money in the Bank '10,Kansas City
+Evan Bourne,861,Zack Ryder,3248,None,true,,1,"",dark  ,2010-08-15,SummerSlam '10,Los Angeles
+Dolph Ziggler,450,Kofi Kingston,3295,Wrestler 1,false,NC,2,WWE Intercontinental Championship,"",2010-08-15,SummerSlam '10,Los Angeles
+Melina,431,Alicia Fox,3889,Wrestler 2,true,pin,3,WWE Divas Championship,"",2010-08-15,SummerSlam '10,Los Angeles
+Randy Orton,384,Sheamus,5000,Wrestler 2,true,DQ,5,WWE Championship,"",2010-08-15,SummerSlam '10,Los Angeles
+Kane,197,Rey Mysterio,351,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2010-08-15,SummerSlam '10,Los Angeles
+John Morrison,377,Ted DiBiase Jr.,3275,None,true,pin,1,"",dark  ,2010-09-19,Night of Champions '10,Chicago
+Dolph Ziggler,450,Kofi Kingston,3295,Wrestler 1,true,pin,2,WWE Intercontinental Championship,"",2010-09-19,Night of Champions '10,Chicago
+The Big Show,283,C. M. Punk,467,None,true,pin,3,"","",2010-09-19,Night of Champions '10,Chicago
+Daniel Bryan,1741,The Miz,412,Wrestler 2,true,sub,4,WWE United States Championship,"",2010-09-19,Night of Champions '10,Chicago
+Michelle McCool,407,Melina,431,Wrestler 2,true,pin,5,WWE Divas ChampionshipWWE Women's Championship (original),lumberjill,2010-09-19,Night of Champions '10,Chicago
+Kane,197,The Undertaker,124,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),no holds barred,2010-09-19,Night of Champions '10,Chicago
+Randy Orton,384,Sheamus,5000,Wrestler 1,true,pin,3,WWE Championship,"""Hell In A Cell""",2010-10-03,Hell in a Cell '10,Dallas
+Edge,273,Jack Swagger,3410,None,true,pin,4,"","",2010-10-03,Hell in a Cell '10,Dallas
+Wade Barrett,6096,John Cena,350,None,true,pin,5,"","",2010-10-03,Hell in a Cell '10,Dallas
+Natalya,3322,Michelle McCool,407,Wrestler 2,true,DQ,6,WWE Divas ChampionshipWWE Women's Championship (original),"",2010-10-03,Hell in a Cell '10,Dallas
+Kane,197,The Undertaker,124,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"""Hell In A Cell""",2010-10-03,Hell in a Cell '10,Dallas
+Montel Vontavious Porter,457,Chavo Guerrero,356,None,true,pin,1,"",dark  ,2010-10-24,Bragging Rights '10,Minneapolis
+Daniel Bryan,1741,Dolph Ziggler,450,None,true,sub,2,"","",2010-10-24,Bragging Rights '10,Minneapolis
+Ted DiBiase Jr.,3275,Goldust,123,None,true,pin,4,"","",2010-10-24,Bragging Rights '10,Minneapolis
+Layla,469,Natalya,3322,Wrestler 1,true,pin,5,WWE Divas Championship,"",2010-10-24,Bragging Rights '10,Minneapolis
+Kane,197,The Undertaker,124,Wrestler 1,true,,6,World Heavyweight Championship (WWE),"""Buried Alive""",2010-10-24,Bragging Rights '10,Minneapolis
+Wade Barrett,6096,Randy Orton,384,Wrestler 2,true,DQ,8,WWE Championship,"",2010-10-24,Bragging Rights '10,Minneapolis
+R-Truth,317,Zack Ryder,3248,None,true,pin,1,"",dark  ,2010-11-21,Survivor Series '10,Miami
+Daniel Bryan,1741,Ted DiBiase Jr.,3275,Wrestler 1,true,sub,2,WWE United States Championship,"",2010-11-21,Survivor Series '10,Miami
+John Morrison,377,Sheamus,5000,None,true,pin,3,"","",2010-11-21,Survivor Series '10,Miami
+Dolph Ziggler,450,Kaval,751,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2010-11-21,Survivor Series '10,Miami
+Kane,197,Edge,273,Wrestler 1,false,DPin,7,World Heavyweight Championship (WWE),"",2010-11-21,Survivor Series '10,Miami
+Randy Orton,384,Wade Barrett,6096,Wrestler 1,true,pin,9,WWE Championship,referee: John Cena ,2010-11-21,Survivor Series '10,Miami
+Daniel Bryan,1741,Ted DiBiase Jr.,3275,None,true,sub,1,"",dark  ,2010-12-19,"TLC: Tables, Ladders and Chairs '10",Houston
+John Morrison,377,Sheamus,5000,None,true,,5,"",ladder,2010-12-19,"TLC: Tables, Ladders and Chairs '10",Houston
+The Miz,412,Randy Orton,384,Wrestler 1,true,,6,WWE Championship,tables,2010-12-19,"TLC: Tables, Ladders and Chairs '10",Houston
+John Cena,350,Wade Barrett,6096,None,true,pin,8,"",chair,2010-12-19,"TLC: Tables, Ladders and Chairs '10",Houston
+R-Truth,317,Curt Hawkins,3247,None,true,pin,1,"",dark  ,2011-01-30,Royal Rumble '11,Boston
+Edge,273,Dolph Ziggler,450,Wrestler 1,true,pin,2,World Heavyweight Championship (WWE),"",2011-01-30,Royal Rumble '11,Boston
+The Miz,412,Randy Orton,384,Wrestler 1,true,pin,3,WWE Championship,"",2011-01-30,Royal Rumble '11,Boston
+Daniel Bryan,1741,Ted DiBiase Jr.,3275,None,true,sub,1,"",dark  ,2011-02-20,Elimination Chamber '11,Oakland
+Alberto Del Rio,2883,Kofi Kingston,3295,None,true,sub,2,"","",2011-02-20,Elimination Chamber '11,Oakland
+The Miz,412,Jerry Lawler,150,Wrestler 1,true,pin,5,WWE Championship,"",2011-02-20,Elimination Chamber '11,Oakland
+Sheamus,5000,Daniel Bryan,1741,Wrestler 1,false,NC,1,WWE United States Championship,dark lumberjack match,2011-04-03,WrestleMania XXVII,Atlanta
+Edge,273,Alberto Del Rio,2883,Wrestler 1,true,pin,3,World Heavyweight Championship (WWE),"",2011-04-03,WrestleMania XXVII,Atlanta
+Cody Rhodes,2805,Rey Mysterio,351,None,true,pin,4,"","",2011-04-03,WrestleMania XXVII,Atlanta
+Randy Orton,384,C. M. Punk,467,None,true,pin,6,"","",2011-04-03,WrestleMania XXVII,Atlanta
+Michael Cole,3882,Jerry Lawler,150,None,true,DQ,7,"",referee: Steve Austin ,2011-04-03,WrestleMania XXVII,Atlanta
+The Undertaker,124,Triple H,193,None,true,sub,8,"",no holds barred,2011-04-03,WrestleMania XXVII,Atlanta
+The Miz,412,John Cena,350,Wrestler 1,true,pin,10,WWE Championship,no countout no disqualification,2011-04-03,WrestleMania XXVII,Atlanta
+Sin Cara,2878,Tyson Kidd,1814,None,true,pin,1,"",dark  ,2011-05-01,Extreme Rules '11,Tampa
+Randy Orton,384,C. M. Punk,467,None,true,TKO,2,"","""Last Man Standing""",2011-05-01,Extreme Rules '11,Tampa
+Kofi Kingston,3295,Sheamus,5000,Wrestler 2,true,,3,WWE United States Championship,tables,2011-05-01,Extreme Rules '11,Tampa
+Rey Mysterio,351,Cody Rhodes,2805,None,true,pin,5,"",falls count anywhere,2011-05-01,Extreme Rules '11,Tampa
+Layla,469,Michelle McCool,407,None,true,pin,6,"",no countout no disqualification loser leaves WWE,2011-05-01,Extreme Rules '11,Tampa
+Christian,277,Alberto Del Rio,2883,None,true,,7,World Heavyweight Championship (WWE),ladder,2011-05-01,Extreme Rules '11,Tampa
+Daniel Bryan,1741,Drew McIntyre,3409,None,true,sub,1,"",dark  ,2011-05-22,Over the Limit '11,Seattle
+R-Truth,317,Rey Mysterio,351,None,true,pin,2,"","",2011-05-22,Over the Limit '11,Seattle
+Ezekiel Jackson,3443,Wade Barrett,6096,Wrestler 2,true,DQ,3,WWE Intercontinental Championship,"",2011-05-22,Over the Limit '11,Seattle
+Sin Cara,2878,Chavo Guerrero,356,None,true,pin,4,"","",2011-05-22,Over the Limit '11,Seattle
+Brie Bella,3340,Kelly Kelly,466,Wrestler 1,true,pin,6,WWE Divas Championship,"",2011-05-22,Over the Limit '11,Seattle
+Randy Orton,384,Christian,277,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2011-05-22,Over the Limit '11,Seattle
+Jerry Lawler,150,Michael Cole,3882,None,true,pin,8,"","""kiss my foot""",2011-05-22,Over the Limit '11,Seattle
+John Cena,350,The Miz,412,Wrestler 1,true,sub,9,WWE Championship,"""I Quit""",2011-05-22,Over the Limit '11,Seattle
+Dolph Ziggler,450,Kofi Kingston,3295,Wrestler 2,true,sub,2,WWE United States Championship,"",2011-06-19,Capitol Punishment '11,Washington
+Alex Riley,6292,The Miz,412,None,true,pin,3,"","",2011-06-19,Capitol Punishment '11,Washington
+Alberto Del Rio,2883,The Big Show,283,None,true,,4,"","",2011-06-19,Capitol Punishment '11,Washington
+Ezekiel Jackson,3443,Wade Barrett,6096,Wrestler 2,true,sub,5,WWE Intercontinental Championship,"",2011-06-19,Capitol Punishment '11,Washington
+C. M. Punk,467,Rey Mysterio,351,None,true,pin,6,"","",2011-06-19,Capitol Punishment '11,Washington
+Randy Orton,384,Christian,277,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2011-06-19,Capitol Punishment '11,Washington
+Evan Bourne,861,Jack Swagger,3410,None,true,pin,8,"","",2011-06-19,Capitol Punishment '11,Washington
+John Cena,350,R-Truth,317,Wrestler 1,true,pin,9,WWE Championship,"",2011-06-19,Capitol Punishment '11,Washington
+Kelly Kelly,466,Brie Bella,3340,Wrestler 1,true,pin,3,WWE Divas Championship,"",2011-07-17,Money in the Bank '11,Chicago
+Mark Henry,213,The Big Show,283,None,true,pin,4,"","",2011-07-17,Money in the Bank '11,Chicago
+Christian,277,Randy Orton,384,Wrestler 2,true,DQ,6,World Heavyweight Championship (WWE),Christian wins title on DQ,2011-07-17,Money in the Bank '11,Chicago
+C. M. Punk,467,John Cena,350,Wrestler 2,true,pin,7,WWE Championship,Cena fired if Punk wins,2011-07-17,Money in the Bank '11,Chicago
+Dolph Ziggler,450,Alex Riley,6292,None,true,,1,"",dark  ,2011-08-14,SummerSlam '11,Los Angeles
+Mark Henry,213,Sheamus,5000,None,true,CO,3,"","",2011-08-14,SummerSlam '11,Los Angeles
+Kelly Kelly,466,Beth Phoenix,3244,Wrestler 1,true,pin,4,WWE Divas Championship,"",2011-08-14,SummerSlam '11,Los Angeles
+Wade Barrett,6096,Daniel Bryan,1741,None,true,pin,5,"","",2011-08-14,SummerSlam '11,Los Angeles
+Randy Orton,384,Christian,277,Wrestler 2,true,pin,6,World Heavyweight Championship (WWE),no holds barred,2011-08-14,SummerSlam '11,Los Angeles
+C. M. Punk,467,John Cena,350,Wrestler 2,true,pin,7,WWE Championship,referee: Triple H ,2011-08-14,SummerSlam '11,Los Angeles
+Alberto Del Rio,2883,C. M. Punk,467,Wrestler 2,true,pin,8,WWE Championship,"",2011-08-14,SummerSlam '11,Los Angeles
+Daniel Bryan,1741,Heath Slater,3407,None,true,sub,1,"",dark  ,2011-09-18,Night of Champions '11,Buffalo
+Cody Rhodes,2805,Ted DiBiase Jr.,3275,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2011-09-18,Night of Champions '11,Buffalo
+Mark Henry,213,Randy Orton,384,Wrestler 2,true,pin,5,World Heavyweight Championship (WWE),"",2011-09-18,Night of Champions '11,Buffalo
+Kelly Kelly,466,Beth Phoenix,3244,Wrestler 1,true,pin,6,WWE Divas Championship,"",2011-09-18,Night of Champions '11,Buffalo
+John Cena,350,Alberto Del Rio,2883,Wrestler 2,true,sub,7,WWE Championship,"",2011-09-18,Night of Champions '11,Buffalo
+Triple H,193,C. M. Punk,467,None,true,pin,8,"","no disqualification, Triple H resigns as COO if Punk wins",2011-09-18,Night of Champions '11,Buffalo
+Daniel Bryan,1741,JTG,459,None,true,sub,1,"",dark  ,2011-10-02,Hell in a Cell '11,New Orleans
+Sheamus,5000,Christian,277,None,true,pin,2,"","",2011-10-02,Hell in a Cell '11,New Orleans
+Sin Cara (Azul),2878,Sin Cara (Negro),927,None,true,pin,3,"","",2011-10-02,Hell in a Cell '11,New Orleans
+Mark Henry,213,Randy Orton,384,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"""Hell In A Cell""",2011-10-02,Hell in a Cell '11,New Orleans
+Cody Rhodes,2805,John Morrison,377,Wrestler 1,true,pin,6,WWE Intercontinental Championship,"",2011-10-02,Hell in a Cell '11,New Orleans
+Beth Phoenix,3244,Kelly Kelly,466,Wrestler 2,true,pin,7,WWE Divas Championship,"",2011-10-02,Hell in a Cell '11,New Orleans
+Wade Barrett,6096,Daniel Bryan,1741,None,true,pin,1,"",dark  ,2011-10-23,Vengeance '11,San Antonio
+Dolph Ziggler,450,Zack Ryder,3248,Wrestler 1,true,pin,3,WWE United States Championship,"",2011-10-23,Vengeance '11,San Antonio
+Beth Phoenix,3244,Eve Torres,3342,Wrestler 1,true,pin,4,WWE Divas Championship,"",2011-10-23,Vengeance '11,San Antonio
+Sheamus,5000,Christian,277,None,true,pin,5,"","",2011-10-23,Vengeance '11,San Antonio
+Randy Orton,384,Cody Rhodes,2805,None,true,pin,7,"","",2011-10-23,Vengeance '11,San Antonio
+Mark Henry,213,The Big Show,283,Wrestler 1,false,NC,8,World Heavyweight Championship (WWE),"",2011-10-23,Vengeance '11,San Antonio
+Alberto Del Rio,2883,John Cena,350,Wrestler 1,true,TKO,9,WWE Championship,"""Last Man Standing""",2011-10-23,Vengeance '11,San Antonio
+Santino Marella,3089,Jinder Mahal,6724,None,true,pin,1,"",dark  ,2011-11-20,Survivor Series '11,New York
+Dolph Ziggler,450,John Morrison,377,Wrestler 1,true,pin,2,WWE United States Championship,"",2011-11-20,Survivor Series '11,New York
+Beth Phoenix,3244,Eve Torres,3342,Wrestler 1,true,pin,3,WWE Divas Championship,lumberjill,2011-11-20,Survivor Series '11,New York
+The Big Show,283,Mark Henry,213,Wrestler 2,true,DQ,5,World Heavyweight Championship (WWE),"",2011-11-20,Survivor Series '11,New York
+C. M. Punk,467,Alberto Del Rio,2883,Wrestler 2,true,sub,6,WWE Championship,"",2011-11-20,Survivor Series '11,New York
+Drew McIntyre,3409,Alex Riley,6292,None,true,pin,1,"",dark  ,2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Zack Ryder,3248,Dolph Ziggler,450,Wrestler 2,true,pin,2,WWE United States Championship,"",2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Randy Orton,384,Wade Barrett,6096,None,true,,4,"",tables,2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Beth Phoenix,3244,Kelly Kelly,466,Wrestler 1,true,pin,5,WWE Divas Championship,"",2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Triple H,193,Kevin Nash,167,None,true,pin,6,"",sledgehammer ladder,2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Sheamus,5000,Jack Swagger,3410,None,true,pin,7,"","",2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+The Big Show,283,Mark Henry,213,Wrestler 2,true,pin,8,World Heavyweight Championship (WWE),chair,2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Daniel Bryan,1741,The Big Show,283,Wrestler 2,true,pin,9,World Heavyweight Championship (WWE),"",2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Cody Rhodes,2805,Booker T.,341,Wrestler 1,true,pin,10,WWE Intercontinental Championship,"",2011-12-18,"TLC: Tables, Ladders and Chairs '11",Baltimore
+Yoshi Tatsu,3031,Heath Slater,3407,None,true,pin,1,"",dark  ,2012-01-29,Royal Rumble '12,St. Louis
+John Cena,350,Kane,197,None,false,DCO,4,"","",2012-01-29,Royal Rumble '12,St. Louis
+Brodus Clay,6631,Drew McIntyre,3409,None,true,pin,5,"","",2012-01-29,Royal Rumble '12,St. Louis
+C. M. Punk,467,Dolph Ziggler,450,Wrestler 1,true,pin,6,WWE Championship,enforcer: John Laurinaitis ,2012-01-29,Royal Rumble '12,St. Louis
+Hunico,927,Alex Riley,6292,None,true,,1,"",dark  ,2012-02-19,Elimination Chamber '12,Milwaukee
+Beth Phoenix,3244,Tamina Snuka,6310,Wrestler 1,true,pin,3,WWE Divas Championship,"",2012-02-19,Elimination Chamber '12,Milwaukee
+Jack Swagger,3410,Justin Gabriel,1471,Wrestler 1,true,sub,5,WWE United States Championship,"",2012-02-19,Elimination Chamber '12,Milwaukee
+John Cena,350,Kane,197,None,true,,6,"",ambulance,2012-02-19,Elimination Chamber '12,Milwaukee
+Sheamus,5000,Daniel Bryan,1741,Wrestler 2,true,pin,2,World Heavyweight Championship (WWE),"",2012-04-01,WrestleMania XXVIII,Miami
+Kane,197,Randy Orton,384,None,true,pin,3,"","",2012-04-01,WrestleMania XXVIII,Miami
+The Big Show,283,Cody Rhodes,2805,Wrestler 2,true,pin,4,WWE Intercontinental Championship,"",2012-04-01,WrestleMania XXVIII,Miami
+The Undertaker,124,Triple H,193,None,true,pin,6,"","referee: Shawn Michaels""Hell In A Cell""",2012-04-01,WrestleMania XXVIII,Miami
+C. M. Punk,467,Chris Jericho,296,Wrestler 1,true,sub,8,WWE Championship,"",2012-04-01,WrestleMania XXVIII,Miami
+The Rock,229,John Cena,350,None,true,pin,9,"","",2012-04-01,WrestleMania XXVIII,Miami
+Santino Marella,3089,The Miz,412,Wrestler 1,true,pin,1,WWE United States Championship,dark  ,2012-04-29,Extreme Rules '12,Chicago
+Randy Orton,384,Kane,197,None,true,pin,2,"",falls count anywhere,2012-04-29,Extreme Rules '12,Chicago
+Brodus Clay,6631,Dolph Ziggler,450,None,true,pin,3,"","",2012-04-29,Extreme Rules '12,Chicago
+Cody Rhodes,2805,The Big Show,283,Wrestler 2,true,,4,WWE Intercontinental Championship,tables,2012-04-29,Extreme Rules '12,Chicago
+Sheamus,5000,Daniel Bryan,1741,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),2 out of 3 falls,2012-04-29,Extreme Rules '12,Chicago
+C. M. Punk,467,Chris Jericho,296,Wrestler 1,true,pin,7,WWE Championship,Chicago Street Fight,2012-04-29,Extreme Rules '12,Chicago
+Layla,469,Nikki Bella,3341,Wrestler 2,true,pin,8,WWE Divas Championship,"",2012-04-29,Extreme Rules '12,Chicago
+John Cena,350,Brock Lesnar,346,None,true,pin,9,"","""Extreme Rules""",2012-04-29,Extreme Rules '12,Chicago
+Kane,197,Zack Ryder,3248,None,true,pin,1,"",dark  ,2012-05-20,Over the Limit '12,Raleigh
+Layla,469,Beth Phoenix,3244,Wrestler 1,true,pin,4,WWE Divas Championship,"",2012-05-20,Over the Limit '12,Raleigh
+Brodus Clay,6631,The Miz,412,None,true,pin,6,"","",2012-05-20,Over the Limit '12,Raleigh
+Christian,277,Cody Rhodes,2805,Wrestler 2,true,pin,7,WWE Intercontinental Championship,"",2012-05-20,Over the Limit '12,Raleigh
+C. M. Punk,467,Daniel Bryan,1741,Wrestler 1,true,pin,8,WWE Championship,"",2012-05-20,Over the Limit '12,Raleigh
+Ryback,3020,Camacho,6452,None,true,pin,9,"","",2012-05-20,Over the Limit '12,Raleigh
+John Laurinaitis,540,John Cena,350,None,true,pin,10,"",no countout no disqualification,2012-05-20,Over the Limit '12,Raleigh
+Brodus Clay,6631,David Otunga,6094,None,true,CO,1,"",dark  ,2012-06-17,No Way Out '12,East Rutherford
+Sheamus,5000,Dolph Ziggler,450,Wrestler 1,true,pin,2,World Heavyweight Championship (WWE),"",2012-06-17,No Way Out '12,East Rutherford
+Santino Marella,3089,Ricardo Rodriguez,5647,None,true,,3,"","""Tuxedo""",2012-06-17,No Way Out '12,East Rutherford
+Christian,277,Cody Rhodes,2805,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2012-06-17,No Way Out '12,East Rutherford
+Layla,469,Beth Phoenix,3244,Wrestler 1,true,pin,6,WWE Divas Championship,"",2012-06-17,No Way Out '12,East Rutherford
+Sin Cara,2878,Hunico,927,None,true,pin,7,"","",2012-06-17,No Way Out '12,East Rutherford
+John Cena,350,The Big Show,283,None,true,,10,"","steel cage; If Big Show loses, John Laurinaitis is fired; If Cena loses, he is fired",2012-06-17,No Way Out '12,East Rutherford
+Sheamus,5000,Alberto Del Rio,2883,Wrestler 1,true,pin,3,World Heavyweight Championship (WWE),"",2012-07-15,Money in the Bank '12,Phoenix
+C. M. Punk,467,Daniel Bryan,1741,Wrestler 1,true,pin,5,WWE Championship,referee: AJno disqualification,2012-07-15,Money in the Bank '12,Phoenix
+Antonio Cesaro,1874,Santino Marella,3089,Wrestler 2,true,pin,1,WWE United States Championship,dark  ,2012-08-19,SummerSlam '12,Los Angeles
+Chris Jericho,296,Dolph Ziggler,450,None,true,sub,2,"","",2012-08-19,SummerSlam '12,Los Angeles
+Daniel Bryan,1741,Kane,197,None,true,pin,3,"","",2012-08-19,SummerSlam '12,Los Angeles
+The Miz,412,Rey Mysterio,351,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2012-08-19,SummerSlam '12,Los Angeles
+Sheamus,5000,Alberto Del Rio,2883,Wrestler 1,true,pin,5,World Heavyweight Championship (WWE),"",2012-08-19,SummerSlam '12,Los Angeles
+Brock Lesnar,346,Triple H,193,None,true,sub,8,"","",2012-08-19,SummerSlam '12,Los Angeles
+Antonio Cesaro,1874,Zack Ryder,3248,Wrestler 1,true,pin,4,WWE United States Championship,"",2012-09-16,Night of Champions '12,Boston
+Randy Orton,384,Dolph Ziggler,450,None,true,pin,5,"","",2012-09-16,Night of Champions '12,Boston
+Eve Torres,3342,Layla,469,Wrestler 2,true,pin,6,WWE Divas Championship,"",2012-09-16,Night of Champions '12,Boston
+Sheamus,5000,Alberto Del Rio,2883,Wrestler 1,true,pin,7,World Heavyweight Championship (WWE),"",2012-09-16,Night of Champions '12,Boston
+C. M. Punk,467,John Cena,350,Wrestler 1,false,DPin,8,WWE Championship,"",2012-09-16,Night of Champions '12,Boston
+Randy Orton,384,Alberto Del Rio,2883,None,true,pin,1,"","",2012-10-28,Hell in a Cell '12,Atlanta
+Kofi Kingston,3295,The Miz,412,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2012-10-28,Hell in a Cell '12,Atlanta
+Antonio Cesaro,1874,Justin Gabriel,1471,Wrestler 1,true,pin,4,WWE United States Championship,"",2012-10-28,Hell in a Cell '12,Atlanta
+The Big Show,283,Sheamus,5000,Wrestler 2,true,pin,6,World Heavyweight Championship (WWE),"",2012-10-28,Hell in a Cell '12,Atlanta
+C. M. Punk,467,Ryback,3020,Wrestler 1,true,pin,8,WWE Championship,"""Hell In A Cell""",2012-10-28,Hell in a Cell '12,Atlanta
+Eve Torres,3342,Kaitlyn,6593,Wrestler 1,true,pin,3,WWE Divas Championship,"",2012-11-18,Survivor Series '12,Indianapolis
+Antonio Cesaro,1874,R-Truth,317,Wrestler 1,true,pin,4,WWE United States Championship,"",2012-11-18,Survivor Series '12,Indianapolis
+Sheamus,5000,The Big Show,283,Wrestler 2,true,DQ,5,World Heavyweight Championship (WWE),"",2012-11-18,Survivor Series '12,Indianapolis
+JTG,459,David Otunga,6094,None,true,,1,"",dark  ,2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+Antonio Cesaro,1874,R-Truth,317,Wrestler 1,true,pin,4,WWE United States Championship,"",2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+Kofi Kingston,3295,Wade Barrett,6096,Wrestler 1,true,pin,5,WWE Intercontinental Championship,"",2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+Eve Torres,3342,Naomi,6578,Wrestler 1,true,pin,7,WWE Divas Championship,"",2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+The Big Show,283,Sheamus,5000,Wrestler 1,true,pin,8,World Heavyweight Championship (WWE),chair,2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+Dolph Ziggler,450,John Cena,350,None,true,,10,"","""Money in the Bank""",2012-12-16,"TLC: Tables, Ladders and Chairs '12",Brooklyn
+Antonio Cesaro,1874,The Miz,412,Wrestler 1,true,pin,1,WWE United States Championship,dark  ,2013-01-27,Royal Rumble '13,Phoenix
+Alberto Del Rio,2883,The Big Show,283,Wrestler 1,true,TKO,2,World Heavyweight Championship (WWE),"""Last Man Standing""",2013-01-27,Royal Rumble '13,Phoenix
+The Rock,229,C. M. Punk,467,Wrestler 2,true,pin,5,WWE Championship,"",2013-01-27,Royal Rumble '13,Phoenix
+Alberto Del Rio,2883,The Big Show,283,Wrestler 1,true,sub,2,World Heavyweight Championship (WWE),"",2013-02-17,Elimination Chamber '13,New Orleans
+Antonio Cesaro,1874,The Miz,412,Wrestler 1,true,DQ,3,WWE United States Championship,"",2013-02-17,Elimination Chamber '13,New Orleans
+Dolph Ziggler,450,Kofi Kingston,3295,None,true,pin,6,"","",2013-02-17,Elimination Chamber '13,New Orleans
+Kaitlyn,6593,Tamina Snuka,6310,Wrestler 1,true,pin,7,WWE Divas Championship,"",2013-02-17,Elimination Chamber '13,New Orleans
+The Rock,229,C. M. Punk,467,Wrestler 1,true,pin,8,WWE Championship,"",2013-02-17,Elimination Chamber '13,New Orleans
+The Miz,412,Wade Barrett,6096,Wrestler 2,true,sub,1,WWE Intercontinental Championship,dark  ,2013-04-07,WrestleMania 29,East Rutherford
+Mark Henry,213,Ryback,3020,None,true,pin,3,"","",2013-04-07,WrestleMania 29,East Rutherford
+Fandango,3434,Chris Jericho,296,None,true,pin,5,"","",2013-04-07,WrestleMania 29,East Rutherford
+Alberto Del Rio,2883,Jack Swagger,3410,Wrestler 1,true,sub,6,World Heavyweight Championship (WWE),"",2013-04-07,WrestleMania 29,East Rutherford
+The Undertaker,124,C. M. Punk,467,None,true,pin,7,"","",2013-04-07,WrestleMania 29,East Rutherford
+Triple H,193,Brock Lesnar,346,None,true,pin,8,"","no holds barred, Triple H's career on the line",2013-04-07,WrestleMania 29,East Rutherford
+John Cena,350,The Rock,229,Wrestler 2,true,pin,9,WWE Championship,"",2013-04-07,WrestleMania 29,East Rutherford
+The Miz,412,Cody Rhodes,2805,None,true,sub,1,"",dark  ,2013-05-19,Extreme Rules '13,St. Louis
+Chris Jericho,296,Fandango,3434,None,true,pin,2,"","",2013-05-19,Extreme Rules '13,St. Louis
+Dean Ambrose,3069,Kofi Kingston,3295,Wrestler 2,true,pin,3,WWE United States Championship,"",2013-05-19,Extreme Rules '13,St. Louis
+Sheamus,5000,Mark Henry,213,None,true,,4,"",four corners strap,2013-05-19,Extreme Rules '13,St. Louis
+Alberto Del Rio,2883,Jack Swagger,3410,None,true,sub,5,"","""I Quit""",2013-05-19,Extreme Rules '13,St. Louis
+Randy Orton,384,The Big Show,283,None,true,pin,7,"","""Extreme Rules""",2013-05-19,Extreme Rules '13,St. Louis
+John Cena,350,Ryback,3020,Wrestler 1,false,NC,8,WWE Championship,"""Last Man Standing""",2013-05-19,Extreme Rules '13,St. Louis
+Brock Lesnar,346,Triple H,193,None,true,pin,9,"",steel cage,2013-05-19,Extreme Rules '13,St. Louis
+Sheamus,5000,Damien Sandow,376,None,true,pin,1,"",dark  ,2013-06-16,Payback '13,Chicago
+A.J. Lee,6580,Kaitlyn,6593,Wrestler 2,true,sub,3,WWE Divas Championship,"",2013-06-16,Payback '13,Chicago
+Dean Ambrose,3069,Kane,197,Wrestler 1,true,CO,4,WWE United States Championship,"",2013-06-16,Payback '13,Chicago
+Alberto Del Rio,2883,Dolph Ziggler,450,Wrestler 2,true,pin,5,World Heavyweight Championship (WWE),"",2013-06-16,Payback '13,Chicago
+C. M. Punk,467,Chris Jericho,296,None,true,pin,6,"","",2013-06-16,Payback '13,Chicago
+John Cena,350,Ryback,3020,Wrestler 1,true,pin,8,WWE Championship,"""3 stages of hell""",2013-06-16,Payback '13,Chicago
+Curtis Axel,3847,The Miz,412,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2013-07-14,Money in the Bank '13,Philadelphia
+A.J. Lee,6580,Kaitlyn,6593,Wrestler 1,true,sub,4,WWE Divas Championship,"",2013-07-14,Money in the Bank '13,Philadelphia
+Ryback,3020,Chris Jericho,296,None,true,pin,5,"","",2013-07-14,Money in the Bank '13,Philadelphia
+Alberto Del Rio,2883,Dolph Ziggler,450,Wrestler 1,true,DQ,6,World Heavyweight Championship (WWE),"",2013-07-14,Money in the Bank '13,Philadelphia
+John Cena,350,Mark Henry,213,Wrestler 1,true,sub,7,WWE Championship,"",2013-07-14,Money in the Bank '13,Philadelphia
+Rob Van Dam,338,Dean Ambrose,3069,Wrestler 2,true,DQ,1,WWE United States Championship,"",2013-08-18,SummerSlam '13,Los Angeles
+Bray Wyatt,6287,Kane,197,None,true,pin,2,"","""Ring of Fire""",2013-08-18,SummerSlam '13,Los Angeles
+Cody Rhodes,2805,Damien Sandow,376,None,true,pin,3,"","",2013-08-18,SummerSlam '13,Los Angeles
+Alberto Del Rio,2883,Christian,277,Wrestler 1,true,sub,4,World Heavyweight Championship (WWE),"",2013-08-18,SummerSlam '13,Los Angeles
+Natalya,3322,Brie Bella,3340,None,true,sub,5,"","",2013-08-18,SummerSlam '13,Los Angeles
+Brock Lesnar,346,C. M. Punk,467,None,true,pin,6,"",no disqualification,2013-08-18,SummerSlam '13,Los Angeles
+Daniel Bryan,1741,John Cena,350,Wrestler 2,true,pin,8,WWE Championship,referee: Triple H ,2013-08-18,SummerSlam '13,Los Angeles
+Randy Orton,384,Daniel Bryan,1741,Wrestler 2,true,pin,9,WWE Championship,referee: Triple H ,2013-08-18,SummerSlam '13,Los Angeles
+Curtis Axel,3847,Kofi Kingston,3295,Wrestler 1,true,pin,5,WWE Intercontinental Championship,"",2013-09-15,Night of Champions '13,Detroit
+Rob Van Dam,338,Alberto Del Rio,2883,Wrestler 2,true,DQ,7,World Heavyweight Championship (WWE),"",2013-09-15,Night of Champions '13,Detroit
+The Miz,412,Fandango,3434,None,true,sub,8,"","",2013-09-15,Night of Champions '13,Detroit
+Dean Ambrose,3069,Dolph Ziggler,450,Wrestler 1,true,pin,10,WWE United States Championship,"",2013-09-15,Night of Champions '13,Detroit
+Daniel Bryan,1741,Randy Orton,384,Wrestler 2,true,pin,12,WWE Championship,"",2013-09-15,Night of Champions '13,Detroit
+Dolph Ziggler,450,Damien Sandow,376,None,true,pin,1,"","",2013-10-06,Battleground '13,Buffalo
+Alberto Del Rio,2883,Rob Van Dam,338,Wrestler 1,true,sub,2,World Heavyweight Championship (WWE),"""hardcore""",2013-10-06,Battleground '13,Buffalo
+Curtis Axel,3847,R-Truth,317,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2013-10-06,Battleground '13,Buffalo
+A.J. Lee,6580,Brie Bella,3340,Wrestler 1,true,pin,5,WWE Divas Championship,"",2013-10-06,Battleground '13,Buffalo
+Bray Wyatt,6287,Kofi Kingston,3295,None,true,pin,7,"","",2013-10-06,Battleground '13,Buffalo
+C. M. Punk,467,Ryback,3020,None,true,pin,8,"","",2013-10-06,Battleground '13,Buffalo
+Daniel Bryan,1741,Randy Orton,384,None,false,NC,9,WWE Championship,"",2013-10-06,Battleground '13,Buffalo
+Damien Sandow,376,Kofi Kingston,3295,None,true,pin,1,"",dark  ,2013-10-27,Hell in a Cell '13,Miami
+Big E. Langston,6446,Dean Ambrose,3069,Wrestler 2,true,CO,4,WWE United States Championship,"",2013-10-27,Hell in a Cell '13,Miami
+John Cena,350,Alberto Del Rio,2883,Wrestler 2,true,pin,7,World Heavyweight Championship (WWE),"",2013-10-27,Hell in a Cell '13,Miami
+A.J. Lee,6580,Brie Bella,3340,Wrestler 1,true,sub,8,WWE Divas Championship,"",2013-10-27,Hell in a Cell '13,Miami
+Randy Orton,384,Daniel Bryan,1741,None,true,pin,9,WWE Championship,"referee: Shawn Michaels""Hell In A Cell""",2013-10-27,Hell in a Cell '13,Miami
+The Miz,412,Kofi Kingston,3295,None,true,pin,1,"",dark  ,2013-11-24,Survivor Series '13,Boston
+Big E. Langston,6446,Curtis Axel,3847,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2013-11-24,Survivor Series '13,Boston
+Mark Henry,213,Ryback,3020,None,true,pin,5,"","",2013-11-24,Survivor Series '13,Boston
+John Cena,350,Alberto Del Rio,2883,Wrestler 1,true,pin,6,World Heavyweight Championship (WWE),"",2013-11-24,Survivor Series '13,Boston
+Randy Orton,384,The Big Show,283,Wrestler 1,true,pin,8,WWE Championship,"",2013-11-24,Survivor Series '13,Boston
+Fandango,3434,Dolph Ziggler,450,None,true,pin,1,"",dark  ,2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+A.J. Lee,6580,Natalya,3322,Wrestler 1,true,pin,3,WWE Divas Championship,"",2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+Big E. Langston,6446,Damien Sandow,376,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+R-Truth,317,Brodus Clay,6631,None,true,pin,6,"","",2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+Kofi Kingston,3295,The Miz,412,None,true,pin,7,"",no disqualification,2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+Randy Orton,384,John Cena,350,None,true,,9,WWE World Heavyweight Championship,TLC (singles),2013-12-15,"TLC: Tables, Ladders and Chairs '13",Houston
+Bray Wyatt,6287,Daniel Bryan,1741,None,true,pin,2,"","",2014-01-26,Royal Rumble '14,Pittsburgh
+Brock Lesnar,346,The Big Show,283,None,true,pin,3,"","",2014-01-26,Royal Rumble '14,Pittsburgh
+Randy Orton,384,John Cena,350,Wrestler 1,true,pin,4,WWE World Heavyweight Championship,pinfall or submission only,2014-01-26,Royal Rumble '14,Pittsburgh
+Big E,6446,Jack Swagger,3410,Wrestler 1,true,pin,2,WWE Intercontinental Championship,"",2014-02-23,Elimination Chamber '14,Minneapolis
+Titus O'Neil,6290,Darren Young,3424,None,true,pin,4,"","",2014-02-23,Elimination Chamber '14,Minneapolis
+Cameron,8160,A.J. Lee,6580,Wrestler 2,true,DQ,6,WWE Divas Championship,"",2014-02-23,Elimination Chamber '14,Minneapolis
+Batista,357,Alberto Del Rio,2883,None,true,pin,7,"","",2014-02-23,Elimination Chamber '14,Minneapolis
+Daniel Bryan,1741,Triple H,193,None,true,pin,2,"","",2014-04-06,WrestleMania XXX,New Orleans
+John Cena,350,Bray Wyatt,6287,None,true,pin,5,"","",2014-04-06,WrestleMania XXX,New Orleans
+Brock Lesnar,346,The Undertaker,124,None,true,pin,6,"","",2014-04-06,WrestleMania XXX,New Orleans
+El Torito,5655,Hornswoggle,715,None,true,pin,1,"",dark WeeLC,2014-05-04,Extreme Rules '14,East Rutherford
+Bad News Barrett,6096,Big E,6446,Wrestler 2,true,pin,4,WWE Intercontinental Championship,"",2014-05-04,Extreme Rules '14,East Rutherford
+Bray Wyatt,6287,John Cena,350,None,true,pin,6,"",steel cage,2014-05-04,Extreme Rules '14,East Rutherford
+Paige,7170,Tamina Snuka,6310,Wrestler 1,true,sub,7,WWE Divas Championship,"",2014-05-04,Extreme Rules '14,East Rutherford
+Daniel Bryan,1741,Kane,197,Wrestler 1,true,pin,8,WWE World Heavyweight Championship,"""Extreme Rules""",2014-05-04,Extreme Rules '14,East Rutherford
+El Torito,5655,Hornswoggle,715,None,true,pin,1,"",dark hair vs. mask,2014-06-01,Payback '14,Chicago
+Sheamus,5000,Cesaro,1874,Wrestler 1,true,pin,2,WWE United States Championship,"",2014-06-01,Payback '14,Chicago
+Rusev,7415,Big E,6446,None,true,sub,4,"","",2014-06-01,Payback '14,Chicago
+Bo Dallas,6435,Kofi Kingston,3295,None,false,NC,5,"","",2014-06-01,Payback '14,Chicago
+Bad News Barrett,6096,Rob Van Dam,338,Wrestler 1,true,pin,6,WWE Intercontinental Championship,"",2014-06-01,Payback '14,Chicago
+John Cena,350,Bray Wyatt,6287,None,true,TKO,7,"","""Last Man Standing""",2014-06-01,Payback '14,Chicago
+Paige,7170,Alicia Fox,3889,Wrestler 1,true,sub,8,WWE Divas Championship,"",2014-06-01,Payback '14,Chicago
+Paige,7170,Naomi,6578,Wrestler 1,true,pin,2,WWE Divas Championship,"",2014-06-29,Money In The Bank '14,Boston
+Adam Rose,6438,Damien Sandow,376,None,true,pin,3,"","",2014-06-29,Money In The Bank '14,Boston
+Rusev,7415,Big E,6446,None,true,sub,6,"","",2014-06-29,Money In The Bank '14,Boston
+Layla,469,Summer Rae,9099,None,true,pin,7,"",referee: Fandango ,2014-06-29,Money In The Bank '14,Boston
+Adam Rose,6438,Fandango,3434,None,true,pin,1,"",dark  ,2014-07-20,Battleground '14,Tampa
+Cameron,8160,Naomi,6578,None,true,pin,2,"",dark  ,2014-07-20,Battleground '14,Tampa
+A.J. Lee,6580,Paige,7170,Wrestler 1,true,pin,4,WWE Divas Championship,"",2014-07-20,Battleground '14,Tampa
+Rusev,7415,Jack Swagger,3410,None,true,CO,5,"","",2014-07-20,Battleground '14,Tampa
+Seth Rollins,3328,Dean Ambrose,3069,None,true,forfeit,6,"","",2014-07-20,Battleground '14,Tampa
+Chris Jericho,296,Bray Wyatt,6287,None,true,pin,7,"","",2014-07-20,Battleground '14,Tampa
+Rob Van Dam,338,Cesaro,1874,None,true,pin,1,"",dark  ,2014-08-17,SummerSlam '14,Los Angeles
+Dolph Ziggler,450,The Miz,412,Wrestler 2,true,pin,2,WWE Intercontinental Championship,"",2014-08-17,SummerSlam '14,Los Angeles
+Paige,7170,A.J. Lee,6580,Wrestler 2,true,pin,3,WWE Divas Championship,"",2014-08-17,SummerSlam '14,Los Angeles
+Rusev,7415,Jack Swagger,3410,None,true,sub,4,"",flag,2014-08-17,SummerSlam '14,Los Angeles
+Seth Rollins,3328,Dean Ambrose,3069,None,true,pin,5,"",lumberjack match,2014-08-17,SummerSlam '14,Los Angeles
+Bray Wyatt,6287,Chris Jericho,296,None,true,pin,6,"","",2014-08-17,SummerSlam '14,Los Angeles
+Stephanie McMahon,320,Brie Bella,3340,None,true,pin,7,"","",2014-08-17,SummerSlam '14,Los Angeles
+Roman Reigns,6728,Randy Orton,384,None,true,pin,8,"","",2014-08-17,SummerSlam '14,Los Angeles
+Brock Lesnar,346,John Cena,350,Wrestler 2,true,pin,9,WWE World Heavyweight Championship,"",2014-08-17,SummerSlam '14,Los Angeles
+Sheamus,5000,Cesaro,1874,Wrestler 1,true,pin,2,WWE United States Championship,"",2014-09-21,Night of Champions '14,Nashville
+The Miz,412,Dolph Ziggler,450,Wrestler 2,true,pin,3,WWE Intercontinental Championship,commentator: Brian Kelleycommentator: Tyler Hubbard ,2014-09-21,Night of Champions '14,Nashville
+Seth Rollins,3328,Roman Reigns,6728,None,true,forfeit,4,"","",2014-09-21,Night of Champions '14,Nashville
+Dean Ambrose,3069,Seth Rollins,3328,None,false,NC,5,"","",2014-09-21,Night of Champions '14,Nashville
+Rusev,7415,Mark Henry,213,None,true,sub,6,"","",2014-09-21,Night of Champions '14,Nashville
+Randy Orton,384,Chris Jericho,296,None,true,pin,7,"","",2014-09-21,Night of Champions '14,Nashville
+John Cena,350,Brock Lesnar,346,Wrestler 2,true,DQ,9,WWE World Heavyweight Championship,"",2014-09-21,Night of Champions '14,Nashville
+Mark Henry,213,Bo Washington,6435,None,true,pin,1,"",dark  ,2014-10-26,Hell in a Cell '14,Dallas
+Dolph Ziggler,450,Cesaro,1874,Wrestler 1,true,pin,2,WWE Intercontinental Championship,2 out of 3 falls,2014-10-26,Hell in a Cell '14,Dallas
+Nikki Bella,3341,Brie Bella,3340,None,true,pin,3,"",loser becomes winner's personal assistant,2014-10-26,Hell in a Cell '14,Dallas
+John Cena,350,Randy Orton,384,None,true,pin,5,"","""Hell In A Cell""",2014-10-26,Hell in a Cell '14,Dallas
+Sheamus,5000,The Miz,412,Wrestler 1,true,pin,6,WWE United States Championship,"",2014-10-26,Hell in a Cell '14,Dallas
+Rusev,7415,The Big Show,283,None,true,sub,7,"","",2014-10-26,Hell in a Cell '14,Dallas
+A.J. Lee,6580,Paige,7170,Wrestler 1,true,sub,8,WWE Divas Championship,"",2014-10-26,Hell in a Cell '14,Dallas
+Seth Rollins,3328,Dean Ambrose,3069,None,true,pin,9,"","""Hell In A Cell""",2014-10-26,Hell in a Cell '14,Dallas
+Fandango,3434,Justin Gabriel,1471,None,true,pin,1,"",dark  ,2014-11-23,Survivor Series '14,St. Louis
+Jack Swagger,3410,Cesaro,1874,None,true,sub,2,"",dark  ,2014-11-23,Survivor Series '14,St. Louis
+Bray Wyatt,6287,Dean Ambrose,3069,None,true,DQ,5,"","",2014-11-23,Survivor Series '14,St. Louis
+Nikki Bella,3341,A.J. Lee,6580,Wrestler 2,true,pin,7,WWE Divas Championship,"",2014-11-23,Survivor Series '14,St. Louis
+Dolph Ziggler,450,Luke Harper,3461,Wrestler 2,true,,2,WWE Intercontinental Championship,ladder,2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+The Big Show,283,Erick Rowan,5369,None,true,pin,4,"",stairs,2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+John Cena,350,Seth Rollins,3328,None,true,,5,"",tables,2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+Nikki Bella,3341,A.J. Lee,6580,Wrestler 1,true,pin,6,WWE Divas Championship,"",2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+Ryback,3020,Kane,197,None,true,pin,7,"",chair,2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+Rusev,7415,Jack Swagger,3410,Wrestler 1,true,sub,8,WWE United States Championship,"",2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+Bray Wyatt,6287,Dean Ambrose,3069,None,true,pin,9,"",TLC (singles),2014-12-14,"TLC: Tables, Ladders, Chairs ... and Stairs '14",Cleveland
+Goldust,123,Stardust,2805,None,true,pin,2,"","",2015-02-22,Fastlane '15,Memphis
+Nikki Bella,3341,Paige,7170,Wrestler 1,true,pin,4,WWE Divas Championship,"",2015-02-22,Fastlane '15,Memphis
+Bad News Barrett,6096,Dean Ambrose,3069,Wrestler 1,true,DQ,5,WWE Intercontinental Championship,"",2015-02-22,Fastlane '15,Memphis
+Rusev,7415,John Cena,350,Wrestler 1,true,sub,6,WWE United States Championship,"",2015-02-22,Fastlane '15,Memphis
+Roman Reigns,6728,Daniel Bryan,1741,None,true,pin,7,"","",2015-02-22,Fastlane '15,Memphis
+Randy Orton,384,Seth Rollins,3328,None,true,pin,4,"","",2015-03-29,WrestleMania 31,Santa Clara
+Triple H,193,Sting,494,None,true,pin,5,"",no disqualification,2015-03-29,WrestleMania 31,Santa Clara
+John Cena,350,Rusev,7415,Wrestler 2,true,pin,7,WWE United States Championship,"",2015-03-29,WrestleMania 31,Santa Clara
+The Undertaker,124,Bray Wyatt,6287,None,true,pin,8,"","",2015-03-29,WrestleMania 31,Santa Clara
+Neville,1935,Bad News Barrett,6096,None,true,pin,1,"",dark  ,2015-04-26,Extreme Rules '15,Chicago
+Dean Ambrose,3069,Luke Harper,3461,None,true,pin,2,"",Chicago Street Fight,2015-04-26,Extreme Rules '15,Chicago
+Dolph Ziggler,450,Sheamus,5000,None,true,pin,3,"","""Kiss Me Arse""",2015-04-26,Extreme Rules '15,Chicago
+John Cena,350,Rusev,7415,Wrestler 1,true,,5,WWE United States Championship,"""Russian Chain""",2015-04-26,Extreme Rules '15,Chicago
+Nikki Bella,3341,Naomi,6578,Wrestler 1,true,pin,6,WWE Divas Championship,"",2015-04-26,Extreme Rules '15,Chicago
+Roman Reigns,6728,The Big Show,283,None,true,KO,7,"","""Last Man Standing""",2015-04-26,Extreme Rules '15,Chicago
+Seth Rollins,3328,Randy Orton,384,Wrestler 1,true,,8,WWE World Heavyweight Championship,"gatekeeper: Kanesteel cage, RKO banned",2015-04-26,Extreme Rules '15,Chicago
+R-Truth,317,Stardust,2805,None,true,pin,1,"",dark  ,2015-05-17,Payback '15,Baltimore
+Sheamus,5000,Dolph Ziggler,450,Wrestler 2,true,pin,3,"","",2015-05-17,Payback '15,Baltimore
+Bray Wyatt,6287,Ryback,3020,None,true,pin,5,"","",2015-05-17,Payback '15,Baltimore
+John Cena,350,Rusev,7415,Wrestler 1,true,sub,6,WWE United States Championship,"""I Quit""",2015-05-17,Payback '15,Baltimore
+Neville,1935,King Barrett,6096,None,true,CO,8,"","",2015-05-17,Payback '15,Baltimore
+Stardust,2805,Zack Ryder,3248,None,true,pin,1,"",dark  ,2015-05-31,Elimination Chamber '15,Corpus Christi
+Kevin Owens,1862,John Cena,350,None,true,pin,4,"","",2015-05-31,Elimination Chamber '15,Corpus Christi
+Neville,1935,Bo Dallas,6435,None,true,pin,5,"","",2015-05-31,Elimination Chamber '15,Corpus Christi
+Dean Ambrose,3069,Seth Rollins,3328,Wrestler 2,true,DQ,7,WWE World Heavyweight Championship,"",2015-05-31,Elimination Chamber '15,Corpus Christi
+R-Truth,317,King Barrett,6096,None,true,pin,1,"",dark  ,2015-06-14,Money In The Bank  '15,Columbus
+Nikki Bella,3341,Paige,7170,Wrestler 1,true,pin,3,WWE Divas Championship,"",2015-06-14,Money In The Bank  '15,Columbus
+The Big Show,283,Ryback,3020,Wrestler 2,true,DQ,4,WWE Intercontinental Championship,commentator: The Miz ,2015-06-14,Money In The Bank  '15,Columbus
+John Cena,350,Kevin Owens,1862,None,true,pin,5,"","",2015-06-14,Money In The Bank  '15,Columbus
+Seth Rollins,3328,Dean Ambrose,3069,Wrestler 1,true,,7,WWE World Heavyweight Championship,ladder,2015-06-14,Money In The Bank  '15,Columbus
+King Barrett,6096,R-Truth,317,None,true,pin,1,"",dark  ,2015-07-19,Battleground '15,St. Louis
+Randy Orton,384,Sheamus,5000,None,true,pin,2,"","",2015-07-19,Battleground '15,St. Louis
+Bray Wyatt,6287,Roman Reigns,6728,None,true,pin,4,"","",2015-07-19,Battleground '15,St. Louis
+John Cena,350,Kevin Owens,1862,Wrestler 1,true,sub,6,WWE United States Championship,"",2015-07-19,Battleground '15,St. Louis
+Brock Lesnar,346,Seth Rollins,3328,Wrestler 2,true,DQ,7,WWE World Heavyweight Championship,"",2015-07-19,Battleground '15,St. Louis
+Sheamus,5000,Randy Orton,384,None,true,pin,1,"","",2015-08-23,SummerSlam '15,Brooklyn
+Rusev,7415,Dolph Ziggler,450,None,false,DCO,3,"","",2015-08-23,SummerSlam '15,Brooklyn
+Seth Rollins,3328,John Cena,350,Wrestler 2,true,pin,7,WWE United States ChampionshipWWE World Heavyweight Championship,Champion vs. Champion,2015-08-23,SummerSlam '15,Brooklyn
+Kevin Owens,1862,Cesaro,1874,None,true,pin,9,"","",2015-08-23,SummerSlam '15,Brooklyn
+The Undertaker,124,Brock Lesnar,346,None,true,sub,10,"","",2015-08-23,SummerSlam '15,Brooklyn
+Kevin Owens,1862,Ryback,3020,Wrestler 2,true,pin,2,WWE Intercontinental Championship,"",2015-09-20,Night of Champions '15,Houston
+Dolph Ziggler,450,Rusev,7415,None,true,pin,3,"","",2015-09-20,Night of Champions '15,Houston
+Charlotte,9274,Nikki Bella,3341,Wrestler 2,true,sub,5,WWE Divas Championship,"",2015-09-20,Night of Champions '15,Houston
+John Cena,350,Seth Rollins,3328,Wrestler 2,true,pin,7,WWE United States Championship,"",2015-09-20,Night of Champions '15,Houston
+Seth Rollins,3328,Sting,494,Wrestler 1,true,pin,8,WWE World Heavyweight Championship,"",2015-09-20,Night of Champions '15,Houston
+Alberto Del Rio,2883,John Cena,350,Wrestler 2,true,pin,2,WWE United States Championship,"",2015-10-25,Hell In A Cell 2015,Los Angeles
+Roman Reigns,6728,Bray Wyatt,6287,None,true,pin,3,"","""Hell In A Cell""",2015-10-25,Hell In A Cell 2015,Los Angeles
+Charlotte,9274,Nikki Bella,3341,Wrestler 1,true,sub,5,WWE Divas Championship,"",2015-10-25,Hell In A Cell 2015,Los Angeles
+Seth Rollins,3328,Kane,197,Wrestler 1,true,pin,6,WWE Championship,"if Demon Kane loses, Corporate Kane is fired",2015-10-25,Hell In A Cell 2015,Los Angeles
+Kevin Owens,1862,Ryback,3020,Wrestler 1,true,pin,7,WWE Intercontinental Championship,"",2015-10-25,Hell In A Cell 2015,Los Angeles
+Brock Lesnar,346,The Undertaker,124,None,true,pin,8,"","""Hell In A Cell""",2015-10-25,Hell In A Cell 2015,Los Angeles
+Roman Reigns,6728,Alberto Del Rio,2883,None,true,pin,2,"","",2015-11-22,Survivor Series '15,Atlanta
+Dean Ambrose,3069,Kevin Owens,1862,None,true,pin,3,"","",2015-11-22,Survivor Series '15,Atlanta
+Charlotte,9274,Paige,7170,Wrestler 1,true,sub,5,WWE Divas Championship,"",2015-11-22,Survivor Series '15,Atlanta
+Tyler Breeze,6734,Dolph Ziggler,450,None,true,pin,6,"","",2015-11-22,Survivor Series '15,Atlanta
+Roman Reigns,6728,Dean Ambrose,3069,None,true,pin,8,WWE World Heavyweight Championship,"",2015-11-22,Survivor Series '15,Atlanta
+Sheamus,5000,Roman Reigns,6728,Wrestler 2,true,pin,9,WWE World Heavyweight Championship,singles (3 falls),2015-11-22,Survivor Series '15,Atlanta
+Sasha Banks,9409,Becky Lynch,5418,None,true,sub,1,"",dark  ,2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Rusev,7415,Ryback,3020,None,true,sub,3,"","",2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Alberto Del Rio,2883,Jack Swagger,3410,Wrestler 1,true,pin,4,WWE United States Championship,chair,2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Dean Ambrose,3069,Kevin Owens,1862,Wrestler 2,true,pin,6,WWE Intercontinental Championship,"",2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Charlotte,9274,Paige,7170,Wrestler 1,true,pin,7,WWE Divas Championship,"",2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Sheamus,5000,Roman Reigns,6728,Wrestler 1,true,,8,WWE World Heavyweight Championship,TLC (singles),2015-12-13,"TLC: Tables, Ladders and Chairs '15",Boston
+Dean Ambrose,3069,Kevin Owens,1862,Wrestler 1,true,KO,2,WWE Intercontinental Championship,"""Last Man Standing""",2016-01-24,Royal Rumble '16,Orlando
+Kalisto,6604,Alberto Del Rio,2883,Wrestler 2,true,pin,4,WWE United States Championship,"",2016-01-24,Royal Rumble '16,Orlando
+Charlotte,9274,Becky Lynch,5418,Wrestler 1,true,pin,5,WWE Divas Championship,"",2016-01-24,Royal Rumble '16,Orlando
+Kalisto,6604,Alberto Del Rio,2883,Wrestler 1,true,pin,1,WWE United States Championship,dark 2 out of 3 falls,2016-02-21,Fastlane '16,Cleveland
+Kevin Owens,1862,Dolph Ziggler,450,Wrestler 1,true,pin,3,WWE Intercontinental Championship,"",2016-02-21,Fastlane '16,Cleveland
+Charlotte,9274,Brie Bella,3340,Wrestler 1,true,sub,5,WWE Divas Championship,"",2016-02-21,Fastlane '16,Cleveland
+A.J. Styles,752,Chris Jericho,296,None,true,sub,6,"","",2016-02-21,Fastlane '16,Cleveland
+Curtis Axel,3847,R-Truth,317,None,true,pin,7,"","",2016-02-21,Fastlane '16,Cleveland
+Mark Henry,213,Randy Reign,12118,None,true,pin,1,"",dark  ,2016-03-12,Roadblock '16,Toronto
+Goldust,123,Viktor,5305,None,true,pin,2,"",dark  ,2016-03-12,Roadblock '16,Toronto
+Chris Jericho,296,Jack Swagger,3410,None,true,pin,4,"","",2016-03-12,Roadblock '16,Toronto
+Charlotte,9274,Natalya,3322,Wrestler 1,true,sub,6,WWE Divas Championship,"",2016-03-12,Roadblock '16,Toronto
+Sami Zayn,1861,Stardust,2805,None,true,pin,8,"","",2016-03-12,Roadblock '16,Toronto
+Triple H,193,Dean Ambrose,3069,Wrestler 1,true,pin,9,WWE World Heavyweight Championship,"",2016-03-12,Roadblock '16,Toronto
+Kalisto,6604,Ryback,3020,Wrestler 1,true,pin,1,WWE United States Championship,dark  ,2016-04-03,WrestleMania 32,Arlington
+Chris Jericho,296,A.J. Styles,752,None,true,pin,5,"","",2016-04-03,WrestleMania 32,Arlington
+Brock Lesnar,346,Dean Ambrose,3069,None,true,pin,7,"",no holds barred streetfight,2016-04-03,WrestleMania 32,Arlington
+The Undertaker,124,Shane McMahon,285,None,true,pin,9,"","""Hell In A Cell""",2016-04-03,WrestleMania 32,Arlington
+The Rock,229,Erick Rowan,5369,None,true,pin,11,"","",2016-04-03,WrestleMania 32,Arlington
+Roman Reigns,6728,Triple H,193,Wrestler 2,true,pin,12,WWE World Heavyweight Championship,"",2016-04-03,WrestleMania 32,Arlington
+Dolph Ziggler,450,Baron Corbin,9251,None,true,pin,1,"",dark  ,2016-05-01,Payback '16,Chicago
+Kalisto,6604,Ryback,3020,Wrestler 1,true,pin,2,WWE United States Championship,dark  ,2016-05-01,Payback '16,Chicago
+Kevin Owens,1862,Sami Zayn,1861,None,true,pin,4,"","",2016-05-01,Payback '16,Chicago
+The Miz,412,Cesaro,1874,Wrestler 1,true,pin,5,WWE Intercontinental Championship,commentator: Kevin Owens ,2016-05-01,Payback '16,Chicago
+Dean Ambrose,3069,Chris Jericho,296,None,true,pin,6,"","",2016-05-01,Payback '16,Chicago
+Charlotte,9274,Natalya,3322,Wrestler 1,true,sub,7,WWE Women's Championship (2016),"",2016-05-01,Payback '16,Chicago
+Roman Reigns,6728,A.J. Styles,752,Wrestler 1,true,pin,8,WWE World Heavyweight Championship,no countout no disqualification,2016-05-01,Payback '16,Chicago
+Baron Corbin,9251,Dolph Ziggler,450,None,true,pin,1,"",dark no disqualification,2016-05-22,Extreme Rules '16,Newark
+Rusev,7415,Kalisto,6604,Wrestler 2,true,sub,3,WWE United States Championship,"",2016-05-22,Extreme Rules '16,Newark
+Dean Ambrose,3069,Chris Jericho,296,None,true,pin,6,"",asylum,2016-05-22,Extreme Rules '16,Newark
+Charlotte,9274,Natalya,3322,Wrestler 1,true,sub,7,"",submission,2016-05-22,Extreme Rules '16,Newark
+Roman Reigns,6728,A.J. Styles,752,Wrestler 1,true,pin,8,WWE World Heavyweight Championship,"""Extreme Rules""",2016-05-22,Extreme Rules '16,Newark
+Baron Corbin,9251,Dolph Ziggler,450,None,true,pin,4,"","",2016-06-19,Money In The Bank '16,Paradise
+Apollo Crews,8105,Sheamus,5000,None,true,pin,6,"","",2016-06-19,Money In The Bank '16,Paradise
+A.J. Styles,752,John Cena,350,None,true,pin,7,"","",2016-06-19,Money In The Bank '16,Paradise
+Rusev,7415,Titus O'Neil,6290,Wrestler 1,true,sub,9,WWE United States Championship,"",2016-06-19,Money In The Bank '16,Paradise
+Seth Rollins,3328,Roman Reigns,6728,Wrestler 2,true,pin,10,WWE World Heavyweight Championship,"",2016-06-19,Money In The Bank '16,Paradise
+Dean Ambrose,3069,Seth Rollins,3328,Wrestler 2,true,pin,11,WWE World Heavyweight Championship,"",2016-06-19,Money In The Bank '16,Paradise
+Rusev,7415,Zack Ryder,3248,Wrestler 1,true,sub,4,WWE United States Championship,"",2016-07-24,Battleground '16,Washington
+Sami Zayn,1861,Kevin Owens,1862,None,true,pin,5,"","",2016-07-24,Battleground '16,Washington
+Natalya,3322,Becky Lynch,5418,None,true,sub,6,"","",2016-07-24,Battleground '16,Washington
+The Miz,412,Darren Young,3424,Wrestler 1,false,DCO,7,WWE Intercontinental Championship,"",2016-07-24,Battleground '16,Washington
+Sheamus,5000,Cesaro,1874,None,true,pin,3,"","dark ""Best of 7"" series",2016-08-21,SummerSlam '16,Brooklyn
+Charlotte,9274,Sasha Banks,9409,Wrestler 2,true,pin,5,WWE Raw Women's Title,"",2016-08-21,SummerSlam '16,Brooklyn
+The Miz,412,Apollo Crews,8105,Wrestler 1,true,pin,6,WWE Intercontinental Championship,"",2016-08-21,SummerSlam '16,Brooklyn
+A.J. Styles,752,John Cena,350,None,true,pin,7,"","",2016-08-21,SummerSlam '16,Brooklyn
+Dean Ambrose,3069,Dolph Ziggler,450,Wrestler 1,true,pin,9,WWE World Championship,"",2016-08-21,SummerSlam '16,Brooklyn
+Finn Bálor,3023,Seth Rollins,3328,None,true,pin,11,WWE Universal Championship,"",2016-08-21,SummerSlam '16,Brooklyn
+Rusev,7415,Roman Reigns,6728,Wrestler 1,false,NC,12,WWE United States Championship,"",2016-08-21,SummerSlam '16,Brooklyn
+Brock Lesnar,346,Randy Orton,384,None,true,TKO,13,"","",2016-08-21,SummerSlam '16,Brooklyn
+Baron Corbin,9251,Apollo Crews,8105,None,true,pin,1,"",dark  ,2016-09-11,Backlash '16,Richmond
+The Miz,412,Dolph Ziggler,450,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2016-09-11,Backlash '16,Richmond
+Bray Wyatt,6287,Randy Orton,384,None,true,forfeit,5,"","",2016-09-11,Backlash '16,Richmond
+Kane,197,Bray Wyatt,6287,None,true,pin,6,"",no holds barred,2016-09-11,Backlash '16,Richmond
+A.J. Styles,752,Dean Ambrose,3069,Wrestler 2,true,pin,8,WWE World Championship,"",2016-09-11,Backlash '16,Richmond
+Nia Jax,2072,Alicia Fox,3889,None,true,pin,1,"",dark  ,2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+T. J. Perkins,910,Brian Kendrick,367,Wrestler 1,true,sub,3,WWE Cruiserweight Title,"",2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+Cesaro,1874,Sheamus,5000,None,false,NC,4,"","""Best of 7"" series",2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+Chris Jericho,296,Sami Zayn,1861,None,true,pin,5,"","",2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+Roman Reigns,6728,Rusev,7415,Wrestler 2,true,pin,7,WWE United States Championship,"",2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+Kevin Owens,1862,Seth Rollins,3328,Wrestler 1,true,pin,8,WWE Universal Championship,"",2016-09-25,Clash of Champions '16 (Raw),Indianapolis
+Nikki Bella,3341,Carmella,10077,None,true,pin,3,"","",2016-10-09,No Mercy '16,Sacramento
+Baron Corbin,9251,Jack Swagger,3410,None,true,pin,5,"","",2016-10-09,No Mercy '16,Sacramento
+Dolph Ziggler,450,The Miz,412,Wrestler 2,true,pin,6,WWE Intercontinental Championship,title vs. career,2016-10-09,No Mercy '16,Sacramento
+Naomi,6578,Alexa Bliss,9705,None,true,pin,7,"","",2016-10-09,No Mercy '16,Sacramento
+Bray Wyatt,6287,Randy Orton,384,None,true,pin,8,"","",2016-10-09,No Mercy '16,Sacramento
+Roman Reigns,6728,Rusev,7415,Wrestler 1,true,pin,2,WWE United States Championship,"""Hell In A Cell""",2016-10-30,Hell in a Cell '16,Boston
+Bayley,8206,Dana Brooke,10709,None,true,pin,3,"","",2016-10-30,Hell in a Cell '16,Boston
+Kevin Owens,1862,Seth Rollins,3328,Wrestler 1,true,pin,5,WWE Universal Championship,"""Hell In A Cell""",2016-10-30,Hell in a Cell '16,Boston
+Brian Kendrick,367,T. J. Perkins,910,Wrestler 2,true,sub,6,WWE Cruiserweight Title,"",2016-10-30,Hell in a Cell '16,Boston
+Charlotte Flair,9274,Sasha Banks,9409,Wrestler 2,true,pin,8,WWE Raw Women's Title,"""Hell In A Cell""",2016-10-30,Hell in a Cell '16,Boston
+Dolph Ziggler,450,The Miz,412,Wrestler 1,true,pin,1,WWE Intercontinental Championship,"",2016-11-07,WWE Live: Aberdeen (Smackdown),Aberdeen
+Jack Swagger,3410,Curt Hawkins,3247,None,true,sub,3,"","",2016-11-07,WWE Live: Aberdeen (Smackdown),Aberdeen
+Baron Corbin,9251,Kalisto,6604,None,true,pin,5,"","",2016-11-07,WWE Live: Aberdeen (Smackdown),Aberdeen
+Becky Lynch,5418,Alexa Bliss,9705,Wrestler 1,true,sub,8,WWE Smackdown Womens Championship,"",2016-11-07,WWE Live: Aberdeen (Smackdown),Aberdeen
+A.J. Styles,752,Dean Ambrose,3069,Wrestler 1,true,pin,9,WWE World Championship,"",2016-11-07,WWE Live: Aberdeen (Smackdown),Aberdeen
+Kane,197,Luke Harper,3461,None,true,pin,2,"",dark  ,2016-11-20,Survivor Series '16,Toronto
+The Miz,412,Sami Zayn,1861,Wrestler 1,true,pin,4,WWE Intercontinental Championship,"",2016-11-20,Survivor Series '16,Toronto
+Brian Kendrick,367,Kalisto,6604,Wrestler 1,true,DQ,6,WWE Cruiserweight Title,"",2016-11-20,Survivor Series '16,Toronto
+Goldberg,365,Brock Lesnar,346,None,true,pin,8,"","",2016-11-20,Survivor Series '16,Toronto
+Nikki Bella,3341,Carmella,10077,None,true,pin,3,"",no disqualification,2016-12-04,"TLC: Tables, Ladders and Chairs '16",Dallas
+The Miz,412,Dolph Ziggler,450,Wrestler 1,true,,4,WWE Intercontinental Championship,ladder,2016-12-04,"TLC: Tables, Ladders and Chairs '16",Dallas
+Baron Corbin,9251,Kalisto,6604,None,true,pin,5,"",chair,2016-12-04,"TLC: Tables, Ladders and Chairs '16",Dallas
+Alexa Bliss,9705,Becky Lynch,5418,Wrestler 2,true,,6,WWE Smackdown Womens Championship,tables,2016-12-04,"TLC: Tables, Ladders and Chairs '16",Dallas
+A.J. Styles,752,Dean Ambrose,3069,Wrestler 1,true,,7,WWE World Championship,TLC (singles),2016-12-04,"TLC: Tables, Ladders and Chairs '16",Dallas
+Rusev,7415,Big Cass,7756,None,true,CO,1,"",dark  ,2016-12-18,Roadblock: End of the Line,Pittsburgh
+Sami Zayn,1861,Braun Strowman,9702,None,true,,3,"",10-minute challenge,2016-12-18,Roadblock: End of the Line,Pittsburgh
+Seth Rollins,3328,Chris Jericho,296,None,true,pin,4,"","",2016-12-18,Roadblock: End of the Line,Pittsburgh
+Charlotte Flair,9274,Sasha Banks,9409,Wrestler 2,true,sub,6,WWE Raw Women's Title,30 minute Ironman,2016-12-18,Roadblock: End of the Line,Pittsburgh
+Kevin Owens,1862,Roman Reigns,6728,Wrestler 1,true,DQ,7,WWE Universal Championship,"",2016-12-18,Roadblock: End of the Line,Pittsburgh
+Nia Jax,2072,Sasha Banks,9409,None,true,pin,3,"",dark  ,2017-01-29,Royal Rumble '17,San Antonio
+Charlotte Flair,9274,Bayley,8206,Wrestler 1,true,pin,4,WWE Raw Women's Title,"",2017-01-29,Royal Rumble '17,San Antonio
+Kevin Owens,1862,Roman Reigns,6728,Wrestler 1,true,pin,5,WWE Universal Championship,"no disqualification, Chris Jericho in a shark cage",2017-01-29,Royal Rumble '17,San Antonio
+Neville,1935,Rich Swann,5287,Wrestler 2,true,sub,6,WWE Cruiserweight Title,"",2017-01-29,Royal Rumble '17,San Antonio
+John Cena,350,A.J. Styles,752,Wrestler 2,true,pin,7,WWE World Championship,"",2017-01-29,Royal Rumble '17,San Antonio
+Mojo Rawley,9113,Curt Hawkins,3247,None,true,pin,1,"",dark  ,2017-02-12,Elimination Chamber '17,Phoenix
+Becky Lynch,5418,Mickie James,436,None,true,pin,2,"","",2017-02-12,Elimination Chamber '17,Phoenix
+Nikki Bella,3341,Natalya,3322,None,false,DCO,9,"","",2017-02-12,Elimination Chamber '17,Phoenix
+Randy Orton,384,Luke Harper,3461,None,true,pin,10,"","",2017-02-12,Elimination Chamber '17,Phoenix
+Naomi,6578,Alexa Bliss,9705,Wrestler 2,true,pin,11,WWE Smackdown Women's Title,"",2017-02-12,Elimination Chamber '17,Phoenix
