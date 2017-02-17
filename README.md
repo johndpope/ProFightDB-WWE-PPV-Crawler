@@ -1,0 +1,1 @@
+Run the script and you'll get a CSV with up-to-date PPV match data. Maybe I'll make an API for crawling ProFightDB later.
