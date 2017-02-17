@@ -12,6 +12,13 @@ def initial_query(page,ppv)
     "http://www.profightdb.com/cards/wwe-cards-pg#{page}-#{ppv}-2.html?order=&type="
 end
 
+def update_states(w1,w2,show,w_match)
+    # TODO
+end
+
+wrestlers = {}
+
+
 shows = []
 
 21.downto(1) do |page|
@@ -110,10 +117,69 @@ CSV.open("ppv_data.csv","wb") {|csv|
 	csv << ["wrestler 1","wrestler 1 id","wrestler 2","wrestler 2 id","current champion","winner","match ending","card order","title","match type","date","show name","location"]
 	shows.each { |show|
 		show[:matches].each { |w_match|
+		
+		    if !wrestlers[w_match[:wrestler1_id]] then
+		        wrestlers[w_match[:wrestler1_id]] = {
+		                                            :ppv_wins=>0,
+		                                            :ppv_dq_wins=>0,
+		                                            :ppv_pin_wins=>0,
+		                                            :ppv_sub_wins=>0,
+		                                            :ppv_losses=>0,
+		                                            :ppv_dq_losses=>0,
+		                                            :ppv_pin_losses=>0,
+		                                            :ppv_sub_losses=>0,
+		                                            :ppv_draws=>0,
+		                                            :ppv_streak=>0,
+		                                            :ppv_championship_wins=>0,
+		                                            :ppv_championship_losses=>0,
+		                                            :ppv_championship_defense_wins=>0,
+		                                            :ppv_championship_defense_loss=>0,
+		                                            :ppv_championship_challenge_wins=>0,
+		                                            :ppv_championship_challenge_loss=>0,
+		                                            :main_event_appearances=>0,
+		                                            :h2h=>{}
+		                                            }
+		    end
+		    
+		    if !wrestlers[w_match[:wrestler2_id]] then
+		        wrestlers[w_match[:wrestler2_id]] = {
+		                                            :ppv_wins=>0,
+		                                            :ppv_dq_wins=>0,
+		                                            :ppv_pin_wins=>0,
+		                                            :ppv_sub_wins=>0,
+		                                            :ppv_losses=>0,
+		                                            :ppv_dq_losses=>0,
+		                                            :ppv_pin_losses=>0,
+		                                            :ppv_sub_losses=>0,
+		                                            :ppv_draws=>0,
+		                                            :ppv_streak=>0,
+		                                            :ppv_championship_wins=>0,
+		                                            :ppv_championship_losses=>0,
+		                                            :ppv_championship_defense_wins=>0,
+		                                            :ppv_championship_defense_loss=>0,
+		                                            :ppv_championship_challenge_wins=>0,
+		                                            :ppv_championship_challenge_loss=>0,
+		                                            :main_event_appearances=>0,
+		                                            :h2h=>{}
+		                                            }
+		    end
+		
+		    update_stats(wrestler1_id, wrestler2_id, show, w_match)
+		
 			csv << [
-			    w_match[:wrestler1],w_match[:wrestler1_id],w_match[:wrestler2],w_match[:wrestler2_id],w_match[:current_champ],w_match[:winner].to_s,
-			    w_match[:ending],w_match[:order],w_match[:title],w_match[:type],
-			    show[:date],show[:name],show[:location]
+			    w_match[:wrestler1],
+			    w_match[:wrestler1_id],
+			    w_match[:wrestler2],
+			    w_match[:wrestler2_id],
+			    w_match[:current_champ],
+			    w_match[:winner].to_s,
+			    w_match[:ending],
+			    w_match[:order],
+			    w_match[:title],
+			    w_match[:type],
+			    show[:date],
+			    show[:name],
+			    show[:location]
 			    ]
 		}
 	}
