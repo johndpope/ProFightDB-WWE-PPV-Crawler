@@ -12,7 +12,7 @@ def initial_query(page,ppv)
     "http://www.profightdb.com/cards/wwe-cards-pg#{page}-#{ppv}-2.html?order=&type="
 end
 
-def update_states(w1,w2,show,w_match)
+def update_stats(w1,w2,show,w_match)
     # TODO
 end
 
@@ -164,7 +164,7 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		                                            }
 		    end
 		
-		    update_stats(wrestler1_id, wrestler2_id, show, w_match)
+		    update_stats(w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
 		
 			csv << [
 			    w_match[:wrestler1],
