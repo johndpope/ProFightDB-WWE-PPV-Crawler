@@ -19,59 +19,167 @@ def initial_query(company,page,ppv)
     
 end
 
+def each_stat(wrestler,stat)
+	wrestler.each do |w|
+		w[stat] = yield w[stat]
+	end
+end
+
 def update_stats(wrestlers,w1,w2,show,w_match)
     wrestler1_stats = wrestlers[w1]
     wrestler2_stats = wrestlers[w2]
     
+    if !wrestler1_stats[:h2h][w2] then
+    	wrestler1_stats[:h2h][w2] = {
+    								:ppv_matches => 0,
+    								:ppv_wins => 0,
+    								:ppv_dq_wins => 0,
+    								:ppv_pin_wins => 0,
+    								:ppv_sub_wins => 0,
+    								:ppv_losses => 0,
+    								:ppv_dq_losses => 0,
+    								:ppv_pin_losses => 0,
+    								:ppv_sub_losses => 0,
+    								:ppv_draws => 0,
+		        					:ppv_streak => 0,
+							        :ppv_championship_wins => 0,
+							        :ppv_championship_losses => 0,
+							        :ppv_championship_defense_wins => 0,
+	        						:ppv_championship_defense_losses => 0,
+	        						:ppv_championship_challenge_wins => 0,
+	        						:ppv_championship_challenge_losses => 0,
+	        						:ppv_last_match => 0
+	        						}
+    	wrestler2_stats[:h2h][w1] = {
+    								:ppv_matches=> 0,
+									:ppv_wins => 0,
+    								:ppv_dq_wins => 0,
+    								:ppv_pin_wins => 0,
+    								:ppv_sub_wins => 0,
+    								:ppv_losses => 0,
+    								:ppv_dq_losses => 0,
+    								:ppv_pin_losses => 0,
+    								:ppv_sub_losses => 0,
+    								:ppv_draws => 0,
+		        					:ppv_streak => 0,
+							        :ppv_championship_wins => 0,
+							        :ppv_championship_losses => 0,
+							        :ppv_championship_defense_wins => 0,
+	        						:ppv_championship_defense_losses => 0,
+	        						:ppv_championship_challenge_wins => 0,
+	        						:ppv_championship_challenge_losses => 0,
+	        						:ppv_last_match => 0
+    								}
+    end
+    
+    wrestler1_h2h_stats = wrestler1_stats[:h2h][w2]
+    wrestler2_h2h_stats = wrestler2_stats[:h2h][w1]
+    
+    wrestler1_stats[:ppv_last_match] = show[:date]
+    wrestler1_h2h_stats[:ppv_last_match] = show[:date]
+    wrestler2_stats[:ppv_last_match] = show[:date]
+    wrestler2_h2h_stats[:ppv_last_match] = show[:date]
+    
+    w1s = [wrestler1_stats,wrestler1_h2h_stats]
+    w2s = [wrestler2_stats,wrestler2_h2h_stats]
+    
+    each_stat(w1s + w2s,:ppv_matches) { |v|  v + 1 }
+    
     if (w_match[:winner]) then
-        wrestler1_stats[:ppv_wins] = wrestler1_stats[:ppv_wins] + 1
-        wrestler2_stats[:ppv_losses] = wrestler2_stats[:ppv_losses] + 1
+    	each_stat(w1s,:ppv_wins) { |v| v + 1 }
+    	each_stat(w2s,:ppv_losses) { |v| v + 1 }
         
-        if (wrestler1_stats[:ppv_streak] < 0)
-            wrestler1_stats[:ppv_streak] = 1
-        else
-            wrestler1_stats[:ppv_streak] = 1 + wrestler1_stats[:ppv_streak]
-        end
+        each_stat(w1s,:ppv_streak) do |v|
+	        if (v < 0)
+	            1
+	        else
+	            1 + v
+	        end
+	    end
         
-        if (wrestler2_stats[:ppv_streak] > 0)
-            wrestler2_stats[:ppv_streak] = -1
-        else
-            wrestler2_stats[:ppv_streak] = -1 + wrestler2_stats[:ppv_streak]
+        each_stat(w2s,:ppv_streak) do |v|
+	        if (v > 0)
+	            -1
+	        else
+	            -1 + v
+	        end
         end
         
         case w_match[:ending]
         when /(p|P)in/
-            wrestler1_stats[:ppv_pin_wins] = wrestler1_stats[:ppv_pin_wins] + 1
-            wrestler2_stats[:ppv_pin_losses] = wrestler2_stats[:ppv_pin_losses] + 1
+        	each_stat(w1s,:ppv_pin_wins) { |v| v + 1 }
+            each_stat(w2s,:ppv_pin_losses) { |v| v + 1 }
         when /(s|S)ub/
-            wrestler1_stats[:ppv_sub_wins] = wrestler1_stats[:ppv_sub_wins] + 1
-            wrestler2_stats[:ppv_sub_losses] = wrestler2_stats[:ppv_sub_losses] + 1
+            each_stat(w1s,:ppv_sub_wins) { |v| v + 1 }
+            each_stat(w2s,:ppv_sub_losses) { |v| v + 1 }
         when /(dq|DQ)/
-            wrestler1_stats[:ppv_dq_wins] = wrestler1_stats[:ppv_dq_wins] + 1
-            wrestler2_stats[:ppv_dq_losses] = wrestler2_stats[:ppv_dq_losses] + 1
+            each_stat(w1s,:ppv_dq_wins) { |v| v + 1 }
+            each_stat(w2s,:ppv_dq_losses) { |v| v + 1 }
         end
         
         if w_match[:title].length >= 1
-            wrestler1_stats[:ppv_championship_wins] = wrestler1_stats[:ppv_championship_wins] + 1
-            wrestler2_stats[:ppv_championship_losses] = wrestler2_stats[:ppv_championship_losses] + 1
+        	each_stat(w1s,:ppv_championship_wins) { |v|  v + 1 }
+            each_stat(w2s,:ppv_championship_losses) { |v|  v + 1 }
         
             if w_match[:current_champ] == "Wrestler 1"
-                wrestler1_stats[:ppv_championship_defense_wins] = wrestler1_stats[:ppv_championship_defense_wins] + 1
-                wrestler2_stats[:ppv_championship_challenge_losses] = wrestler2_stats[:ppv_championship_challenge_losses] + 1
-            else
-                wrestler1_stats[:ppv_championship_challenge_wins] = wrestler1_stats[:ppv_championship_challenge_wins] + 1
-                wrestler2_stats[:ppv_championship_defense_losses] = wrestler2_stats[:ppv_championship_defense_losses] + 1
+            	each_stat(w1s,:ppv_championship_defense_wins) { |v| v + 1 }
+            	each_stat(w2s,:ppv_championship_challenge_losses) { |v| v + 1 }
+        	else
+                each_stat(w1s,:ppv_championship_challenge_wins) { |v| v + 1 }
+            	each_stat(w2s,:ppv_championship_defense_losses) { |v| v + 1 }
             end
         end
     else
-        wrestler1_stats[:ppv_draws] = wrestler1_stats[:ppv_draws] + 1
-        wrestler2_stats[:ppv_draws] = wrestler2_stats[:ppv_draws] + 1
+        each_stat(w1s,:ppv_draws) { |v| v + 1 }
+        each_stat(w2s,:ppv_draws) { |v| v + 1 }
     end
     
     
 	#	                                            :main_event_appearances=>0,
-	#	                                            :h2h=>{}
     
+end
+
+def init_wrestler(wrestlers,w_id)
+	# Biographical Info
+	page = Nokogiri::HTML(open("http://www.profightdb.com/wrestlers/-#{w_id}.html"))
+	puts "HEY"
+	
+	info = page.css('table')[0]
+	
+	info.to_s =~ /Date (O|o)f Birth\:\<\/strong\>.*\<.*\>(.*)\<\/a\>/
+	
+	wrestlers[w_id][:dob] = $2
+	
+	wrestlers[w_id][:nationality] = page.css('table')[0].css('tr')[2].css('td')[0].text[-3..-1]
+	
+	# Rankings
+	page = Nokogiri::HTML(open("http://www.profightdb.com/pwi/-#{w_id}.html"))
+	puts "YO"
+	
+	rankings = page.css('.table-wrapper')[0].css('.gray')
+	
+	rankings_table = {}
+	wrestlers[w_id][:pwi_rankings] = rankings_table
+	
+	rankings.each { |row|
+		cols = row.css('td')
+		
+		year = cols[0].css('a')[0].text
+		
+		position = cols[1].text.strip.to_i
+		
+		change = cols[3].text.strip
+		
+		if change == "N/A" then
+			change = 501-position
+		else
+			change = change.to_i
+		end
+		
+		rankings_table[year] = {:position => position, :change => change}
+	}
+	
+	
 end
 
 
@@ -168,18 +276,17 @@ end
 
 
 wrestlers = {}
-
-
 shows = []
+crawl_wait = 1
 
 14.downto(1) do |page|
     crawl_page(shows,"WWF",page)
-    sleep(5)
+    sleep(crawl_wait)
 end
 
 21.downto(1) do |page|
     crawl_page(shows,"WWE",page)
-    sleep(5)
+    sleep(crawl_wait)
 end
 
 
@@ -236,6 +343,7 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		
 		    if !wrestlers[w_match[:wrestler1_id]] then
 		        wrestlers[w_match[:wrestler1_id]] = {
+		        									:ppv_matches=>0,
 		                                            :ppv_wins=>0,
 		                                            :ppv_dq_wins=>0,
 		                                            :ppv_pin_wins=>0,
@@ -252,13 +360,17 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		                                            :ppv_championship_defense_losses=>0,
 		                                            :ppv_championship_challenge_wins=>0,
 		                                            :ppv_championship_challenge_losses=>0,
+		                                            :ppv_last_match => 0,
 		                                            :main_event_appearances=>0,
 		                                            :h2h=>{}
 		                                            }
+		    	init_wrestler(wrestlers,w_match[:wrestler1_id])
+		    	sleep(crawl_wait)
 		    end
 		    
 		    if !wrestlers[w_match[:wrestler2_id]] then
 		        wrestlers[w_match[:wrestler2_id]] = {
+		        									:ppv_matches=>0,
 		                                            :ppv_wins=>0,
 		                                            :ppv_dq_wins=>0,
 		                                            :ppv_pin_wins=>0,
@@ -275,12 +387,14 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		                                            :ppv_championship_defense_losses=>0,
 		                                            :ppv_championship_challenge_wins=>0,
 		                                            :ppv_championship_challenge_losses=>0,
+		                                            :ppv_last_match => 0,
 		                                            :main_event_appearances=>0,
 		                                            :h2h=>{}
 		                                            }
+		    	init_wrestler(wrestlers,w_match[:wrestler2_id])
+		    	sleep(crawl_wait)
 		    end
 		
-		    update_stats(wrestlers,w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
 		
 			csv << [
 			    w_match[:wrestler1],
@@ -329,6 +443,9 @@ CSV.open("ppv_data.csv","wb") {|csv|
 			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_wins],
 			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_losses]
 			    ]
+			    
+		
+		update_stats(wrestlers,w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
 			    
 		}
 	}
