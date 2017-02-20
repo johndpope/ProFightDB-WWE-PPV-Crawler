@@ -139,26 +139,45 @@ def update_stats(wrestlers,w1,w2,show,w_match)
     
 end
 
+# If you get a parsing error it's because the most recently printed wrestler
+# ID has an "unknown" date.
+@missing = {
+		"39" => Date.parse("November 24, 1962"),
+		"36" => Date.parse("October 30, 1947"),
+		"116" => Date.parse("October 8, 1955"),
+		"1311" => Date.parse("Aug 5, 1963"), # Arbitrary estimate, disregard in training
+		"549" => Date.parse("9th September 1965"),
+		"12118" => Date.parse("April 1, 1980"), # Arbitrary estimate, disregard in training
+		"2072" => Date.parse("May 29, 1984")
+	}
+	
 def init_wrestler(wrestlers,w_id)
+	
 	# Biographical Info
 	page = Nokogiri::HTML(open("http://www.profightdb.com/wrestlers/-#{w_id}.html"))
-	puts "HEY"
+	sleep(@crawl_wait)
+	puts w_id
 	
 	info = page.css('table')[0]
 	
 	info.to_s =~ /Date (O|o)f Birth\:\<\/strong\>.*\<.*\>(.*)\<\/a\>/
 	
-	wrestlers[w_id][:dob] = $2
+	wrestlers[w_id][:dob] = Date.parse($2) unless @missing[w_id]
+	
+	if @missing[w_id] then
+		wrestlers[w_id][:dob] = @missing[w_id]
+	end
 	
 	wrestlers[w_id][:nationality] = page.css('table')[0].css('tr')[2].css('td')[0].text[-3..-1]
 	
 	# Rankings
 	page = Nokogiri::HTML(open("http://www.profightdb.com/pwi/-#{w_id}.html"))
 	puts "YO"
+	sleep(@crawl_wait)
 	
 	rankings = page.css('.table-wrapper')[0].css('.gray')
 	
-	rankings_table = {}
+	rankings_table = Hash.new({:position => 501, :change => 0})
 	wrestlers[w_id][:pwi_rankings] = rankings_table
 	
 	rankings.each { |row|
@@ -176,7 +195,7 @@ def init_wrestler(wrestlers,w_id)
 			change = change.to_i
 		end
 		
-		rankings_table[year] = {:position => position, :change => change}
+		rankings_table[year.to_i] = {:position => position, :change => change}
 	}
 	
 	
@@ -277,16 +296,16 @@ end
 
 wrestlers = {}
 shows = []
-crawl_wait = 1
+@crawl_wait = 5
 
 14.downto(1) do |page|
     crawl_page(shows,"WWF",page)
-    sleep(crawl_wait)
+    sleep(@crawl_wait)
 end
 
 21.downto(1) do |page|
     crawl_page(shows,"WWE",page)
-    sleep(crawl_wait)
+    sleep(@crawl_wait)
 end
 
 
@@ -295,8 +314,10 @@ CSV.open("ppv_data.csv","wb") {|csv|
 	csv << [
 	        "wrestler 1",
 	        "wrestler 1 id",
+	        "wrestler 1 nationality",
 	        "wrestler 2",
 	        "wrestler 2 id",
+	        "wrestler 2 nationality",
 	        "current champion",
 	        "winner",
 	        "match ending",
@@ -306,6 +327,7 @@ CSV.open("ppv_data.csv","wb") {|csv|
 	        "date",
 	        "show name",
 	        "location",
+	        "W1 Age",
 	        "W1 PPV Wins",
 	        "W1 PPV DQ Wins",
 	        "W1 PPV Pin Wins",
@@ -322,6 +344,10 @@ CSV.open("ppv_data.csv","wb") {|csv|
 	        "W1 PPV Championship Defense Losses",
 	        "W1 PPV Championship Challenge Wins",
 	        "W1 PPV Championship Challenge Losses",
+	        "W1 Last PPV Match",
+	        "W1 PWI Ranking",
+	        "W1 PWI Change",
+	        "W2 Age",
 	        "W2 PPV Wins",
 	        "W2 PPV DQ Wins",
 	        "W2 PPV Pin Wins",
@@ -337,8 +363,13 @@ CSV.open("ppv_data.csv","wb") {|csv|
 	        "W2 PPV Championship Defense Wins",
 	        "W2 PPV Championship Defense Losses",
 	        "W2 PPV Championship Challenge Wins",
-	        "W2 PPV Championship Challenge Losses"]
+	        "W2 PPV Championship Challenge Losses",
+	        "W2 Last PPV Match",
+	        "W2 PWI Ranking",
+	        "W2 PWI Change"]
 	shows.each { |show|
+		pwi_year = (show[:date].to_time - (60*60*24*243)).year
+		
 		show[:matches].each { |w_match|
 		
 		    if !wrestlers[w_match[:wrestler1_id]] then
@@ -365,7 +396,6 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		                                            :h2h=>{}
 		                                            }
 		    	init_wrestler(wrestlers,w_match[:wrestler1_id])
-		    	sleep(crawl_wait)
 		    end
 		    
 		    if !wrestlers[w_match[:wrestler2_id]] then
@@ -392,15 +422,16 @@ CSV.open("ppv_data.csv","wb") {|csv|
 		                                            :h2h=>{}
 		                                            }
 		    	init_wrestler(wrestlers,w_match[:wrestler2_id])
-		    	sleep(crawl_wait)
 		    end
 		
 		
 			csv << [
 			    w_match[:wrestler1],
 			    w_match[:wrestler1_id],
+			    wrestlers[w_match[:wrestler1_id]][:nationality],
 			    w_match[:wrestler2],
 			    w_match[:wrestler2_id],
+			    wrestlers[w_match[:wrestler2_id]][:nationality],
 			    w_match[:current_champ],
 			    w_match[:winner].to_s,
 			    w_match[:ending],
@@ -410,6 +441,7 @@ CSV.open("ppv_data.csv","wb") {|csv|
 			    show[:date],
 			    show[:name],
 			    show[:location],
+			    (show[:date].to_time - wrestlers[w_match[:wrestler1_id]][:dob].to_time)/(60*60*24*365),
 			    wrestlers[w_match[:wrestler1_id]][:ppv_wins],
 			    wrestlers[w_match[:wrestler1_id]][:ppv_dq_wins],
 			    wrestlers[w_match[:wrestler1_id]][:ppv_pin_wins],
@@ -426,6 +458,10 @@ CSV.open("ppv_data.csv","wb") {|csv|
 			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_defense_losses],
 			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_wins],
 			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_losses],
+			    wrestlers[w_match[:wrestler1_id]][:ppv_last_match],
+			    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:position],
+			    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:change],
+			    (show[:date].to_time - wrestlers[w_match[:wrestler2_id]][:dob].to_time)/(60*60*24*365),
 			    wrestlers[w_match[:wrestler2_id]][:ppv_wins],
 			    wrestlers[w_match[:wrestler2_id]][:ppv_dq_wins],
 			    wrestlers[w_match[:wrestler2_id]][:ppv_pin_wins],
@@ -441,7 +477,10 @@ CSV.open("ppv_data.csv","wb") {|csv|
 			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_wins],
 			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_losses],
 			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_losses]
+			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_losses],
+			    wrestlers[w_match[:wrestler2_id]][:ppv_last_match],
+			    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:position],
+			    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:change]
 			    ]
 			    
 		
