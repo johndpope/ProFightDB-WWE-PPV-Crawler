@@ -3,6 +3,104 @@ require 'nokogiri'
 require 'open-uri'
 require 'csv'
 
+def csv_entry(w1s,w2s,w1_h2h,w2_h2h,show,w_match,pwi_year,num)
+	champ_match = 0
+	current_champ = 0
+	normal_match = 0
+	age_dif = (w2s[:dob].to_time - w1s[:dob].to_time)/(60*60*24*365)
+	winner = if w_match[:winner] then 1 else 0 end
+
+	if num == 2 then 
+		winner = winner * -1 
+	end
+			    
+	if !w_match[:title].strip.empty? then
+		champ_match = 1
+	end
+			    
+	case w_match[:current_champ]
+	when "None"
+		current_champ = 0
+	when "Wrestler #{num}"
+		current_champ = 1
+	when "Wrestler #{num}"
+		current_champ = -1
+	end
+			    
+	case w_match[:type].strip
+	when /ark/
+		normal_match = -1
+	when ""
+		normal_match = 0
+	else
+		normal_match = 1
+	end
+			    
+			
+	[
+	champ_match,
+	current_champ,
+	w_match[:order].to_i,
+	normal_match,
+	show[:date].to_time.month,
+	show[:date].to_time.year,
+	age_dif,
+	stat_diff(w1s,w2s,:ppv_matches),
+	stat_diff(w1s,w2s,:ppv_wins),
+	perc_stat_diff(w1s,w2s,:ppv_wins,:ppv_matches,0.5),
+	stat_diff(w1s,w2s,:ppv_dq_wins),
+	perc_stat_diff(w1s,w2s,:ppv_dq_wins,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_pin_wins),
+	perc_stat_diff(w1s,w2s,:ppv_pin_wins,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_sub_wins),
+	perc_stat_diff(w1s,w2s,:ppv_sub_wins,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_losses),
+	stat_diff(w1s,w2s,:ppv_dq_losses),
+	perc_stat_diff(w1s,w2s,:ppv_dq_losses,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_pin_losses),
+	perc_stat_diff(w1s,w2s,:ppv_pin_losses,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_sub_losses),
+	perc_stat_diff(w1s,w2s,:ppv_sub_losses,:ppv_wins,0),
+	stat_diff(w1s,w2s,:ppv_draws),
+	stat_diff(w1s,w2s,:ppv_streak),
+	stat_diff(w1s,w2s,:ppv_championship_wins),
+	stat_diff(w1s,w2s,:ppv_championship_losses),
+	stat_diff(w1s,w2s,:ppv_championship_defense_wins),
+	stat_diff(w1s,w2s,:ppv_championship_defense_losses),
+	stat_diff(w1s,w2s,:ppv_championship_challenge_wins),
+	stat_diff(w1s,w2s,:ppv_championship_challenge_losses),
+	w1s[:ppv_last_match].to_time - w2s[:ppv_last_match].to_time,
+	stat_diff(w1_h2h,w2_h2h,:ppv_matches),
+	stat_diff(w1_h2h,w2_h2h,:ppv_wins),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_wins,:ppv_matches,0.5),
+	stat_diff(w1_h2h,w2_h2h,:ppv_dq_wins),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_dq_wins,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_pin_wins),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_pin_wins,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_sub_wins),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_sub_wins,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_losses),
+	stat_diff(w1_h2h,w2_h2h,:ppv_dq_losses),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_dq_losses,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_pin_losses),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_pin_losses,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_sub_losses),
+	perc_stat_diff(w1_h2h,w2_h2h,:ppv_sub_losses,:ppv_wins,0),
+	stat_diff(w1_h2h,w2_h2h,:ppv_draws),
+	stat_diff(w1_h2h,w2_h2h,:ppv_streak),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_wins),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_losses),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_defense_wins),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_defense_losses),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_challenge_wins),
+	stat_diff(w1_h2h,w2_h2h,:ppv_championship_challenge_losses),
+	w1_h2h[:ppv_last_match].to_time - w2_h2h[:ppv_last_match].to_time,
+	w1s[:pwi_rankings][pwi_year][:position] - w2s[:pwi_rankings][pwi_year][:position],
+	w1s[:pwi_rankings][pwi_year][:change] - w2s[:pwi_rankings][pwi_year][:change],
+	winner
+	]
+end
+
 def initial_query(company,page,ppv)
     if ppv then
         ppv = "yes"
@@ -19,9 +117,27 @@ def initial_query(company,page,ppv)
     
 end
 
+def stat_diff(w1s,w2s,stat)
+	puts stat.to_s
+	w1s[stat] - w2s[stat]
+end
+
+def perc_stat_diff(w1s,w2s,stat_nom,stat_denom,default)
+	perc_stat(w1s,stat_nom,stat_denom,default) - perc_stat(w2s,stat_nom,stat_denom,default)
+end
+
 def each_stat(wrestler,stat)
 	wrestler.each do |w|
 		w[stat] = yield w[stat]
+	end
+end
+
+def perc_stat(ws,stat_nom,stat_denom,default)
+	if ws[stat_denom] == 0 then
+		# MOST LIKELY ARBITRARY
+		default
+	else
+		ws[stat_nom].to_f/ws[stat_denom].to_f
 	end
 end
 
@@ -29,7 +145,7 @@ def update_stats(wrestlers,w1,w2,show,w_match)
     wrestler1_stats = wrestlers[w1]
     wrestler2_stats = wrestlers[w2]
     
-    if !wrestler1_stats[:h2h][w2] then
+    if wrestler1_stats[:h2h][w2][:ppv_last_match] == 0 then
     	wrestler1_stats[:h2h][w2] = {
     								:ppv_matches => 0,
     								:ppv_wins => 0,
@@ -296,7 +412,8 @@ end
 
 wrestlers = {}
 shows = []
-@crawl_wait = 5
+@crawl_wait = 1
+testing = false
 
 14.downto(1) do |page|
     crawl_page(shows,"WWF",page)
@@ -309,183 +426,478 @@ end
 end
 
 
-
-CSV.open("ppv_data.csv","wb") {|csv|
-	csv << [
-	        "wrestler 1",
-	        "wrestler 1 id",
-	        "wrestler 1 nationality",
-	        "wrestler 2",
-	        "wrestler 2 id",
-	        "wrestler 2 nationality",
-	        "current champion",
-	        "winner",
-	        "match ending",
-	        "card order",
-	        "title",
-	        "match type",
-	        "date",
-	        "show name",
-	        "location",
-	        "W1 Age",
-	        "W1 PPV Wins",
-	        "W1 PPV DQ Wins",
-	        "W1 PPV Pin Wins",
-	        "W1 PPV Sub Wins",
-	        "W1 PPV Losses",
-	        "W1 PPV DQ Losses",
-	        "W1 PPV Pin Losses",
-	        "W1 PPV Sub Losses",
-	        "W1 PPV Draws",
-	        "W1 PPV Streak",
-	        "W1 PPV Championship Wins",
-	        "W1 PPV Championship Losses",
-	        "W1 PPV Championship Defense Wins",
-	        "W1 PPV Championship Defense Losses",
-	        "W1 PPV Championship Challenge Wins",
-	        "W1 PPV Championship Challenge Losses",
-	        "W1 Last PPV Match",
-	        "W1 PWI Ranking",
-	        "W1 PWI Change",
-	        "W2 Age",
-	        "W2 PPV Wins",
-	        "W2 PPV DQ Wins",
-	        "W2 PPV Pin Wins",
-	        "W2 PPV Sub Wins",
-	        "W2 PPV Losses",
-	        "W2 PPV DQ Losses",
-	        "W2 PPV Pin Losses",
-	        "W2 PPV Sub Losses",
-	        "W2 PPV Draws",
-	        "W2 PPV Streak",
-	        "W2 PPV Championship Wins",
-	        "W2 PPV Championship Losses",
-	        "W2 PPV Championship Defense Wins",
-	        "W2 PPV Championship Defense Losses",
-	        "W2 PPV Championship Challenge Wins",
-	        "W2 PPV Championship Challenge Losses",
-	        "W2 Last PPV Match",
-	        "W2 PWI Ranking",
-	        "W2 PWI Change"]
-	shows.each { |show|
-		pwi_year = (show[:date].to_time - (60*60*24*243)).year
-		
-		show[:matches].each { |w_match|
-		
-		    if !wrestlers[w_match[:wrestler1_id]] then
-		        wrestlers[w_match[:wrestler1_id]] = {
-		        									:ppv_matches=>0,
-		                                            :ppv_wins=>0,
-		                                            :ppv_dq_wins=>0,
-		                                            :ppv_pin_wins=>0,
-		                                            :ppv_sub_wins=>0,
-		                                            :ppv_losses=>0,
-		                                            :ppv_dq_losses=>0,
-		                                            :ppv_pin_losses=>0,
-		                                            :ppv_sub_losses=>0,
-		                                            :ppv_draws=>0,
-		                                            :ppv_streak=>0,
-		                                            :ppv_championship_wins=>0,
-		                                            :ppv_championship_losses=>0,
-		                                            :ppv_championship_defense_wins=>0,
-		                                            :ppv_championship_defense_losses=>0,
-		                                            :ppv_championship_challenge_wins=>0,
-		                                            :ppv_championship_challenge_losses=>0,
-		                                            :ppv_last_match => 0,
-		                                            :main_event_appearances=>0,
-		                                            :h2h=>{}
-		                                            }
-		    	init_wrestler(wrestlers,w_match[:wrestler1_id])
-		    end
-		    
-		    if !wrestlers[w_match[:wrestler2_id]] then
-		        wrestlers[w_match[:wrestler2_id]] = {
-		        									:ppv_matches=>0,
-		                                            :ppv_wins=>0,
-		                                            :ppv_dq_wins=>0,
-		                                            :ppv_pin_wins=>0,
-		                                            :ppv_sub_wins=>0,
-		                                            :ppv_losses=>0,
-		                                            :ppv_dq_losses=>0,
-		                                            :ppv_pin_losses=>0,
-		                                            :ppv_sub_losses=>0,
-		                                            :ppv_draws=>0,
-		                                            :ppv_streak=>0,
-		                                            :ppv_championship_wins=>0,
-		                                            :ppv_championship_losses=>0,
-		                                            :ppv_championship_defense_wins=>0,
-		                                            :ppv_championship_defense_losses=>0,
-		                                            :ppv_championship_challenge_wins=>0,
-		                                            :ppv_championship_challenge_losses=>0,
-		                                            :ppv_last_match => 0,
-		                                            :main_event_appearances=>0,
-		                                            :h2h=>{}
-		                                            }
-		    	init_wrestler(wrestlers,w_match[:wrestler2_id])
-		    end
-		
-		
-			csv << [
-			    w_match[:wrestler1],
-			    w_match[:wrestler1_id],
-			    wrestlers[w_match[:wrestler1_id]][:nationality],
-			    w_match[:wrestler2],
-			    w_match[:wrestler2_id],
-			    wrestlers[w_match[:wrestler2_id]][:nationality],
-			    w_match[:current_champ],
-			    w_match[:winner].to_s,
-			    w_match[:ending],
-			    w_match[:order],
-			    w_match[:title],
-			    w_match[:type],
-			    show[:date],
-			    show[:name],
-			    show[:location],
-			    (show[:date].to_time - wrestlers[w_match[:wrestler1_id]][:dob].to_time)/(60*60*24*365),
-			    wrestlers[w_match[:wrestler1_id]][:ppv_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_dq_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_pin_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_sub_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_dq_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_pin_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_sub_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_draws],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_streak],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_defense_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_defense_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_wins],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_losses],
-			    wrestlers[w_match[:wrestler1_id]][:ppv_last_match],
-			    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:position],
-			    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:change],
-			    (show[:date].to_time - wrestlers[w_match[:wrestler2_id]][:dob].to_time)/(60*60*24*365),
-			    wrestlers[w_match[:wrestler2_id]][:ppv_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_dq_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_pin_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_sub_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_dq_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_pin_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_sub_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_draws],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_streak],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_wins],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_losses],
-			    wrestlers[w_match[:wrestler2_id]][:ppv_last_match],
-			    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:position],
-			    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:change]
-			    ]
+if (testing) 
+	CSV.open("ppv_data.csv","wb") {|csv|
+		csv << [
+		        "wrestler 1",
+		        "wrestler 1 id",
+		        "wrestler 1 nationality",
+		        "wrestler 2",
+		        "wrestler 2 id",
+		        "wrestler 2 nationality",
+		        "current champion",
+		        "winner",
+		        "match ending",
+		        "card order",
+		        "title",
+		        "match type",
+		        "date",
+		        "show name",
+		        "location",
+		        "W1 Age",
+		        "W1 PPV Matches",
+		        "W1 PPV Wins",
+		        "W1 PPV DQ Wins",
+		        "W1 PPV Pin Wins",
+		        "W1 PPV Sub Wins",
+		        "W1 PPV Losses",
+		        "W1 PPV DQ Losses",
+		        "W1 PPV Pin Losses",
+		        "W1 PPV Sub Losses",
+		        "W1 PPV Draws",
+		        "W1 PPV Streak",
+		        "W1 PPV Championship Wins",
+		        "W1 PPV Championship Losses",
+		        "W1 PPV Championship Defense Wins",
+		        "W1 PPV Championship Defense Losses",
+		        "W1 PPV Championship Challenge Wins",
+		        "W1 PPV Championship Challenge Losses",
+		        "W1 Last PPV Match",
+		        "W1 H2H PPV Matches",
+		        "W1 H2H PPV Wins",
+		        "W1 H2H PPV DQ Wins",
+		        "W1 H2H PPV Pin Wins",
+		        "W1 H2H PPV Sub Wins",
+		        "W1 H2H PPV Losses",
+		        "W1 H2H PPV DQ Losses",
+		        "W1 H2H PPV Pin Losses",
+		        "W1 H2H PPV Sub Losses",
+		        "W1 H2H PPV Draws",
+		        "W1 H2H PPV Streak",
+		        "W1 H2H PPV Championship Wins",
+		        "W1 H2H PPV Championship Losses",
+		        "W1 H2H PPV Championship Defense Wins",
+		        "W1 H2H PPV Championship Defense Losses",
+		        "W1 H2H PPV Championship Challenge Wins",
+		        "W1 H2H PPV Championship Challenge Losses",
+		        "W1 H2H Last PPV Match",
+		        "W1 PWI Ranking",
+		        "W1 PWI Change",
+		        "W2 Age",
+		        "W2 PPV Matches",
+		        "W2 PPV Wins",
+		        "W2 PPV DQ Wins",
+		        "W2 PPV Pin Wins",
+		        "W2 PPV Sub Wins",
+		        "W2 PPV Losses",
+		        "W2 PPV DQ Losses",
+		        "W2 PPV Pin Losses",
+		        "W2 PPV Sub Losses",
+		        "W2 PPV Draws",
+		        "W2 PPV Streak",
+		        "W2 PPV Championship Wins",
+		        "W2 PPV Championship Losses",
+		        "W2 PPV Championship Defense Wins",
+		        "W2 PPV Championship Defense Losses",
+		        "W2 PPV Championship Challenge Wins",
+		        "W2 PPV Championship Challenge Losses",
+		        "W2 Last PPV Match",
+		        "W2 PPV Matches",
+		        "W2 H2H PPV Wins",
+		        "W2 H2H PPV DQ Wins",
+		        "W2 H2H PPV Pin Wins",
+		        "W2 H2H PPV Sub Wins",
+		        "W2 H2H PPV Losses",
+		        "W2 H2H PPV DQ Losses",
+		        "W2 H2H PPV Pin Losses",
+		        "W2 H2H PPV Sub Losses",
+		        "W2 H2H PPV Draws",
+		        "W2 H2H PPV Streak",
+		        "W2 H2H PPV Championship Wins",
+		        "W2 H2H PPV Championship Losses",
+		        "W2 H2H PPV Championship Defense Wins",
+		        "W2 H2H PPV Championship Defense Losses",
+		        "W2 H2H PPV Championship Challenge Wins",
+		        "W2 H2H PPV Championship Challenge Losses",
+		        "W2 H2H Last PPV Match",
+		        "W2 PWI Ranking",
+		        "W2 PWI Change"]
+		shows.each { |show|
+			pwi_year = (show[:date].to_time - (60*60*24*243)).year
+			
+			show[:matches].each { |w_match|
+			
+			    if !wrestlers[w_match[:wrestler1_id]] then
+			        wrestlers[w_match[:wrestler1_id]] = {
+			        									:ppv_matches=>0,
+			                                            :ppv_wins=>0,
+			                                            :ppv_dq_wins=>0,
+			                                            :ppv_pin_wins=>0,
+			                                            :ppv_sub_wins=>0,
+			                                            :ppv_losses=>0,
+			                                            :ppv_dq_losses=>0,
+			                                            :ppv_pin_losses=>0,
+			                                            :ppv_sub_losses=>0,
+			                                            :ppv_draws=>0,
+			                                            :ppv_streak=>0,
+			                                            :ppv_championship_wins=>0,
+			                                            :ppv_championship_losses=>0,
+			                                            :ppv_championship_defense_wins=>0,
+			                                            :ppv_championship_defense_losses=>0,
+			                                            :ppv_championship_challenge_wins=>0,
+			                                            :ppv_championship_challenge_losses=>0,
+			                                            :ppv_last_match => 0,
+			                                            :main_event_appearances=>0,
+			                                            :h2h=>Hash.new({
+			                                            	:ppv_matches=>0,
+				                                            :ppv_wins=>0,
+				                                            :ppv_dq_wins=>0,
+				                                            :ppv_pin_wins=>0,
+				                                            :ppv_sub_wins=>0,
+				                                            :ppv_losses=>0,
+				                                            :ppv_dq_losses=>0,
+				                                            :ppv_pin_losses=>0,
+				                                            :ppv_sub_losses=>0,
+				                                            :ppv_draws=>0,
+				                                            :ppv_streak=>0,
+				                                            :ppv_championship_wins=>0,
+				                                            :ppv_championship_losses=>0,
+				                                            :ppv_championship_defense_wins=>0,
+				                                            :ppv_championship_defense_losses=>0,
+				                                            :ppv_championship_challenge_wins=>0,
+				                                            :ppv_championship_challenge_losses=>0,
+				                                            :ppv_last_match => 0
+			                                            	})
+			                                            }
+			    	init_wrestler(wrestlers,w_match[:wrestler1_id])
+			    end
 			    
-		
-		update_stats(wrestlers,w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
-			    
+			    if !wrestlers[w_match[:wrestler2_id]] then
+			        wrestlers[w_match[:wrestler2_id]] = {
+			        									:ppv_matches=>0,
+			                                            :ppv_wins=>0,
+			                                            :ppv_dq_wins=>0,
+			                                            :ppv_pin_wins=>0,
+			                                            :ppv_sub_wins=>0,
+			                                            :ppv_losses=>0,
+			                                            :ppv_dq_losses=>0,
+			                                            :ppv_pin_losses=>0,
+			                                            :ppv_sub_losses=>0,
+			                                            :ppv_draws=>0,
+			                                            :ppv_streak=>0,
+			                                            :ppv_championship_wins=>0,
+			                                            :ppv_championship_losses=>0,
+			                                            :ppv_championship_defense_wins=>0,
+			                                            :ppv_championship_defense_losses=>0,
+			                                            :ppv_championship_challenge_wins=>0,
+			                                            :ppv_championship_challenge_losses=>0,
+			                                            :ppv_last_match => 0,
+			                                            :main_event_appearances=>0,
+			                                            :h2h=>Hash.new({
+			                                            	:ppv_matches=>0,
+				                                            :ppv_wins=>0,
+				                                            :ppv_dq_wins=>0,
+				                                            :ppv_pin_wins=>0,
+				                                            :ppv_sub_wins=>0,
+				                                            :ppv_losses=>0,
+				                                            :ppv_dq_losses=>0,
+				                                            :ppv_pin_losses=>0,
+				                                            :ppv_sub_losses=>0,
+				                                            :ppv_draws=>0,
+				                                            :ppv_streak=>0,
+				                                            :ppv_championship_wins=>0,
+				                                            :ppv_championship_losses=>0,
+				                                            :ppv_championship_defense_wins=>0,
+				                                            :ppv_championship_defense_losses=>0,
+				                                            :ppv_championship_challenge_wins=>0,
+				                                            :ppv_championship_challenge_losses=>0,
+				                                            :ppv_last_match => 0
+			                                            	})
+			                                            }
+			    	init_wrestler(wrestlers,w_match[:wrestler2_id])
+			    end
+			
+			
+				csv << [
+				    w_match[:wrestler1],
+				    w_match[:wrestler1_id],
+				    wrestlers[w_match[:wrestler1_id]][:nationality],
+				    w_match[:wrestler2],
+				    w_match[:wrestler2_id],
+				    wrestlers[w_match[:wrestler2_id]][:nationality],
+				    w_match[:current_champ],
+				    w_match[:winner].to_s,
+				    w_match[:ending],
+				    w_match[:order],
+				    w_match[:title],
+				    w_match[:type],
+				    show[:date],
+				    show[:name],
+				    show[:location],
+				    (show[:date].to_time - wrestlers[w_match[:wrestler1_id]][:dob].to_time)/(60*60*24*365),
+				    wrestlers[w_match[:wrestler1_id]][:ppv_matches],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_dq_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_pin_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_sub_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_dq_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_pin_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_sub_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_draws],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_streak],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_defense_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_defense_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_wins],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_championship_challenge_losses],
+				    wrestlers[w_match[:wrestler1_id]][:ppv_last_match],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_matches],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_dq_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_pin_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_sub_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_dq_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_pin_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_sub_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_draws],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_streak],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_defense_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_defense_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_challenge_wins],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_championship_challenge_losses],
+				    wrestlers[w_match[:wrestler1_id]][:h2h][:wrestler2_id][:ppv_last_match],
+				    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:position],
+				    wrestlers[w_match[:wrestler1_id]][:pwi_rankings][pwi_year][:change],
+				    (show[:date].to_time - wrestlers[w_match[:wrestler2_id]][:dob].to_time)/(60*60*24*365),
+				    wrestlers[w_match[:wrestler2_id]][:ppv_matches],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_dq_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_pin_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_sub_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_dq_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_pin_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_sub_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_draws],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_streak],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_defense_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_wins],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_championship_challenge_losses],
+				    wrestlers[w_match[:wrestler2_id]][:ppv_last_match],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_matches],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_dq_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_pin_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_sub_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_dq_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_pin_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_sub_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_draws],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_streak],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_defense_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_defense_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_challenge_wins],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_championship_challenge_losses],
+				    wrestlers[w_match[:wrestler2_id]][:h2h][:wrestler1_id][:ppv_last_match],
+				    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:position],
+				    wrestlers[w_match[:wrestler2_id]][:pwi_rankings][pwi_year][:change]
+				    ]
+				    
+			
+			update_stats(wrestlers,w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
+				    
+			}
 		}
 	}
-}
+else
+	CSV.open("ppv_data_learning.csv","wb") {|csv|
+		csv << [
+		        "Championship Match?",
+		        "Champion? (-1 if W2, 0 if neither, 1 if W1)",
+		        "Card Order",
+		        "Normal Match Type?",
+		        "Month",
+		        "Year",
+		        "W1-W2 Age",
+		        "W1-W2 PPV Matches",
+		        "W1-W2 PPV Wins",
+		        "W1-W2 PPV Wins %",
+		        "W1-W2 PPV DQ Wins",
+		        "W1-W2 PPV DQ % of Wins",
+		        "W1-W2 PPV Pin Wins",
+		        "W1-W2 PPV Pin % of Wins",
+		        "W1-W2 PPV Sub Wins",
+		        "W1-W2 PPV Sub % of Wins",
+		        "W1-W2 PPV Losses",
+		        "W1-W2 PPV DQ Losses",
+		        "W1-W2 PPV DQ % of Losses",
+		        "W1-W2 PPV Pin Losses",
+		        "W1-W2 PPV Pin % of Losses",
+		        "W1-W2 PPV Sub Losses",
+		        "W1-W2 PPV Sub % of Losses",
+		        "W1-W2 PPV Draws",
+		        "W1-W2 PPV Streak",
+		        "W1-W2 PPV Championship Wins",
+		        "W1-W2 PPV Championship Losses",
+		        "W1-W2 PPV Championship Defense Wins",
+		        "W1-W2 PPV Championship Defense Losses",
+		        "W1-W2 PPV Championship Challenge Wins",
+		        "W1-W2 PPV Championship Challenge Losses",
+		        "W1-W2 Last PPV Match",
+		        "W1-W2 H2H PPV Matches",
+		        "W1-W2 H2H PPV Wins",
+		        "W1-W2 H2H PPV Wins %",
+		        "W1-W2 H2H PPV DQ Wins",
+		        "W1-W2 H2H PPV DQ % of Wins",
+		        "W1-W2 H2H PPV Pin Wins",
+		        "W1-W2 H2H PPV Pin % of Wins",
+		        "W1-W2 H2H PPV Sub Wins",
+		        "W1-W2 H2H PPV Sub % of Wins",
+		        "W1-W2 H2H PPV Losses",
+		        "W1-W2 H2H PPV DQ Losses",
+		        "W1-W2 H2H PPV DQ % of Losses",
+		        "W1-W2 H2H PPV Pin Losses",
+		        "W1-W2 H2H PPV Pin % of Losses",
+		        "W1-W2 H2H PPV Sub Losses",
+		        "W1-W2 H2H PPV Sub % of Losses",
+		        "W1-W2 H2H PPV Draws",
+		        "W1-W2 H2H PPV Streak",
+		        "W1-W2 H2H PPV Championship Wins",
+		        "W1-W2 H2H PPV Championship Losses",
+		        "W1-W2 H2H PPV Championship Defense Wins",
+		        "W1-W2 H2H PPV Championship Defense Losses",
+		        "W1-W2 H2H PPV Championship Challenge Wins",
+		        "W1-W2 H2H PPV Championship Challenge Losses",
+		        "W1-W2 H2H Last PPV Match",
+		        "W1-W2 PWI Ranking",
+		        "W1-W2 PWI Change",
+		        # Consider adding individual stats here
+		        "W1 Winner?"
+		        ]
+		shows.each { |show|
+			pwi_year = (show[:date].to_time - (60*60*24*243)).year
+			
+			show[:matches].each { |w_match|
+			
+			    if !wrestlers[w_match[:wrestler1_id]] then
+			        wrestlers[w_match[:wrestler1_id]] = {
+			        									:ppv_matches=>0,
+			                                            :ppv_wins=>0,
+			                                            :ppv_dq_wins=>0,
+			                                            :ppv_pin_wins=>0,
+			                                            :ppv_sub_wins=>0,
+			                                            :ppv_losses=>0,
+			                                            :ppv_dq_losses=>0,
+			                                            :ppv_pin_losses=>0,
+			                                            :ppv_sub_losses=>0,
+			                                            :ppv_draws=>0,
+			                                            :ppv_streak=>0,
+			                                            :ppv_championship_wins=>0,
+			                                            :ppv_championship_losses=>0,
+			                                            :ppv_championship_defense_wins=>0,
+			                                            :ppv_championship_defense_losses=>0,
+			                                            :ppv_championship_challenge_wins=>0,
+			                                            :ppv_championship_challenge_losses=>0,
+			                                            :ppv_last_match => Date.new(1970), # ARBITRARY
+			                                            :main_event_appearances=>0,
+			                                            :h2h=>Hash.new({
+			                                            	:ppv_matches=>0,
+				                                            :ppv_wins=>0,
+				                                            :ppv_dq_wins=>0,
+				                                            :ppv_pin_wins=>0,
+				                                            :ppv_sub_wins=>0,
+				                                            :ppv_losses=>0,
+				                                            :ppv_dq_losses=>0,
+				                                            :ppv_pin_losses=>0,
+				                                            :ppv_sub_losses=>0,
+				                                            :ppv_draws=>0,
+				                                            :ppv_streak=>0,
+				                                            :ppv_championship_wins=>0,
+				                                            :ppv_championship_losses=>0,
+				                                            :ppv_championship_defense_wins=>0,
+				                                            :ppv_championship_defense_losses=>0,
+				                                            :ppv_championship_challenge_wins=>0,
+				                                            :ppv_championship_challenge_losses=>0,
+				                                            :ppv_last_match => Date.new(1970), # ARBITRARY
+			                                            	})
+			                                            }
+			    	init_wrestler(wrestlers,w_match[:wrestler1_id])
+			    end
+			    
+			    if !wrestlers[w_match[:wrestler2_id]] then
+			        wrestlers[w_match[:wrestler2_id]] = {
+			        									:ppv_matches=>0,
+			                                            :ppv_wins=>0,
+			                                            :ppv_dq_wins=>0,
+			                                            :ppv_pin_wins=>0,
+			                                            :ppv_sub_wins=>0,
+			                                            :ppv_losses=>0,
+			                                            :ppv_dq_losses=>0,
+			                                            :ppv_pin_losses=>0,
+			                                            :ppv_sub_losses=>0,
+			                                            :ppv_draws=>0,
+			                                            :ppv_streak=>0,
+			                                            :ppv_championship_wins=>0,
+			                                            :ppv_championship_losses=>0,
+			                                            :ppv_championship_defense_wins=>0,
+			                                            :ppv_championship_defense_losses=>0,
+			                                            :ppv_championship_challenge_wins=>0,
+			                                            :ppv_championship_challenge_losses=>0,
+			                                            :ppv_last_match => Date.new(1970), # ARBITRARY
+			                                            :main_event_appearances=>0,
+			                                            :h2h=>Hash.new({
+			                                            	:ppv_matches=>0,
+				                                            :ppv_wins=>0,
+				                                            :ppv_dq_wins=>0,
+				                                            :ppv_pin_wins=>0,
+				                                            :ppv_sub_wins=>0,
+				                                            :ppv_losses=>0,
+				                                            :ppv_dq_losses=>0,
+				                                            :ppv_pin_losses=>0,
+				                                            :ppv_sub_losses=>0,
+				                                            :ppv_draws=>0,
+				                                            :ppv_streak=>0,
+				                                            :ppv_championship_wins=>0,
+				                                            :ppv_championship_losses=>0,
+				                                            :ppv_championship_defense_wins=>0,
+				                                            :ppv_championship_defense_losses=>0,
+				                                            :ppv_championship_challenge_wins=>0,
+				                                            :ppv_championship_challenge_losses=>0,
+				                                            :ppv_last_match => Date.new(1970), # ARBITRARY
+			                                            	})
+			                                            }
+			    	init_wrestler(wrestlers,w_match[:wrestler2_id])
+			    end
+			    
+			    
+			    w1s = wrestlers[w_match[:wrestler1_id]]
+			    w2s = wrestlers[w_match[:wrestler2_id]]
+			    
+			    w1_h2h = w1s[:h2h][wrestlers[w_match[:wrestler2_id]]]
+			    w2_h2h = w2s[:h2h][wrestlers[w_match[:wrestler1_id]]]
+			    
+			    
+			    csv << csv_entry(w1s,w2s,w1_h2h,w2_h2h,show,w_match,pwi_year,1)
+			    csv << csv_entry(w2s,w1s,w2_h2h,w1_h2h,show,w_match,pwi_year,2)
+			    
+				    
+				
+				    
+			
+				update_stats(wrestlers,w_match[:wrestler1_id], w_match[:wrestler2_id], show, w_match)
+				    
+			}
+		}
+	}
+end
