@@ -28,7 +28,7 @@ row_target = []
 normalize = False
 total_sum = 0
 
-with open('ppv_data_learning.csv','rb') as csvfile:
+with open('./ppv_data_learning.csv','rb') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     row_num = 1
     for row in spamreader:
@@ -50,7 +50,7 @@ for train_index, test_index in kf:
     rfc = RandomForestClassifier() 
     
     param_grid = {
-    'max_depth': [None,3,5,6,7,8,9,10,11,12,13,14,15,20,25,30,35,50,100],
+    'max_depth': [None,2,3,4,5],
     'min_samples_split': np.random.random_integers(1,45,50),
     'min_samples_leaf': np.random.random_integers(1,20,25),
     'n_estimators': np.random.random_integers(200,701,1000),
@@ -61,7 +61,7 @@ for train_index, test_index in kf:
     'bootstrap': [True,False]
     }
     
-    CV_rfc = RandomizedSearchCV(n_jobs=-1,estimator=rfc, param_distributions=param_grid, n_iter=10, cv= 10)
+    CV_rfc = RandomizedSearchCV(estimator=rfc, param_distributions=param_grid, n_iter=10, cv= 10)
     
     pipeline = Pipeline([('std_scale', preprocessing.StandardScaler()), ('1', CV_rfc)])
    
